@@ -54,7 +54,7 @@
       "pmx": {
         "eyebrow": "Program Matrix",
         "title": "PMX project detail",
-        "intro": "The embedded workbook below keeps the attached PMX export inside the dashboard, so the source detail stays one click away from the summary.",
+        "intro": "The embedded workbook below keeps the PMX source detail in one place for direct verification.",
         "metricsTitle": "Workbook snapshot",
         "metrics": [
           { "value": "81", "label": "Projects total" },
@@ -71,13 +71,6 @@
             "impact": "162 deliverables / 175 tasks"
           },
           {
-            "tag": "Detail",
-            "name": "Embedded source workbook",
-            "description": "The attached HTML workbook is embedded on the page, so the full PMX detail remains inside the dashboard.",
-            "status": "Live detail view",
-            "impact": "Same-origin iframe"
-          },
-          {
             "tag": "Signal",
             "name": "Structured delivery signals",
             "description": "Project data is normalized into counts, status buckets, and representative highlights that can be reused in reviews.",
@@ -86,71 +79,85 @@
           }
         ],
         "detailTitle": "Embedded PMX workbook",
-        "detailDescription": "The iframe below loads the copied PMX export and keeps the source detail in the dashboard.",
-        "detailNote": "The workbook is stored as pmx-workbook.html in the site root."
+        "detailDescription": "The iframe below loads the PMX workbook directly from the site root.",
+        "detailNote": "Source file: pmx-workbook.html (synced from your PMX export)."
       },
       "solutionBuild": {
         "eyebrow": "Solution Build",
         "title": "Solution Build summary",
-        "intro": "The workbook splits into 52 partner-innovation projects and 29 service-group projects, which gives us a clean lens on the solution-build side of the portfolio.",
+        "intro": "I shifted focus from project execution to capability industrialization. I led the development of 13 standardized AI and Data solution plays, each with clearly defined architectures, deployment models, and value propositions, enabling partners to replicate and deliver consistently. To date, 5 solution offers have been activated.",
         "metricsTitle": "Key numbers",
         "metrics": [
-          { "value": "29", "label": "Service-group projects" },
-          { "value": "52", "label": "Partner-innovation projects" },
-          { "value": "162", "label": "Deliverables across the workbook" },
-          { "value": "175", "label": "Tasks across the workbook" }
+          { "value": "13", "label": "Standardized AI and Data solution plays" },
+          { "value": "5", "label": "Activated solution offers" },
+          { "value": "285", "label": "Qualified opportunities" },
+          { "value": "USD 2.1M", "label": "Pipeline generated" }
         ],
         "projects": [
           {
             "tag": "Azure",
             "name": "Build on ASP and Azure migration",
-            "description": "Includes infra and database migration, SAP on Azure, and AI platform work that turns migration patterns into repeatable assets.",
-            "status": "Core delivery pattern",
-            "impact": "Multiple completed win cases"
+            "description": "Standardized architecture and deployment play for migration-led modernization.",
+            "status": "Activated offer #1",
+            "impact": "Replicable delivery model"
           },
           {
             "tag": "Data",
             "name": "DB Insight Platform",
-            "description": "The workbook shows completed win cases such as Hayco, YFY Jupiter, and Artiso Education, all tied to the same solution pattern.",
-            "status": "Commercialized",
-            "impact": "76K + 58K + 44K USD"
+            "description": "Data intelligence solution play with clear value proposition and deployment pathway.",
+            "status": "Activated offer #2",
+            "impact": "Opportunity conversion engine"
           },
           {
             "tag": "AI",
             "name": "KnowledgeWiz and internal RAG",
-            "description": "The internal RAG bot work captures 40K USD annual cases and shows how AI enablement can be packaged into a repeatable solution.",
-            "status": "Reusable offering",
-            "impact": "3 win cases at 40K USD each"
+            "description": "AI assistant and RAG-ready blueprint for repeatable partner implementation.",
+            "status": "Activated offer #3",
+            "impact": "Scenario-driven adoption"
+          },
+          {
+            "tag": "Ops",
+            "name": "Ask IT Platform",
+            "description": "Industrialized IT support scenario with reusable solution components.",
+            "status": "Activated offer #4",
+            "impact": "Scalable partner execution"
+          },
+          {
+            "tag": "DocAI",
+            "name": "Automated document processing solution",
+            "description": "Standardized OCR and document automation play with clear deployment model.",
+            "status": "Activated offer #5",
+            "impact": "Consistent business outcomes"
           }
         ],
-        "note": "Visible annualized win cases in the workbook add up to at least $1.51M."
+        "note": "Core shift: from project execution to scalable capability industrialization."
       },
       "activities": {
         "eyebrow": "Community & Culture",
         "title": "Partner enablement and activities",
-        "intro": "I extracted 34 event-like projects from the workbook, including workshops, bootcamps, solution days, and technical briefings.",
+        "intro": "I delivered 16 targeted engagements. These activities anchored in concrete solution architectures, technical pathways, and industry scenarios, ensuring that partners could not only understand the technology but also identify actionable business opportunities.",
         "metricsTitle": "Activity summary",
         "metrics": [
-          { "value": "34", "label": "Event-like projects" },
-          { "value": "9", "label": "Highlighted win-case examples" },
-          { "value": ">= $1.51M", "label": "Visible annualized pipeline" },
-          { "value": "3", "label": "Highlighted workshop families" }
+          { "value": "16", "label": "Targeted engagements" },
+          { "value": "285", "label": "Qualified opportunities" },
+          { "value": "138", "label": "Customer engagements" },
+          { "value": "USD 2.1M", "label": "Pipeline" }
         ],
         "items": [
           {
-            "name": "Microsoft Solution Day and partner activation",
-            "description": "The workbook includes co-hosted solution days, partner activation events, and enablement activities with HSBC, Lenovo, and other ecosystem partners.",
-            "role": "Role: organizer / co-host"
+            "name": "Targeted engagement execution",
+            "description": "16 engagements were executed with solution-and-scenario-driven design, translating technical enablement into concrete business motion.",
+            "role": "Impact: 285 qualified opportunities"
           },
           {
-            "name": "GitHub Copilot workshop series",
-            "description": "The export captures hands-on workshops and training sessions that moved partner conversations from awareness to practical usage.",
-            "role": "Role: facilitator / trainer"
+            "name": "Opportunity to customer progression",
+            "description": "The generated opportunities progressed into measurable customer interactions and follow-on engagement tracks.",
+            "role": "Impact: 138 customer engagements"
           },
           {
-            "name": "Azure enablement bootcamp",
-            "description": "Bootcamp-style sessions and technical briefings helped translate solution design into concrete pipeline opportunities.",
-            "role": "Role: planner / technical support"
+            "name": "Enablement to growth engine",
+            "description": "This approach generated a USD 2.1M pipeline and validated a key shift: when technical enablement is solution- and scenario-driven, it evolves from a cost center into a business generation engine.",
+            "role": "Impact: scalable and sustained growth"
           }
         ]
       },
@@ -206,7 +213,7 @@
       "pmx": {
         "eyebrow": "Program Matrix",
         "title": "PMX 项目详情",
-        "intro": "下方嵌入了附件里的 PMX HTML 导出，方便直接查看原始明细。",
+        "intro": "下方嵌入了 PMX 工作簿原始明细，便于直接核对。",
         "metricsTitle": "工作簿概览",
         "metrics": [
           { "value": "81", "label": "项目总数" },
@@ -223,13 +230,6 @@
             "impact": "162 个 deliverables / 175 个 tasks"
           },
           {
-            "tag": "明细",
-            "name": "嵌入式原始工作簿",
-            "description": "附件里的 HTML 工作簿已经嵌入页面，汇总看板和原始明细之间可以无缝切换。",
-            "status": "实时明细视图",
-            "impact": "同源 iframe"
-          },
-          {
             "tag": "信号",
             "name": "结构化交付信号",
             "description": "项目数据已经被整理为总量、状态桶和代表性高亮，便于复盘和汇报复用。",
@@ -238,71 +238,85 @@
           }
         ],
         "detailTitle": "嵌入式 PMX 工作簿",
-        "detailDescription": "下方 iframe 会直接加载复制到站点中的 PMX 导出文件。",
-        "detailNote": "工作簿以 pmx-workbook.html 的形式放在站点根目录。"
+        "detailDescription": "下方 iframe 会直接加载站点根目录中的 PMX 工作簿文件。",
+        "detailNote": "源文件：pmx-workbook.html（由 PMX 导出同步）。"
       },
       "solutionBuild": {
         "eyebrow": "Solution Build",
         "title": "Solution Build 总结",
-        "intro": "工作簿可以拆分成 52 个伙伴创新项目和 29 个服务组项目，这样可以更清晰地看出 solution-build 侧的成果。",
+        "intro": "我把工作重心从项目执行转向能力工业化。我主导构建了 13 个标准化 AI 与数据解决方案 play，每个都具备清晰的架构、部署模型和价值主张，帮助伙伴可复制、可持续交付。目前已有 5 个 solution offer 完成 activation。",
         "metricsTitle": "关键数字",
         "metrics": [
-          { "value": "29", "label": "服务组项目" },
-          { "value": "52", "label": "伙伴创新项目" },
-          { "value": "162", "label": "工作簿中的 deliverables" },
-          { "value": "175", "label": "工作簿中的 tasks" }
+          { "value": "13", "label": "标准化 AI 与数据 solution plays" },
+          { "value": "5", "label": "已 activation 的 solution offers" },
+          { "value": "285", "label": "qualified opportunities" },
+          { "value": "USD 2.1M", "label": "pipeline" }
         ],
         "projects": [
           {
             "tag": "Azure",
             "name": "Build on ASP 与 Azure 迁移",
-            "description": "包含基础设施和数据库迁移、SAP on Azure 以及 AI 平台工作，把迁移模式沉淀成可复用资产。",
-            "status": "核心交付模式",
-            "impact": "多个已完成 win case"
+            "description": "面向迁移现代化的标准化架构与部署 play。",
+            "status": "Activated offer #1",
+            "impact": "可复制交付模型"
           },
           {
             "tag": "数据",
             "name": "DB Insight Platform",
-            "description": "工作簿里能看到 Hayco、YFY Jupiter 和 Artiso Education 等已完成 win case，全部归在同一方案模式下。",
-            "status": "已商业化",
-            "impact": "76K + 58K + 44K USD"
+            "description": "具备清晰价值主张与落地路径的数据智能解决方案 play。",
+            "status": "Activated offer #2",
+            "impact": "机会转化引擎"
           },
           {
             "tag": "AI",
             "name": "KnowledgeWiz 与内部 RAG",
-            "description": "内部 RAG Bot 的内容里记录了 40K USD 年化案例，说明 AI 赋能可以沉淀成可复用解决方案。",
-            "status": "可复用 offering",
-            "impact": "3 个 40K USD win case"
+            "description": "可复用的 AI 助手与 RAG 场景化实施蓝图。",
+            "status": "Activated offer #3",
+            "impact": "场景驱动采用"
+          },
+          {
+            "tag": "Ops",
+            "name": "Ask IT Platform",
+            "description": "以标准组件实现 IT 支持场景工业化落地。",
+            "status": "Activated offer #4",
+            "impact": "规模化伙伴执行"
+          },
+          {
+            "tag": "DocAI",
+            "name": "自动化文档处理方案",
+            "description": "具备清晰部署模型的 OCR 与文档自动化标准化 play。",
+            "status": "Activated offer #5",
+            "impact": "稳定业务结果"
           }
         ],
-        "note": "工作簿里可见的年度化 win case 加总至少达到 $1.51M。"
+        "note": "核心转变：从项目执行升级为可规模化的能力工业化。"
       },
       "activities": {
         "eyebrow": "Community & Culture",
         "title": "伙伴赋能与组织活动",
-        "intro": "我从工作簿里提取了 34 个活动型项目，包括 workshop、bootcamp、solution day 和技术 briefing。",
+        "intro": "我共交付了 16 场有明确目标的赋能活动。这些活动围绕具体方案架构、技术路径和行业场景展开，确保伙伴不只是理解技术，更能识别可执行的业务机会。",
         "metricsTitle": "活动总结",
         "metrics": [
-          { "value": "34", "label": "活动型项目" },
-          { "value": "9", "label": "高亮 win case 示例" },
-          { "value": ">= $1.51M", "label": "可见年度化 pipeline" },
-          { "value": "3", "label": "高亮 workshop 家族" }
+          { "value": "16", "label": "目标活动数" },
+          { "value": "285", "label": "qualified opportunities" },
+          { "value": "138", "label": "customer engagements" },
+          { "value": "USD 2.1M", "label": "pipeline" }
         ],
         "items": [
           {
-            "name": "Microsoft Solution Day 与伙伴激活",
-            "description": "工作簿里包含与 HSBC、Lenovo 等伙伴联合举办的 solution day、partner activation 和 enablement 活动。",
-            "role": "角色：组织者 / 联合主办"
+            "name": "目标化赋能执行",
+            "description": "16 场活动以方案和场景为核心设计，把技术赋能直接连接到业务增长动作。",
+            "role": "影响：285 个 qualified opportunities"
           },
           {
-            "name": "GitHub Copilot workshop 系列",
-            "description": "导出文件记录了多场 hands-on workshop 和 training，把伙伴沟通从认知推进到实际使用。",
-            "role": "角色：主持 / 讲师"
+            "name": "机会向客户互动推进",
+            "description": "生成的机会进一步推进为可跟进、可衡量的客户互动与后续动作。",
+            "role": "影响：138 个 customer engagements"
           },
           {
-            "name": "Azure enablement bootcamp",
-            "description": "Bootcamp 和技术 briefing 帮助把方案设计转化为可跟进的 pipeline 机会。",
-            "role": "角色：策划 / 技术支持"
+            "name": "赋能转业务增长引擎",
+            "description": "活动累计形成 USD 2.1M pipeline，并验证关键转变：当技术赋能以方案与场景驱动时，它会从成本中心转变为业务生成引擎。",
+            "role": "影响：可持续、可扩展增长"
           }
         ]
       },
@@ -358,7 +372,7 @@
       "pmx": {
         "eyebrow": "Program Matrix",
         "title": "PMX 專案詳情",
-        "intro": "下方嵌入了附件中的 PMX HTML 匯出，方便直接查看原始明細。",
+        "intro": "下方嵌入了 PMX 工作簿原始明細，便於直接核對。",
         "metricsTitle": "工作簿概覽",
         "metrics": [
           { "value": "81", "label": "專案總數" },
@@ -375,13 +389,6 @@
             "impact": "162 個 deliverables / 175 個 tasks"
           },
           {
-            "tag": "明細",
-            "name": "嵌入式原始工作簿",
-            "description": "附件中的 HTML 工作簿已嵌入頁面，匯總看板與原始明細之間可以無縫切換。",
-            "status": "即時明細視圖",
-            "impact": "同源 iframe"
-          },
-          {
             "tag": "信號",
             "name": "結構化交付信號",
             "description": "專案資料已整理為總量、狀態桶與代表性高亮，便於回顧與彙報複用。",
@@ -390,71 +397,85 @@
           }
         ],
         "detailTitle": "嵌入式 PMX 工作簿",
-        "detailDescription": "下方 iframe 會直接載入複製到站點中的 PMX 匯出檔。",
-        "detailNote": "工作簿以 pmx-workbook.html 的形式放在站點根目錄。"
+        "detailDescription": "下方 iframe 會直接載入站點根目錄中的 PMX 工作簿檔案。",
+        "detailNote": "來源檔案：pmx-workbook.html（由 PMX 匯出同步）。"
       },
       "solutionBuild": {
         "eyebrow": "Solution Build",
         "title": "Solution Build 總結",
-        "intro": "工作簿可以拆分成 52 個夥伴創新專案和 29 個服務組專案，這樣可以更清楚地看出 solution-build 端的成果。",
+        "intro": "我把工作重心從專案執行轉向能力工業化。我主導建立了 13 個標準化 AI 與數據解決方案 play，每個都具備清晰的架構、部署模型與價值主張，讓夥伴可複製且穩定交付。目前已有 5 個 solution offer 完成 activation。",
         "metricsTitle": "關鍵數字",
         "metrics": [
-          { "value": "29", "label": "服務組專案" },
-          { "value": "52", "label": "夥伴創新專案" },
-          { "value": "162", "label": "工作簿中的 deliverables" },
-          { "value": "175", "label": "工作簿中的 tasks" }
+          { "value": "13", "label": "標準化 AI 與數據 solution plays" },
+          { "value": "5", "label": "已 activation 的 solution offers" },
+          { "value": "285", "label": "qualified opportunities" },
+          { "value": "USD 2.1M", "label": "pipeline" }
         ],
         "projects": [
           {
             "tag": "Azure",
             "name": "Build on ASP 與 Azure 遷移",
-            "description": "包含基礎設施與資料庫遷移、SAP on Azure 以及 AI 平台工作，把遷移模式沉澱成可重複使用的資產。",
-            "status": "核心交付模式",
-            "impact": "多個已完成 win case"
+            "description": "面向遷移現代化的標準化架構與部署 play。",
+            "status": "Activated offer #1",
+            "impact": "可複製交付模型"
           },
           {
             "tag": "資料",
             "name": "DB Insight Platform",
-            "description": "工作簿可看到 Hayco、YFY Jupiter 與 Artiso Education 等已完成 win case，全部歸在同一方案模式下。",
-            "status": "已商業化",
-            "impact": "76K + 58K + 44K USD"
+            "description": "具備清晰價值主張與落地路徑的數據智能解決方案 play。",
+            "status": "Activated offer #2",
+            "impact": "機會轉化引擎"
           },
           {
             "tag": "AI",
             "name": "KnowledgeWiz 與內部 RAG",
-            "description": "內部 RAG Bot 的內容記錄了 40K USD 年化案例，說明 AI 賦能可以沉澱成可複用解決方案。",
-            "status": "可重複使用 offering",
-            "impact": "3 個 40K USD win case"
+            "description": "可複用的 AI 助手與 RAG 場景化實施藍圖。",
+            "status": "Activated offer #3",
+            "impact": "場景驅動採用"
+          },
+          {
+            "tag": "Ops",
+            "name": "Ask IT Platform",
+            "description": "以標準組件實現 IT 支援場景工業化落地。",
+            "status": "Activated offer #4",
+            "impact": "規模化夥伴執行"
+          },
+          {
+            "tag": "DocAI",
+            "name": "自動化文件處理方案",
+            "description": "具備清晰部署模型的 OCR 與文件自動化標準化 play。",
+            "status": "Activated offer #5",
+            "impact": "穩定業務結果"
           }
         ],
-        "note": "工作簿中可見的年度化 win case 加總至少達到 $1.51M。"
+        "note": "核心轉變：從專案執行升級為可規模化的能力工業化。"
       },
       "activities": {
         "eyebrow": "Community & Culture",
         "title": "夥伴賦能與組織活動",
-        "intro": "我從工作簿中提取了 34 個活動型專案，包括 workshop、bootcamp、solution day 與技術 briefing。",
+        "intro": "我共交付了 16 場有明確目標的賦能活動。這些活動圍繞具體方案架構、技術路徑與行業場景展開，確保夥伴不只是理解技術，更能識別可執行的業務機會。",
         "metricsTitle": "活動總結",
         "metrics": [
-          { "value": "34", "label": "活動型專案" },
-          { "value": "9", "label": "高亮 win case 範例" },
-          { "value": ">= $1.51M", "label": "可見年度化 pipeline" },
-          { "value": "3", "label": "高亮 workshop 家族" }
+          { "value": "16", "label": "目標活動數" },
+          { "value": "285", "label": "qualified opportunities" },
+          { "value": "138", "label": "customer engagements" },
+          { "value": "USD 2.1M", "label": "pipeline" }
         ],
         "items": [
           {
-            "name": "Microsoft Solution Day 與夥伴激活",
-            "description": "工作簿中包含與 HSBC、Lenovo 等夥伴共同舉辦的 solution day、partner activation 與 enablement 活動。",
-            "role": "角色：組織者 / 共同主辦"
+            "name": "目標化賦能執行",
+            "description": "16 場活動以方案與場景為核心設計，把技術賦能直接連結到業務成長動作。",
+            "role": "影響：285 個 qualified opportunities"
           },
           {
-            "name": "GitHub Copilot workshop 系列",
-            "description": "匯出檔記錄了多場 hands-on workshop 與 training，把夥伴溝通從認知推進到實際使用。",
-            "role": "角色：主持 / 講師"
+            "name": "機會向客戶互動推進",
+            "description": "產生的機會進一步推進為可跟進、可衡量的客戶互動與後續動作。",
+            "role": "影響：138 個 customer engagements"
           },
           {
-            "name": "Azure enablement bootcamp",
-            "description": "Bootcamp 與技術 briefing 幫助把方案設計轉化成可跟進的 pipeline 機會。",
-            "role": "角色：策劃 / 技術支援"
+            "name": "賦能轉業務增長引擎",
+            "description": "活動累計形成 USD 2.1M pipeline，並驗證關鍵轉變：當技術賦能以方案與場景驅動時，它會從成本中心轉變為業務生成引擎。",
+            "role": "影響：可持續、可擴展增長"
           }
         ]
       },

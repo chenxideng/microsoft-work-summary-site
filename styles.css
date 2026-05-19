@@ -372,10 +372,10 @@ button {
 
 .workbook-frame-shell {
   margin-top: 16px;
-  border: 1px solid rgba(154, 202, 255, 0.18);
+  border: 1px solid rgba(180, 212, 255, 0.45);
   border-radius: 16px;
   overflow: hidden;
-  background: rgba(5, 14, 30, 0.8);
+  background: #eef4ff;
 }
 
 .workbook-frame-shell iframe {
@@ -383,7 +383,7 @@ button {
   width: 100%;
   min-height: 780px;
   border: 0;
-  background: #07172f;
+  background: #f8fbff;
 }
 
 .detail-note {

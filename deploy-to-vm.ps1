@@ -19,7 +19,8 @@ $files = @(
   "content.json",
   "package.json",
   "server.js",
-  "README.md"
+  "README.md",
+  "pmx-workbook.html"
 )
 
 $existingFiles = $files | Where-Object { Test-Path $_ }
