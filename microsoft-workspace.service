@@ -1,0 +1,15 @@
+[Unit]
+Description=Microsoft Workspace Website
+After=network.target
+
+[Service]
+Type=simple
+User=charles
+WorkingDirectory=/home/charles/microsoft-workspace
+Environment=PORT=8080
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
