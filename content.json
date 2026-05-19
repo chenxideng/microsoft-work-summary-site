@@ -41,8 +41,8 @@
       },
       "overview": {
         "eyebrow": "FY Summary",
-        "title": "One dashboard for delivery, partnerships, and organizational impact",
-        "description": "This page keeps English as the default display while supporting Simplified and Traditional Chinese toggles. It consolidates PMX execution, partner enablement, and community activity into a single review surface.",
+        "title": "Build → Win → Scale Mission",
+        "description": "What I have built is not a series of short-term wins, but a sustainable partner growth engine for AI and Data. This engine integrates strategic focus, conversion mechanisms, solution standardization, and ecosystem expansion into a cohesive system, validated by measurable pipeline, consumption, and revenue outcomes. Ultimately, my core contribution lies in enabling partners to succeed and, through their success, driving scalable and sustained growth while amplifying Microsoft's value across the ecosystem.",
         "metricsTitle": "Key metrics",
         "metrics": [
           { "value": "81", "label": "PMX projects in the workbook" },
@@ -193,8 +193,8 @@
       },
       "overview": {
         "eyebrow": "FY 总结",
-        "title": "把交付、合作与组织影响放进一张看板",
-        "description": "这一页默认显示英文，同时支持简体中文和繁体中文切换；内容集中呈现 PMX 执行、伙伴赋能与组织活动成果。",
+        "title": "Build → Win → Scale 使命",
+        "description": "我所构建的不是一系列短期胜利，而是 AI 和数据领域的可持续伙伴成长引擎。这个引擎集成了战略聚焦、转化机制、方案标准化和生态拓展，形成了一个有机整体，并由可衡量的 pipeline、消耗和营收成果验证。最终，我的核心贡献在于使伙伴成功，通过他们的成功驱动可扩展和可持续的增长，同时放大 Microsoft 在整个生态中的价值。",
         "metricsTitle": "关键指标",
         "metrics": [
           { "value": "81", "label": "PMX 项目总数" },
@@ -345,8 +345,8 @@
       },
       "overview": {
         "eyebrow": "FY 總結",
-        "title": "把交付、合作與組織影響放進一張看板",
-        "description": "這一頁預設顯示英文，同時支援簡體中文與繁體中文切換；內容集中呈現 PMX 執行、夥伴賦能與組織活動成果。",
+        "title": "Build → Win → Scale 使命",
+        "description": "我所構建的不是一系列短期勝利，而是 AI 和數據領域的可持續夥伴成長引擎。這個引擎集成了戰略聚焦、轉化機制、方案標準化和生態拓展，形成了一個有機整體，並由可衡量的 pipeline、消耗和營收成果驗證。最終，我的核心貢獻在於使夥伴成功，通過他們的成功驅動可擴展和可持續的增長，同時放大 Microsoft 在整個生態中的價值。",
         "metricsTitle": "關鍵指標",
         "metrics": [
           { "value": "81", "label": "PMX 專案總數" },
