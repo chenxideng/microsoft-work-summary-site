@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>微软工作总结 | PMX 项目与组织活动</title>
-  <meta name="description" content="年度工作总结：PMX 项目进展、组织活动与业务成果总览。" />
+  <title>工作总结看板</title>
+  <meta name="description" content="Microsoft-style work summary dashboard with PMX detail, solution build metrics, and partner activity summaries." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -22,35 +22,41 @@
       </span>
       <div>
         <p class="brand-label" id="brand-label">Microsoft Work Summary</p>
-        <h1 id="site-title">年度工作总结看板</h1>
+        <h1 id="site-title">工作总结看板</h1>
       </div>
     </div>
-    <nav class="top-nav">
-      <a href="#overview" id="nav-overview">概览</a>
-      <a href="#pmx" id="nav-pmx">PMX 项目</a>
-      <a href="#activities" id="nav-activities">组织活动</a>
-      <a href="#next" id="nav-next">下一阶段</a>
-    </nav>
+    <div class="header-actions">
+      <nav class="top-nav">
+        <a href="#overview" id="nav-overview">Overview</a>
+        <a href="#pmx" id="nav-pmx">PMX Detail</a>
+        <a href="#solution-build" id="nav-solution-build">Solution Build</a>
+        <a href="#activities" id="nav-activities">Activities</a>
+        <a href="#next" id="nav-next">Next Steps</a>
+      </nav>
+      <div class="language-switcher" role="group" aria-label="Language selector">
+        <button type="button" class="lang-btn is-active" data-locale="en">EN</button>
+        <button type="button" class="lang-btn" data-locale="zh-Hans">简</button>
+        <button type="button" class="lang-btn" data-locale="zh-Hant">繁</button>
+      </div>
+    </div>
   </header>
 
   <main>
     <section id="overview" class="hero section reveal">
       <div class="hero-copy">
-        <p id="overview-eyebrow" class="eyebrow">FY 工作沉淀</p>
-        <h2 id="overview-title">连接业务结果与组织影响的技术化总结</h2>
-        <p id="overview-description">
-          这一页集中展示我在微软期间的核心贡献，包括 PMX 上的项目推进、跨团队协作、活动组织与文化建设成果。
-          页面可作为季度汇报和年度述职的统一入口。
-        </p>
+        <p id="overview-eyebrow" class="eyebrow">FY Summary</p>
+        <h2 id="overview-title">One dashboard for delivery, partnerships, and organizational impact</h2>
+        <p id="overview-description">This page is English-first, with Simplified and Traditional Chinese toggles. It consolidates PMX execution, partner enablement, and community activity into a single review surface.</p>
         <div class="hero-cta">
-          <button type="button" class="btn-primary" data-scroll="#pmx">查看 PMX 项目</button>
-          <button type="button" class="btn-secondary" data-scroll="#activities">查看组织活动</button>
+          <button type="button" class="btn-primary" id="hero-btn-pmx" data-scroll="#pmx">View PMX detail</button>
+          <button type="button" class="btn-secondary" id="hero-btn-solution-build" data-scroll="#solution-build">View Solution Build</button>
+          <button type="button" class="btn-secondary" id="hero-btn-activities" data-scroll="#activities">View activities</button>
         </div>
       </div>
       <div class="hero-metrics card">
-        <h3 id="metrics-title">关键指标</h3>
-        <ul id="metrics-list">
-          <li><span>12</span><p>PMX 项目完成/推进</p></li>
+        <h3 id="metrics-title">Key metrics</h3>
+        <ul id="metrics-list" class="metric-strip">
+          <li class="metric-card"><span>81</span><p>PMX projects in the workbook</p></li>
         </ul>
       </div>
     </section>
@@ -58,50 +64,66 @@
     <section id="pmx" class="section reveal">
       <div class="section-head">
         <p id="pmx-eyebrow" class="eyebrow">Program Matrix</p>
-        <h2 id="pmx-title">PMX 项目汇总</h2>
+        <h2 id="pmx-title">PMX project detail</h2>
+        <p id="pmx-intro" class="section-intro">The embedded workbook below keeps the attached PMX export inside the dashboard, so the source detail stays one click away from the summary.</p>
       </div>
-      <div id="pmx-cards" class="cards three-col">
-        <article class="card project">
-          <p class="tag">重点项目 A</p>
-          <h3>智能运营数据中台优化</h3>
-          <p>联合产品、工程与运营，重构指标口径与数据链路，缩短分析响应周期。</p>
-          <div class="kv"><span>状态</span><strong>已上线</strong></div>
-          <div class="kv"><span>影响</span><strong>周报效率 +40%</strong></div>
-        </article>
+      <h3 id="pmx-metrics-title" class="section-subtitle">Workbook snapshot</h3>
+      <ul id="pmx-metrics-list" class="cards four-col metric-strip"></ul>
+      <div id="pmx-cards" class="cards three-col cards-spacer"></div>
+      <article class="card workbook-card cards-spacer">
+        <div class="workbook-head">
+          <div>
+            <p id="pmx-detail-eyebrow" class="eyebrow">Program Matrix</p>
+            <h3 id="pmx-detail-title">Embedded PMX workbook</h3>
+          </div>
+          <p id="pmx-detail-description" class="section-intro workbook-description">The iframe below loads the copied PMX export and keeps the source detail in the dashboard.</p>
+        </div>
+        <div class="workbook-frame-shell">
+          <iframe id="pmx-workbook-frame" title="Embedded PMX workbook" loading="lazy"></iframe>
+        </div>
+        <p id="pmx-detail-note" class="detail-note">The workbook is stored as pmx-workbook.html in the site root.</p>
+      </article>
+    </section>
+
+    <section id="solution-build" class="section reveal">
+      <div class="section-head">
+        <p id="solution-build-eyebrow" class="eyebrow">Solution Build</p>
+        <h2 id="solution-build-title">Solution Build summary</h2>
+        <p id="solution-build-intro" class="section-intro">The workbook splits into 52 partner-innovation projects and 29 service-group projects, which gives us a clean lens on the solution-build side of the portfolio.</p>
       </div>
+      <h3 id="solution-build-metrics-title" class="section-subtitle">Key numbers</h3>
+      <ul id="solution-build-metrics-list" class="cards four-col metric-strip"></ul>
+      <div id="solution-build-cards" class="cards three-col cards-spacer"></div>
+      <p id="solution-build-note" class="detail-note"></p>
     </section>
 
     <section id="activities" class="section reveal">
       <div class="section-head">
         <p id="activities-eyebrow" class="eyebrow">Community & Culture</p>
-        <h2 id="activities-title">组织开展活动</h2>
+        <h2 id="activities-title">Partner enablement and activities</h2>
+        <p id="activities-intro" class="section-intro">I extracted 34 event-like projects from the workbook, including workshops, bootcamps, solution days, and technical briefings.</p>
       </div>
-      <div id="activities-timeline" class="timeline">
-        <article class="timeline-item card">
-          <span class="dot" aria-hidden="true"></span>
-          <h3>技术分享月：AI in Practice</h3>
-          <p>组织 4 场内部分享，覆盖 Copilot 效率实践、数据治理、架构演进，参与人数累计 200+。</p>
-          <small>角色：主策划 / 主持人</small>
-        </article>
-      </div>
+      <h3 id="activities-metrics-title" class="section-subtitle">Activity summary</h3>
+      <ul id="activities-metrics-list" class="cards four-col metric-strip"></ul>
+      <div id="activities-timeline" class="timeline cards-spacer"></div>
     </section>
 
     <section id="next" class="section reveal">
       <div class="section-head">
         <p id="next-eyebrow" class="eyebrow">Roadmap</p>
-        <h2 id="next-title">下一阶段计划</h2>
+        <h2 id="next-title">What I will improve next</h2>
       </div>
       <div class="cards two-col">
         <article class="card">
-          <h3 id="next-project-title">项目层面</h3>
+          <h3 id="next-project-title">Program-level</h3>
           <ul id="next-project-list" class="list">
-            <li>推进 PMX 项目管理可视化，形成统一进度健康度模型</li>
+            <li>Turn PMX workbook signals into a cleaner delivery health model</li>
           </ul>
         </article>
         <article class="card">
-          <h3 id="next-org-title">组织层面</h3>
+          <h3 id="next-org-title">Org-level</h3>
           <ul id="next-org-list" class="list">
-            <li>打造跨团队知识地图，增强经验复用</li>
+            <li>Build a reusable knowledge map across programs and activities</li>
           </ul>
         </article>
       </div>
@@ -109,7 +131,7 @@
   </main>
 
   <footer class="site-footer">
-    <p id="footer-text">© 2026 Microsoft Work Summary • Designed for Quarterly and Annual Review</p>
+    <p id="footer-text">© 2026 Microsoft Work Summary • Built for quarterly and annual review</p>
   </footer>
 
   <script src="script.js"></script>
