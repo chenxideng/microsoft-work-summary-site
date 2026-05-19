@@ -16,32 +16,36 @@
   <div class="bg-glow bg-glow-b" aria-hidden="true"></div>
 
   <header class="site-header" id="main-header">
-    <div class="brand">
-      <span class="brand-mark" aria-hidden="true">
-        <span></span><span></span><span></span><span></span>
-      </span>
-      <div>
-        <p class="brand-label" id="brand-label">Microsoft Work Summary</p>
-        <h1 id="site-title">Work Summary Dashboard</h1>
+    <div class="header-inner">
+      <a class="brand" href="index.html#overview">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-label" id="brand-label">Microsoft Work Summary</span>
+          <span class="brand-title" id="site-title">Work Summary Dashboard</span>
+        </span>
+      </a>
+      <div class="header-controls">
+        <div class="language-switcher" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn is-active" data-locale="en">EN</button>
+          <button type="button" class="lang-btn" data-locale="zh-Hans">简</button>
+          <button type="button" class="lang-btn" data-locale="zh-Hant">繁</button>
+        </div>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
       </div>
     </div>
-    <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="header-actions" aria-label="Toggle navigation">Menu</button>
-    <div class="header-actions" id="header-actions">
-      <nav class="top-nav">
-        <a href="index.html#overview" id="nav-overview">Overview</a>
-        <a href="#profile" id="nav-profile">Profile</a>
-        <a href="#certifications" id="nav-certifications">Certifications</a>
-        <a href="index.html#pmx" id="nav-pmx">PMX Detail</a>
-        <a href="index.html#solution-build" id="nav-solution-build">Solution Build</a>
-        <a href="index.html#activities" id="nav-activities">Activities</a>
-        <a href="index.html#next" id="nav-next">Next Steps</a>
-      </nav>
-      <div class="language-switcher" role="group" aria-label="Language selector">
-        <button type="button" class="lang-btn is-active" data-locale="en">EN</button>
-        <button type="button" class="lang-btn" data-locale="zh-Hans">简</button>
-        <button type="button" class="lang-btn" data-locale="zh-Hant">繁</button>
-      </div>
-    </div>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <a href="index.html#overview" id="nav-overview">Overview</a>
+      <a href="#profile" id="nav-profile">Profile</a>
+      <a href="#certifications" id="nav-certifications">Certifications</a>
+      <a href="index.html#pmx" id="nav-pmx">PMX Detail</a>
+      <a href="index.html#solution-build" id="nav-solution-build">Solution Build</a>
+      <a href="index.html#activities" id="nav-activities">Activities</a>
+      <a href="index.html#next" id="nav-next">Next Steps</a>
+    </nav>
   </header>
 
   <main>

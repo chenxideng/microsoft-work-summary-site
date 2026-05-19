@@ -71,7 +71,7 @@ function renderActivities(items) {
     .join('');
 }
 
-function renderCertifications(items) {
+function renderCertifications(items, labels) {
   const list = document.getElementById('certifications-list');
   if (!list) {
     return;
@@ -82,16 +82,27 @@ function renderCertifications(items) {
     return;
   }
 
+  const issuedLabel = labels?.issued || 'Issued';
+  const expiresLabel = labels?.expires || 'Expires';
+  const credLabel = labels?.credentialId || 'Credential ID';
+
   list.innerHTML = items
-    .map(
-      (item) => `
+    .map((item) => {
+      const dateLine = [
+        item.issued ? `${issuedLabel} ${item.issued}` : '',
+        item.expires ? `${expiresLabel} ${item.expires}` : ''
+      ].filter(Boolean).join(' · ');
+      const credLine = item.credentialId ? `<p class="cert-cred"><span>${credLabel}</span> <code>${item.credentialId}</code></p>` : '';
+      const link = item.url ? `<a class="cert-link" href="${item.url}" target="_blank" rel="noreferrer">View credential</a>` : '';
+      return `
         <article class="card cert-card">
           <p class="tag">${item.issuer || 'Certification'}</p>
           <h3>${item.name}</h3>
-          <p>${item.meta || ''}</p>
-          ${item.url ? `<a class="cert-link" href="${item.url}" target="_blank" rel="noreferrer">View credential</a>` : ''}
-        </article>`
-    )
+          ${dateLine ? `<p class="cert-dates">${dateLine}</p>` : ''}
+          ${credLine}
+          ${link}
+        </article>`;
+    })
     .join('');
 }
 
@@ -136,23 +147,31 @@ function initSmoothScroll() {
 function initMobileMenu() {
   const header = document.getElementById('main-header');
   const toggle = document.getElementById('menu-toggle');
-  const actions = document.getElementById('header-actions');
-  if (!header || !toggle || !actions) {
+  const nav = document.getElementById('primary-nav');
+  if (!header || !toggle || !nav) {
     return;
   }
+
+  const mq = window.matchMedia('(max-width: 820px)');
+  const close = () => {
+    header.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  };
 
   toggle.addEventListener('click', () => {
     const isOpen = header.classList.toggle('is-open');
     toggle.setAttribute('aria-expanded', String(isOpen));
   });
 
-  actions.querySelectorAll('a').forEach((link) => {
+  nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
-      if (window.matchMedia('(max-width: 760px)').matches) {
-        header.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-      }
+      if (mq.matches) close();
     });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!mq.matches) return;
+    if (!header.contains(e.target)) close();
   });
 }
 
@@ -218,7 +237,7 @@ function applyLocale(data, locale) {
   setText('certifications-title', localized.certifications?.title);
   setText('certifications-intro', localized.certifications?.intro);
   setText('certifications-note', localized.certifications?.note);
-  renderCertifications(localized.certifications?.items);
+  renderCertifications(localized.certifications?.items, localized.certifications?.labels);
 
   setText('pmx-eyebrow', localized.pmx?.eyebrow);
   setText('pmx-title', localized.pmx?.title);

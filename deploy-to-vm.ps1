@@ -19,6 +19,7 @@ $files = @(
   "script.js",
   "content.json",
   "profile-avatar.svg",
+  "profile-avatar.jpg",
   "package.json",
   "server.js",
   "README.md",

@@ -59,14 +59,26 @@
         "title": "Senior Partner Solution Architect at Microsoft",
         "summary": "Senior Cloud Solutions Architect with 11+ years transforming global enterprise cloud ecosystems. Pioneer in integrating autonomous AI agents and multi-agent orchestration to unify compliance, security, and operational resilience. Delivers high-performance, low-latency multi-cloud architectures with AI-powered self-optimization, driving measurable cost savings and regulatory readiness at scale.",
         "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
-        "avatarPath": "profile-avatar.svg"
+        "avatarPath": "profile-avatar.jpg"
       },
       "certifications": {
         "eyebrow": "Professional Credentials",
         "title": "Certifications",
-        "intro": "Certification portfolio for solution architecture, cloud, AI, and security capability.",
-        "items": [],
-        "note": "LinkedIn blocks unauthenticated scraping (authwall). Share your certification list or export and I will populate every item precisely."
+        "intro": "10 active credentials across Microsoft, Google Cloud, AWS, and Tencent Cloud — verified from LinkedIn.",
+        "items": [
+          { "name": "Microsoft Certified: Agentic AI Business Solutions Architect", "issuer": "Microsoft", "issued": "Mar 2026", "expires": "Mar 2027", "credentialId": "4AB341D0776EB86A" },
+          { "name": "Microsoft Certified: Azure AI Engineer Associate", "issuer": "Microsoft", "issued": "Feb 2026", "expires": "Feb 2027", "credentialId": "A137B4791CC2C660" },
+          { "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals", "issuer": "Microsoft", "issued": "Jan 2026", "expires": "Jan 2028", "credentialId": "496863FC6152938F" },
+          { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "issued": "Jan 2026", "expires": "Jan 2028", "credentialId": "36F48E73CA4608BD" },
+          { "name": "Microsoft Certified: Azure Solutions Architect Expert", "issuer": "Microsoft", "issued": "Jul 2023", "expires": "Jul 2027", "credentialId": "2354D84F2F0D099E" },
+          { "name": "Microsoft Certified: Azure Administrator Associate", "issuer": "Microsoft", "issued": "Jul 2023", "expires": "Jul 2027", "credentialId": "38A90C92C0CB38B" },
+          { "name": "Professional Cloud Security Engineer", "issuer": "Google Cloud", "issued": "Apr 2024", "expires": "Apr 2026", "credentialId": null },
+          { "name": "Professional Machine Learning Engineer", "issuer": "Google Cloud", "issued": "Mar 2024", "expires": "Mar 2026", "credentialId": "98600548" },
+          { "name": "AWS Certified DevOps Engineer – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "Sep 2023", "expires": "Sep 2026", "credentialId": "BN9GBL310BF4QJ94" },
+          { "name": "Tencent Cloud Solutions Architect Professional", "issuer": "Tencent Cloud", "issued": "Sep 2023", "expires": "Sep 2025", "credentialId": null }
+        ],
+        "labels": { "issued": "Issued", "expires": "Expires", "credentialId": "Credential ID" },
+        "note": "Sourced from LinkedIn · linkedin.com/in/charles-d-7417186b"
       },
       "pmx": {
         "eyebrow": "Program Matrix",
@@ -235,14 +247,26 @@
         "title": "微软高级伙伴解决方案架构师",
         "summary": "资深云解决方案架构师，拥有 11 年以上全球企业云生态转型经验。专注将自主 AI Agent 与多智能体协同编排结合，统一合规、安全与运营韧性。可交付高性能、低时延的多云架构，并通过 AI 自优化实现可量化的降本增效与规模化监管就绪。",
         "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
-        "avatarPath": "profile-avatar.svg"
+        "avatarPath": "profile-avatar.jpg"
       },
       "certifications": {
         "eyebrow": "专业资质",
-        "title": "Certifications",
-        "intro": "覆盖解决方案架构、云、AI 与安全能力的认证组合。",
-        "items": [],
-        "note": "LinkedIn 目前有未登录抓取限制（authwall）。你提供认证清单或导出后，我会准确补全全部认证。"
+        "title": "认证",
+        "intro": "覆盖 Microsoft、Google Cloud、AWS、腾讯云的 10 项有效认证 — 数据来源 LinkedIn。",
+        "items": [
+          { "name": "Microsoft Certified: Agentic AI Business Solutions Architect", "issuer": "Microsoft", "issued": "2026 年 3 月", "expires": "2027 年 3 月", "credentialId": "4AB341D0776EB86A" },
+          { "name": "Microsoft Certified: Azure AI Engineer Associate", "issuer": "Microsoft", "issued": "2026 年 2 月", "expires": "2027 年 2 月", "credentialId": "A137B4791CC2C660" },
+          { "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "496863FC6152938F" },
+          { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "36F48E73CA4608BD" },
+          { "name": "Microsoft Certified: Azure Solutions Architect Expert", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "2354D84F2F0D099E" },
+          { "name": "Microsoft Certified: Azure Administrator Associate", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "38A90C92C0CB38B" },
+          { "name": "Professional Cloud Security Engineer", "issuer": "Google Cloud", "issued": "2024 年 4 月", "expires": "2026 年 4 月", "credentialId": null },
+          { "name": "Professional Machine Learning Engineer", "issuer": "Google Cloud", "issued": "2024 年 3 月", "expires": "2026 年 3 月", "credentialId": "98600548" },
+          { "name": "AWS Certified DevOps Engineer – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "2023 年 9 月", "expires": "2026 年 9 月", "credentialId": "BN9GBL310BF4QJ94" },
+          { "name": "Tencent Cloud Solutions Architect Professional", "issuer": "腾讯云", "issued": "2023 年 9 月", "expires": "2025 年 9 月", "credentialId": null }
+        ],
+        "labels": { "issued": "颁发", "expires": "到期", "credentialId": "凭证编号" },
+        "note": "数据来源：LinkedIn · linkedin.com/in/charles-d-7417186b"
       },
       "pmx": {
         "eyebrow": "Program Matrix",
@@ -411,14 +435,26 @@
         "title": "微軟高級夥伴解決方案架構師",
         "summary": "資深雲解決方案架構師，擁有 11 年以上全球企業雲生態轉型經驗。專注將自主 AI Agent 與多智能體協同編排整合，統一合規、安全與營運韌性。可交付高效能、低延遲的多雲架構，並透過 AI 自優化實現可量化的成本節省與規模化監管就緒。",
         "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
-        "avatarPath": "profile-avatar.svg"
+        "avatarPath": "profile-avatar.jpg"
       },
       "certifications": {
         "eyebrow": "專業資質",
-        "title": "Certifications",
-        "intro": "涵蓋解決方案架構、雲、AI 與安全能力的認證組合。",
-        "items": [],
-        "note": "LinkedIn 目前有未登入抓取限制（authwall）。你提供認證清單或匯出後，我會精準補全全部認證。"
+        "title": "認證",
+        "intro": "涵蓋 Microsoft、Google Cloud、AWS、騰訊雲的 10 項有效認證 — 資料來源 LinkedIn。",
+        "items": [
+          { "name": "Microsoft Certified: Agentic AI Business Solutions Architect", "issuer": "Microsoft", "issued": "2026 年 3 月", "expires": "2027 年 3 月", "credentialId": "4AB341D0776EB86A" },
+          { "name": "Microsoft Certified: Azure AI Engineer Associate", "issuer": "Microsoft", "issued": "2026 年 2 月", "expires": "2027 年 2 月", "credentialId": "A137B4791CC2C660" },
+          { "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "496863FC6152938F" },
+          { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "36F48E73CA4608BD" },
+          { "name": "Microsoft Certified: Azure Solutions Architect Expert", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "2354D84F2F0D099E" },
+          { "name": "Microsoft Certified: Azure Administrator Associate", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "38A90C92C0CB38B" },
+          { "name": "Professional Cloud Security Engineer", "issuer": "Google Cloud", "issued": "2024 年 4 月", "expires": "2026 年 4 月", "credentialId": null },
+          { "name": "Professional Machine Learning Engineer", "issuer": "Google Cloud", "issued": "2024 年 3 月", "expires": "2026 年 3 月", "credentialId": "98600548" },
+          { "name": "AWS Certified DevOps Engineer – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "2023 年 9 月", "expires": "2026 年 9 月", "credentialId": "BN9GBL310BF4QJ94" },
+          { "name": "Tencent Cloud Solutions Architect Professional", "issuer": "騰訊雲", "issued": "2023 年 9 月", "expires": "2025 年 9 月", "credentialId": null }
+        ],
+        "labels": { "issued": "頒發", "expires": "到期", "credentialId": "憑證編號" },
+        "note": "資料來源：LinkedIn · linkedin.com/in/charles-d-7417186b"
       },
       "pmx": {
         "eyebrow": "Program Matrix",
