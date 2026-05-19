@@ -22,7 +22,7 @@
     "en": {
       "site": {
         "brandLabel": "Microsoft Work Summary",
-        "title": "工作总结看板",
+        "title": "Work Summary Dashboard",
         "nav": {
           "overview": "Overview",
           "pmx": "PMX Detail",
@@ -326,7 +326,7 @@
     "zh-Hant": {
       "site": {
         "brandLabel": "Microsoft 工作總結",
-        "title": "工作总结看板",
+        "title": "工作總結看板",
         "nav": {
           "overview": "概覽",
           "pmx": "PMX 詳情",
