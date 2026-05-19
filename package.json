@@ -1,0 +1,13 @@
+{
+  "name": "microsoft-work-summary-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Microsoft-style work summary website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
