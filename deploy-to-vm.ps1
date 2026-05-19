@@ -1,5 +1,5 @@
 param(
-  [string]$Host = "57.158.25.229",
+  [string]$VmHost = "57.158.25.229",
   [string]$User = "charles",
   [Parameter(Mandatory = $true)]
   [string]$Password,
@@ -25,7 +25,7 @@ if (-not $existingFiles) {
   throw "No deployable files found in current folder."
 }
 
-& $pscp -batch -pw $Password @existingFiles "$User@$Host:$RemotePath/"
-& $plink -ssh -batch -l $User -pw $Password $Host "cd $RemotePath && npm install --omit=dev && echo '$Password' | sudo -S systemctl restart microsoft-workspace.service && systemctl is-active microsoft-workspace.service"
+& $pscp -batch -pw $Password @existingFiles "${User}@${VmHost}:${RemotePath}/"
+& $plink -ssh -batch -l $User -pw $Password $VmHost "cd $RemotePath && npm install --omit=dev && echo '$Password' | sudo -S systemctl restart microsoft-workspace.service && systemctl is-active microsoft-workspace.service"
 
-Write-Host "Deployment completed to $Host:$RemotePath"
+Write-Host "Deployment completed to ${VmHost}:${RemotePath}"
