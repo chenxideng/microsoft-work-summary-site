@@ -133,6 +133,29 @@ function initSmoothScroll() {
   });
 }
 
+function initMobileMenu() {
+  const header = document.getElementById('main-header');
+  const toggle = document.getElementById('menu-toggle');
+  const actions = document.getElementById('header-actions');
+  if (!header || !toggle || !actions) {
+    return;
+  }
+
+  toggle.addEventListener('click', () => {
+    const isOpen = header.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  actions.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (window.matchMedia('(max-width: 760px)').matches) {
+        header.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+}
+
 function applyLocale(data, locale) {
   const selectedLocale = SUPPORTED_LOCALES.includes(locale) ? locale : data.defaultLocale || 'en';
   const localized = data.locales?.[selectedLocale] || data.locales?.[data.defaultLocale] || data.locales?.en;
@@ -273,4 +296,5 @@ async function loadContent() {
 
 initRevealAnimation();
 initSmoothScroll();
+initMobileMenu();
 loadContent();

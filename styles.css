@@ -125,6 +125,19 @@ main,
   font-family: "Space Grotesk", "Plus Jakarta Sans", sans-serif;
 }
 
+.menu-toggle {
+  display: none;
+  border: 1px solid rgba(146, 208, 255, 0.34);
+  background: rgba(7, 28, 58, 0.9);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -283,6 +296,15 @@ button {
   padding: 18px;
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(1, 10, 30, 0.34);
+  transform: translateY(0);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+  animation: cardFloat 7.2s ease-in-out infinite;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  border-color: rgba(143, 228, 255, 0.54);
+  box-shadow: 0 24px 56px rgba(14, 46, 97, 0.45);
 }
 
 .card::before {
@@ -301,6 +323,11 @@ button {
 @keyframes floatOrb {
   0%, 100% { transform: translateY(0px); opacity: 0.72; }
   50% { transform: translateY(10px); opacity: 1; }
+}
+
+@keyframes cardFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
 }
 
 .hero-metrics h3,
@@ -584,23 +611,46 @@ button {
     margin-top: 8px;
   }
 
+  .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
   .header-actions {
+    display: none;
     width: 100%;
     justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .site-header.is-open .header-actions {
+    display: flex;
   }
 
   .top-nav {
     gap: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .top-nav a {
     font-size: 11px;
-    padding: 5px 9px;
+    padding: 7px 9px;
+    text-align: center;
   }
 
   .hero-cta {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .language-switcher {
+    align-self: flex-end;
   }
 
   main,

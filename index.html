@@ -15,7 +15,7 @@
   <div class="bg-glow bg-glow-a" aria-hidden="true"></div>
   <div class="bg-glow bg-glow-b" aria-hidden="true"></div>
 
-  <header class="site-header">
+  <header class="site-header" id="main-header">
     <div class="brand">
       <span class="brand-mark" aria-hidden="true">
         <span></span><span></span><span></span><span></span>
@@ -25,11 +25,12 @@
         <h1 id="site-title">工作总结看板</h1>
       </div>
     </div>
-    <div class="header-actions">
+    <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="header-actions" aria-label="Toggle navigation">Menu</button>
+    <div class="header-actions" id="header-actions">
       <nav class="top-nav">
         <a href="#overview" id="nav-overview">Overview</a>
-        <a href="#profile" id="nav-profile">Profile</a>
-        <a href="#certifications" id="nav-certifications">Certifications</a>
+        <a href="profile.html#profile" id="nav-profile">Profile</a>
+        <a href="profile.html#certifications" id="nav-certifications">Certifications</a>
         <a href="#pmx" id="nav-pmx">PMX Detail</a>
         <a href="#solution-build" id="nav-solution-build">Solution Build</a>
         <a href="#activities" id="nav-activities">Activities</a>
@@ -63,33 +64,6 @@
       </div>
     </section>
 
-    <section id="profile" class="section reveal">
-      <div class="section-head">
-        <p id="profile-eyebrow" class="eyebrow">Personal Profile</p>
-        <h2 id="profile-name">Charles DENG</h2>
-      </div>
-      <article class="card profile-card">
-        <div class="profile-avatar-shell">
-          <img id="profile-avatar" class="profile-avatar" src="profile-avatar.svg" alt="Charles DENG portrait" loading="lazy" />
-          <span id="profile-avatar-fallback" class="profile-avatar-fallback">CD</span>
-        </div>
-        <div class="profile-content">
-          <h3 id="profile-title">Senior Partner Solution Architect at Microsoft</h3>
-          <p id="profile-summary" class="section-intro">Senior Cloud Solutions Architect with 11+ years transforming global enterprise cloud ecosystems.</p>
-          <a id="profile-linkedin" class="linkedin-link" href="https://www.linkedin.com/in/charles-d-7417186b/" target="_blank" rel="noreferrer">LinkedIn profile</a>
-        </div>
-      </article>
-    </section>
-
-    <section id="certifications" class="section reveal">
-      <div class="section-head">
-        <p id="certifications-eyebrow" class="eyebrow">Professional Credentials</p>
-        <h2 id="certifications-title">Certifications</h2>
-        <p id="certifications-intro" class="section-intro">Verified and continuously updated professional certifications.</p>
-      </div>
-      <div id="certifications-list" class="cards two-col"></div>
-      <p id="certifications-note" class="detail-note"></p>
-    </section>
 
     <section id="pmx" class="section reveal">
       <div class="section-head">
