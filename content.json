@@ -25,6 +25,8 @@
         "title": "Work Summary Dashboard",
         "nav": {
           "overview": "Overview",
+          "profile": "Profile",
+          "certifications": "Certifications",
           "pmx": "PMX Detail",
           "solutionBuild": "Solution Build",
           "activities": "Activities",
@@ -50,6 +52,21 @@
           { "value": "34", "label": "Event-like partner enablement projects" },
           { "value": ">= $1.51M", "label": "Visible annualized pipeline" }
         ]
+      },
+      "profile": {
+        "eyebrow": "Personal Profile",
+        "name": "Charles DENG",
+        "title": "Senior Partner Solution Architect at Microsoft",
+        "summary": "Senior Cloud Solutions Architect with 11+ years transforming global enterprise cloud ecosystems. Pioneer in integrating autonomous AI agents and multi-agent orchestration to unify compliance, security, and operational resilience. Delivers high-performance, low-latency multi-cloud architectures with AI-powered self-optimization, driving measurable cost savings and regulatory readiness at scale.",
+        "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
+        "avatarPath": "profile-avatar.svg"
+      },
+      "certifications": {
+        "eyebrow": "Professional Credentials",
+        "title": "Certifications",
+        "intro": "Certification portfolio for solution architecture, cloud, AI, and security capability.",
+        "items": [],
+        "note": "LinkedIn blocks unauthenticated scraping (authwall). Share your certification list or export and I will populate every item precisely."
       },
       "pmx": {
         "eyebrow": "Program Matrix",
@@ -184,6 +201,8 @@
         "title": "工作总结看板",
         "nav": {
           "overview": "概览",
+          "profile": "个人简介",
+          "certifications": "认证",
           "pmx": "PMX 详情",
           "solutionBuild": "Solution Build",
           "activities": "组织活动",
@@ -209,6 +228,21 @@
           { "value": "34", "label": "活动型伙伴赋能项目" },
           { "value": ">= $1.51M", "label": "可见年度化 pipeline" }
         ]
+      },
+      "profile": {
+        "eyebrow": "个人简介",
+        "name": "Charles DENG",
+        "title": "微软高级伙伴解决方案架构师",
+        "summary": "资深云解决方案架构师，拥有 11 年以上全球企业云生态转型经验。专注将自主 AI Agent 与多智能体协同编排结合，统一合规、安全与运营韧性。可交付高性能、低时延的多云架构，并通过 AI 自优化实现可量化的降本增效与规模化监管就绪。",
+        "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
+        "avatarPath": "profile-avatar.svg"
+      },
+      "certifications": {
+        "eyebrow": "专业资质",
+        "title": "Certifications",
+        "intro": "覆盖解决方案架构、云、AI 与安全能力的认证组合。",
+        "items": [],
+        "note": "LinkedIn 目前有未登录抓取限制（authwall）。你提供认证清单或导出后，我会准确补全全部认证。"
       },
       "pmx": {
         "eyebrow": "Program Matrix",
@@ -343,6 +377,8 @@
         "title": "工作總結看板",
         "nav": {
           "overview": "概覽",
+          "profile": "個人簡介",
+          "certifications": "認證",
           "pmx": "PMX 詳情",
           "solutionBuild": "Solution Build",
           "activities": "組織活動",
@@ -368,6 +404,21 @@
           { "value": "34", "label": "活動型夥伴賦能專案" },
           { "value": ">= $1.51M", "label": "可見年度化 pipeline" }
         ]
+      },
+      "profile": {
+        "eyebrow": "個人簡介",
+        "name": "Charles DENG",
+        "title": "微軟高級夥伴解決方案架構師",
+        "summary": "資深雲解決方案架構師，擁有 11 年以上全球企業雲生態轉型經驗。專注將自主 AI Agent 與多智能體協同編排整合，統一合規、安全與營運韌性。可交付高效能、低延遲的多雲架構，並透過 AI 自優化實現可量化的成本節省與規模化監管就緒。",
+        "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
+        "avatarPath": "profile-avatar.svg"
+      },
+      "certifications": {
+        "eyebrow": "專業資質",
+        "title": "Certifications",
+        "intro": "涵蓋解決方案架構、雲、AI 與安全能力的認證組合。",
+        "items": [],
+        "note": "LinkedIn 目前有未登入抓取限制（authwall）。你提供認證清單或匯出後，我會精準補全全部認證。"
       },
       "pmx": {
         "eyebrow": "Program Matrix",

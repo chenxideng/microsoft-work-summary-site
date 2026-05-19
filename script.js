@@ -71,6 +71,30 @@ function renderActivities(items) {
     .join('');
 }
 
+function renderCertifications(items) {
+  const list = document.getElementById('certifications-list');
+  if (!list) {
+    return;
+  }
+
+  if (!Array.isArray(items) || items.length === 0) {
+    list.innerHTML = '';
+    return;
+  }
+
+  list.innerHTML = items
+    .map(
+      (item) => `
+        <article class="card cert-card">
+          <p class="tag">${item.issuer || 'Certification'}</p>
+          <h3>${item.name}</h3>
+          <p>${item.meta || ''}</p>
+          ${item.url ? `<a class="cert-link" href="${item.url}" target="_blank" rel="noreferrer">View credential</a>` : ''}
+        </article>`
+    )
+    .join('');
+}
+
 function renderList(listId, values) {
   const list = document.getElementById(listId);
   if (!list || !Array.isArray(values)) {
@@ -124,6 +148,8 @@ function applyLocale(data, locale) {
   setText('brand-label', localized.site?.brandLabel);
   setText('site-title', localized.site?.title);
   setText('nav-overview', localized.site?.nav?.overview);
+  setText('nav-profile', localized.site?.nav?.profile);
+  setText('nav-certifications', localized.site?.nav?.certifications);
   setText('nav-pmx', localized.site?.nav?.pmx);
   setText('nav-solution-build', localized.site?.nav?.solutionBuild);
   setText('nav-activities', localized.site?.nav?.activities);
@@ -135,6 +161,41 @@ function applyLocale(data, locale) {
   setText('overview-description', localized.overview?.description);
   setText('metrics-title', localized.overview?.metricsTitle);
   renderMetricList('metrics-list', localized.overview?.metrics);
+
+  setText('profile-eyebrow', localized.profile?.eyebrow);
+  setText('profile-name', localized.profile?.name);
+  setText('profile-title', localized.profile?.title);
+  setText('profile-summary', localized.profile?.summary);
+
+  const profileLink = document.getElementById('profile-linkedin');
+  if (profileLink && localized.profile?.linkedinUrl) {
+    profileLink.href = localized.profile.linkedinUrl;
+  }
+
+  const profileAvatar = document.getElementById('profile-avatar');
+  const profileFallback = document.getElementById('profile-avatar-fallback');
+  if (profileAvatar) {
+    const avatarPath = localized.profile?.avatarPath || 'profile-avatar.png';
+    profileAvatar.src = avatarPath;
+    profileAvatar.onerror = () => {
+      profileAvatar.style.display = 'none';
+      if (profileFallback) {
+        profileFallback.style.display = 'grid';
+      }
+    };
+    profileAvatar.onload = () => {
+      profileAvatar.style.display = 'block';
+      if (profileFallback) {
+        profileFallback.style.display = 'none';
+      }
+    };
+  }
+
+  setText('certifications-eyebrow', localized.certifications?.eyebrow);
+  setText('certifications-title', localized.certifications?.title);
+  setText('certifications-intro', localized.certifications?.intro);
+  setText('certifications-note', localized.certifications?.note);
+  renderCertifications(localized.certifications?.items);
 
   setText('pmx-eyebrow', localized.pmx?.eyebrow);
   setText('pmx-title', localized.pmx?.title);

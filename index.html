@@ -7,7 +7,7 @@
   <meta name="description" content="Microsoft-style work summary dashboard with PMX detail, solution build metrics, and partner activity summaries." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -28,6 +28,8 @@
     <div class="header-actions">
       <nav class="top-nav">
         <a href="#overview" id="nav-overview">Overview</a>
+        <a href="#profile" id="nav-profile">Profile</a>
+        <a href="#certifications" id="nav-certifications">Certifications</a>
         <a href="#pmx" id="nav-pmx">PMX Detail</a>
         <a href="#solution-build" id="nav-solution-build">Solution Build</a>
         <a href="#activities" id="nav-activities">Activities</a>
@@ -59,6 +61,34 @@
           <li class="metric-card"><span>81</span><p>PMX projects in the workbook</p></li>
         </ul>
       </div>
+    </section>
+
+    <section id="profile" class="section reveal">
+      <div class="section-head">
+        <p id="profile-eyebrow" class="eyebrow">Personal Profile</p>
+        <h2 id="profile-name">Charles DENG</h2>
+      </div>
+      <article class="card profile-card">
+        <div class="profile-avatar-shell">
+          <img id="profile-avatar" class="profile-avatar" src="profile-avatar.svg" alt="Charles DENG portrait" loading="lazy" />
+          <span id="profile-avatar-fallback" class="profile-avatar-fallback">CD</span>
+        </div>
+        <div class="profile-content">
+          <h3 id="profile-title">Senior Partner Solution Architect at Microsoft</h3>
+          <p id="profile-summary" class="section-intro">Senior Cloud Solutions Architect with 11+ years transforming global enterprise cloud ecosystems.</p>
+          <a id="profile-linkedin" class="linkedin-link" href="https://www.linkedin.com/in/charles-d-7417186b/" target="_blank" rel="noreferrer">LinkedIn profile</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="certifications" class="section reveal">
+      <div class="section-head">
+        <p id="certifications-eyebrow" class="eyebrow">Professional Credentials</p>
+        <h2 id="certifications-title">Certifications</h2>
+        <p id="certifications-intro" class="section-intro">Verified and continuously updated professional certifications.</p>
+      </div>
+      <div id="certifications-list" class="cards two-col"></div>
+      <p id="certifications-note" class="detail-note"></p>
     </section>
 
     <section id="pmx" class="section reveal">
