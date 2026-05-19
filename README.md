@@ -25,7 +25,7 @@ No HTML edits are needed for regular content updates.
 ## One-Command Deploy To Azure VM
 
 ```powershell
-.\deploy-to-vm.ps1 -Password "<vm-password>"
+.\deploy-to-vm.ps1 -Password (Read-Host "VM password" -AsSecureString)
 ```
 
 This uploads the latest files to `/home/charles/microsoft-workspace`, installs dependencies if needed, and restarts the `microsoft-workspace.service` process.

@@ -1,14 +1,16 @@
 param(
-  [string]$VmHost = "57.158.25.229",
+  [string]$VmAddress = "57.158.25.229",
   [string]$User = "charles",
   [Parameter(Mandatory = $true)]
-  [string]$Password,
+  [securestring]$Password,
   [string]$RemotePath = "/home/charles/microsoft-workspace"
 )
 
 $ErrorActionPreference = "Stop"
 $plink = "C:\Program Files\PuTTY\plink.exe"
 $pscp = "C:\Program Files\PuTTY\pscp.exe"
+$passwordBstr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($Password)
+$passwordPlain = [Runtime.InteropServices.Marshal]::PtrToStringAuto($passwordBstr)
 
 $files = @(
   "index.html",
@@ -25,7 +27,15 @@ if (-not $existingFiles) {
   throw "No deployable files found in current folder."
 }
 
-& $pscp -batch -pw $Password @existingFiles "${User}@${VmHost}:${RemotePath}/"
-& $plink -ssh -batch -l $User -pw $Password $VmHost "cd $RemotePath && npm install --omit=dev && echo '$Password' | sudo -S systemctl restart microsoft-workspace.service && systemctl is-active microsoft-workspace.service"
+try {
+  $remoteTarget = "{0}@{1}:{2}/" -f $User, $VmAddress, $RemotePath
+  & $pscp -batch -pw $passwordPlain @existingFiles $remoteTarget
+  & $plink -ssh -batch -l $User -pw $passwordPlain $VmAddress "cd $RemotePath && npm install --omit=dev && echo '$passwordPlain' | sudo -S systemctl restart microsoft-workspace.service && systemctl is-active microsoft-workspace.service"
+}
+finally {
+  if ($passwordBstr -ne [IntPtr]::Zero) {
+    [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($passwordBstr)
+  }
+}
 
-Write-Host "Deployment completed to ${VmHost}:${RemotePath}"
+Write-Host ("Deployment completed to {0}:{1}" -f $VmAddress, $RemotePath)
