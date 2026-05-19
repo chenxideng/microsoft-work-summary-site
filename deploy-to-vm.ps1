@@ -14,9 +14,11 @@ $passwordPlain = [Runtime.InteropServices.Marshal]::PtrToStringAuto($passwordBst
 
 $files = @(
   "index.html",
+  "profile.html",
   "styles.css",
   "script.js",
   "content.json",
+  "profile-avatar.svg",
   "package.json",
   "server.js",
   "README.md",
