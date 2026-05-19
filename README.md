@@ -11,6 +11,25 @@ npm start
 
 Open http://localhost:8080
 
+## Update Website Content
+
+Edit only `content.json` to update:
+- Header and nav labels
+- Overview copy and key metrics
+- PMX project cards
+- Activity timeline
+- Next phase roadmap
+
+No HTML edits are needed for regular content updates.
+
+## One-Command Deploy To Azure VM
+
+```powershell
+.\deploy-to-vm.ps1 -Password "<vm-password>"
+```
+
+This uploads the latest files to `/home/charles/microsoft-workspace`, installs dependencies if needed, and restarts the `microsoft-workspace.service` process.
+
 ## Push to GitHub
 
 1. Create an empty repository on GitHub, for example: `microsoft-work-summary-site`
