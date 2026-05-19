@@ -3,6 +3,464 @@
   "workbook": {
     "path": "pmx-workbook.html"
   },
+  "solutionBuildDetail": {
+    "projects": [
+      { "date": "1/5/26",  "partner": "Synnex",    "type": "Practice Offer", "name": "Infra and Database Migration to Microsoft Azure",                    "status": "OA", "achievement": "Offer Activation",                                                                                              "marketplace": null },
+      { "date": "2/14/26", "partner": "Synnex",    "type": "Service Offer",  "name": "Azure Migration Service: 3-week implementation",                     "status": "OA", "achievement": "Offer Activation by 3 win cases · GIFI Asian Limited $120K/yr · HKMU OBSA $135K/yr · AstroX Labs $960K/yr · Est. $1.5M ACR/yr", "marketplace": "Azure Migration Offer — Microsoft Marketplace" },
+      { "date": "2/14/26", "partner": "Synnex",    "type": "Service Offer",  "name": "Azure Cloud Security: 1-week security assessment",                   "status": "OA", "achievement": "Offer Activation by 3 win cases · E Fund Mgmt 3K · Tetras AI HK 3K · Bing Tech Global 3K · Est. 60K",                       "marketplace": "Azure Cloud Security One Week Security Assessment — Microsoft Marketplace" },
+      { "date": "2/29/26", "partner": "Insight",   "type": "IP Offer",       "name": "ASK IT Platform",                                                    "status": "OA", "achievement": "Offer Activation by 3 win cases · Chervon, ICA, ETS total 140K · 1 awaiting est 30K · Est. $300K ACR/yr",                       "marketplace": null },
+      { "date": "3/10/26", "partner": "Eastech",   "type": "IP Offer",       "name": "KnowledgeWiz (Internal RAG bot)",                                    "status": "OA", "achievement": "Offer Activation by 3 signed customers · HSH 40K · Building King 40K · VG 40K · Est. $360K ACR/yr",                              "marketplace": null },
+      { "date": "3/26/26", "partner": "Superhub",  "type": "IP Offer",       "name": "DB Insight Platform",                                                "status": "OA", "achievement": "Offer Activation by 3 win cases · Hayco 76K · YFY Jupiter 58K · Artiso Education 44K · Est. $250K ACR/yr",                      "marketplace": null },
+      { "date": "4/3/26",  "partner": "Synnex",    "type": "Service Offer",  "name": "GitHub Copilot 1-Day Hands-On Workshop",                             "status": "OA", "achievement": "Offer Activation by 4 win cases · 上海凯世通 35 · 西域智慧供应链 65 · 上海它石智航 100 · 上海英恒 10 seats · 64.26K USD/yr",                         "marketplace": "GitHub Copilot 1 Day Hands-On Workshop — Microsoft Marketplace" },
+      { "date": "4/30/26", "partner": "Xenus",     "type": "Practice Offer", "name": "Infra and Database Migration to Microsoft Azure",                    "status": "OA", "achievement": "Offer Activation",                                                                                                              "marketplace": null },
+      { "date": "5/5/26",  "partner": "Eastech",   "type": "Practice Offer", "name": "AI Platform on Microsoft Azure",                                     "status": "OA", "achievement": "Offer Activation",                                                                                                              "marketplace": null },
+      { "date": "2/23/26", "partner": "Superhub",  "type": "Service Offer",  "name": "Cloud Migration Assessment (POV)",                                   "status": "OV", "achievement": "9 signed customers",                                                                                                            "marketplace": null },
+      { "date": "3/16/26", "partner": "CMI",       "type": "IP Offer",       "name": "AI Hub Platform",                                                    "status": "OV", "achievement": "In validation",                                                                                                                 "marketplace": null },
+      { "date": "4/1/26",  "partner": "Xenus",     "type": "IP Offer",       "name": "AdminMate EDU — Kindergarten Staff Operations AI Platform (HK)",     "status": "OV", "achievement": "In validation",                                                                                                                 "marketplace": null },
+      { "date": "4/1/26",  "partner": "Xenus",     "type": "IP Offer",       "name": "CollabMate NGO — AI-powered Collaboration & Operations for NGOs",    "status": "OV", "achievement": "In validation",                                                                                                                 "marketplace": null },
+      { "date": "4/8/26",  "partner": "Superhub",  "type": "Service Offer",  "name": "Azure Landing Zone Design and Implementation",                       "status": "OV", "achievement": "1 signed customer",                                                                                                             "marketplace": null },
+      { "date": "4/10/26", "partner": "Eastech",   "type": "IP Offer",       "name": "AI Email Workbench Agent (RPA)",                                     "status": "OV", "achievement": "1 signed (HSH) · 2 PoC (SGS, World-link)",                                                                                      "marketplace": null },
+      { "date": "4/10/26", "partner": "Eastech",   "type": "IP Offer",       "name": "Finance Reconciliation Agent",                                       "status": "OV", "achievement": "2 PoC (HKSTP, GE)",                                                                                                              "marketplace": null }
+    ],
+    "deepDives": [
+      {
+        "id": "ask-it",
+        "title": "ASK IT Platform",
+        "partner": "Insight",
+        "solutionArea": "Cloud & AI Platform",
+        "geography": "GCR",
+        "activationMotion": "Microsoft Partner Marketplace (WIP) + Joint GTM",
+        "activationTiming": "Launch Feb 2026, aligned with Frontier Firm motion and scaled execution in H2 FY26",
+        "revenueOutlook": "Est. $300K per year ongoing ACR. MCI-eligible, 3:1 pro/post-sales ratio met. 4 total pipelines, 3 signed (Chervon, ICA, ETS total 140K), 1 awaiting (est 30K ACR).",
+        "summary": "ASK IT is a modular, enterprise-grade IT Support Copilot platform designed to modernize and scale enterprise IT service operations using Microsoft Cloud & AI. Employees interact with IT systems through natural language while preserving enterprise security, governance, and compliance. Built as a platform — not a point tool — it unifies intelligent Q&A, enterprise knowledge search, secure execution of IT workflows, and native embedding within Microsoft Teams, all within the Microsoft trust boundary.",
+        "phases": [
+          { "title": "Pioneer Innovation", "body": "Focused on shaping the right product direction, not selling AI features. Led technical workshops and architecture deep dives to align Insight roadmap with CAIP strategy. Established ASK IT as an enterprise IT platform with clear security, governance, and enterprise-readiness boundaries, positioning Microsoft Teams as the primary user entry point." },
+          { "title": "Commit to Build",    "body": "Qualified scalable IT support scenarios suitable for automation. Conducted architecture reviews aligned with enterprise security and governance, designed modular repeatable components, and ensured integration patterns respect identity, permissions, and compliance — transforming ASK IT from concept into a production-ready enterprise solution." },
+          { "title": "Build to Consume",   "body": "Turned the solution into a repeatable, consumption-driven offer. Enabled consistent multi-customer delivery, embedded ASK IT into Microsoft Teams to reduce adoption friction, ensured extensibility via standardized integrations, and positioned the offer for Marketplace and Joint GTM execution at scale." }
+        ],
+        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Mira Zou", "role": "PDM" } ],
+        "photos": ["solution-build-photos/slide03-01.png", "solution-build-photos/slide03-02.png"]
+      },
+      {
+        "id": "db-insight",
+        "title": "DB Insight Platform",
+        "partner": "Superhub",
+        "solutionArea": "Cloud & AI Platform",
+        "geography": "GCR",
+        "activationMotion": "Microsoft Partner Marketplace + Joint GTM",
+        "activationTiming": "Launch Feb 2026, aligned with Frontier Firm motion and scaled execution in H2 FY26",
+        "revenueOutlook": "Est. $250K annual ongoing ACR. MCI-eligible, 3:1 pro/post-sales ratio met. 3 signed deals (Hayco 76K, YFY Jupiter 58K, Artiso Education 44K, total 178K annual).",
+        "summary": "DB Insight is a modular, enterprise-grade AI analytics and decision platform that bridges structured enterprise data with generative AI and autonomous agents. A DB Semantic AI layer transforms raw enterprise data into governed, semantically enriched, AI-consumable knowledge. Unlike traditional BI dashboards or isolated RAG chatbots, DB Insight converts business questions directly into trusted insights and live dashboards with full control over cost, security, governance, and usage.",
+        "phases": [
+          { "title": "Pioneer Innovation", "body": "Shaped Superhub's technical and product direction (not SKUs). Led technical workshops and architecture deep dives to align their roadmap with CAIP strategy. Positioned Copilot, Azure OpenAI, and CAIP as the foundation for decision intelligence; helped identify Build-to-Consume scenarios with clear business ownership; ran hands-on enablement to raise architect intensity." },
+          { "title": "Commit to Build",    "body": "Drove disciplined execution: qualified real scenarios, filtered non-scalable use cases, ran architecture reviews aligned to Microsoft well-architected and AI governance frameworks. Structured the build plan including PoC scope, partner skilling, and Marketplace/GTM readiness checkpoints. Used PoC as validation gates, not demos." },
+          { "title": "Build to Consume",   "body": "Guided Superhub through MVP build support, offer validation, and commercial readiness. Supported Marketplace IP-offer positioning and service commercialization aligned to Microsoft GTM motions. Enabled consistent multi-customer delivery, removed adoption blockers early, and measured success through new customer wins, expansion signals, and usage growth." }
+        ],
+        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Dolly Yu", "role": "PDM" } ],
+        "photos": ["solution-build-photos/slide04-01.jpeg", "solution-build-photos/slide04-02.png"]
+      },
+      {
+        "id": "github-copilot",
+        "title": "GitHub Copilot 1-Day Hands-On Workshop",
+        "partner": "Synnex",
+        "solutionArea": "Cloud & AI Platform",
+        "geography": "GCR",
+        "activationMotion": "Microsoft Partner Marketplace + Joint GTM",
+        "activationTiming": "Launch Apr 2026, aligned with Frontier Distributor motion and scaled execution in H2 FY26",
+        "revenueOutlook": "Est. $100K USD per year ongoing ACR. MCI-eligible, 3:1 pro/post-sales ratio met. 4 signed deals (上海凯世通 35× GitHub Enterprise + 35× Copilot Business, 西域智慧供应链 65 seats, 上海它石智航 100 seats, 上海英恒 10 seats).",
+        "summary": "An executive-ready, outcome-focused enablement offer that moves teams from awareness to practical adoption in a single day. Led by PSAs, the workshop combines concise positioning with immersive hands-on labs so developers and technical leaders can apply Copilot in real coding scenarios — accelerating code writing, refactoring, and debugging while addressing responsible usage, governance, and integration with GitHub and CI/CD pipelines.",
+        "phases": [
+          { "title": "Pioneer Innovation", "body": "Took primary ownership of early-stage enablement and strategic alignment. Led structured workshops, hands-on technical training, and solution-vision sessions to build partner capability and confidence beyond product knowledge — focusing on real customer pain points, industry scenarios, and repeatable solution patterns." },
+          { "title": "Commit to Build",    "body": "Hands-on co-building and risk-reduction with partner engineering, delivery, and pre-sales. Provided architectural guidance, reference designs, and design reviews; supported PoV and lighthouse pilots to validate performance, security, scalability, and operational readiness. Refined service scope, pricing, and delivery models to make the offer repeatable, scalable, and supportable." },
+          { "title": "Build to Consume",   "body": "Shifted to GTM activation and revenue acceleration. Supported joint campaigns, customer workshops, sales-play development, and pipeline shaping; aligned messaging to customer outcomes and connected technical value to business impact — turning the co-built solution into a scalable revenue engine." }
+        ],
+        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Dolly Yu", "role": "PDM" } ],
+        "photos": ["solution-build-photos/slide05-01.jpeg", "solution-build-photos/slide05-02.png"]
+      },
+      {
+        "id": "azure-migration",
+        "title": "Azure Migration Service: 3-week implementation",
+        "partner": "Synnex",
+        "solutionArea": "Cloud & AI Platform",
+        "geography": "GCR",
+        "activationMotion": "Microsoft Partner Marketplace + Joint GTM",
+        "activationTiming": "Launch May 2026, aligned with Frontier Firm motion and scaled execution in H2 FY26",
+        "revenueOutlook": "GIFI Asian Limited $120K · Hong Kong Metropolitan University OBSA $135K · AstroX Labs Limited $960K · Est. $1.5M per year ongoing ACR.",
+        "summary": "An executive-ready, outcome-driven offer that helps partners and customers rapidly transition from assessment to production-ready Azure deployment. Combines structured guidance with hands-on delivery to ensure a secure, compliant, scalable Azure foundation — validated landing zones, prioritized workload migrations, governance, cost management, and operational readiness aligned with the Microsoft Cloud Adoption Framework.",
+        "phases": [
+          { "title": "Pioneer Innovation", "body": "Led structured discovery and readiness assessments to evaluate environments, identify migration candidates, and define a prioritized roadmap aligned with business objectives. Focused on real customer constraints — compliance, data residency, operational dependencies — and shaped clear value propositions, quick-win workloads, and migration approaches that are technically feasible and commercially viable." },
+          { "title": "Commit to Build",    "body": "Drove hands-on co-building and execution to accelerate delivery and reduce risk. Provided deep architectural guidance, landing-zone implementation support, and migration best practices: identity, networking, security, governance, monitoring. Supported workload migration execution, validation, and optimization for performance, resilience, and compliance — making the offer repeatable, scalable, and supportable." },
+          { "title": "Build to Consume",   "body": "Shifted to solution activation and revenue acceleration. Supported partners through joint customer engagements, solution workshops, and sales enablement so teams could position and scale the offer. Connected migration value to cost optimization, agility, and AI readiness; built pipeline, reference scenarios, and customer success stories to drive sustained Azure consumption." }
+        ],
+        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Dolly Yu", "role": "PDM" } ],
+        "photos": ["solution-build-photos/slide06-01.jpeg", "solution-build-photos/slide06-02.png"]
+      },
+      {
+        "id": "knowledgewiz",
+        "title": "KnowledgeWiz — Internal RAG bot Agent",
+        "partner": "Eastech",
+        "solutionArea": "Cloud & AI Platform",
+        "geography": "GCR",
+        "activationMotion": "Microsoft Partner Marketplace + Joint GTM",
+        "activationTiming": "Launch Apr 2026, aligned with Frontier Firm motion and scaled execution in H2 FY26",
+        "revenueOutlook": "3 signed customers · HSH 40K USD/yr · Building King 40K USD/yr · VG 40K USD/yr · Est. $360K USD per year ongoing ACR.",
+        "summary": "An enterprise-ready, outcome-driven solution that transforms internal knowledge into a secure, actionable, always-available AI assistant. Built on Azure OpenAI, Azure AI Search, and enterprise-grade governance architecture — combining advanced retrieval, policy-aware access control, and agent-based execution to deliver accurate, citation-backed responses and actionable outcomes while ensuring data security, compliance, and measurable impact.",
+        "phases": [
+          { "title": "Pioneer Innovation", "body": "Led structured discovery and knowledge-readiness assessments with Eastech to evaluate existing repositories, identify high-value use cases, and define a prioritized roadmap. Focused on document ecosystems (SOPs, policies, manuals, compliance) and assessed retrieval gaps, accuracy, and trust — shaping value propositions that turn internal knowledge into a secure, permission-aware AI assistant." },
+          { "title": "Commit to Build",    "body": "Drove hands-on co-building of a production-ready RAG system: hybrid search, policy-aware security trimming, grounded answer generation with citation validation, evaluation frameworks, observability pipelines, and guardrails. Designed the agent layer for actionable workflows integrated with enterprise systems (ticketing, automation) — reducing delivery risk and ensuring response accuracy and trust." },
+          { "title": "Build to Consume",   "body": "Shifted to activation, adoption, and scaling. Positioned KnowledgeWiz as business-critical capability across HR support, IT ops, compliance advisory, and customer service. Connected technical capabilities to productivity, reduced operational risk, and faster decision-making; supported continuous optimization via feedback loops, usage analytics, and model tuning." }
+        ],
+        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Jonathan Lin", "role": "PDM" } ],
+        "photos": ["solution-build-photos/slide07-01.jpeg"]
+      }
+    ]
+  },
+  "enablement": {
+    "events": [
+      {
+        "id": "e02",
+        "title": "Microsoft Solution Day Co-hosted with HSBC",
+        "subtitle": "A High-Profile Co-hosted Event",
+        "date": "May 6, 2026",
+        "registered": 242,
+        "actual": 138,
+        "actualPercent": "57%",
+        "leads": 18,
+        "summary": "This high-profile co-hosted event with HSBC successfully positioned Microsoft as a leader in AI development trends, empowering partners to showcase cutting-edge solutions like Azure Data & AI platform and Copilot to a broad audience of potential clients.",
+        "highlights": [
+          "Successfully co-hosted a high-profile event, attracting a large audience of potential clients and partners.",
+          "Showcased Microsoft AI trends, Copilot, and Dynamics 365 solutions.",
+          "Generated 18 promising sales pipelines."
+        ],
+        "nextSteps": [
+          "Aligned Microsoft innovation with HSBC market leadership effectively.",
+          "Establishes a strong foundation for future co-hosted initiatives with key partners."
+        ],
+        "photos": ["enablement-photos/event02-01.png", "enablement-photos/event02-02.jpeg", "enablement-photos/event02-03.jpeg"]
+      },
+      {
+        "id": "e03",
+        "title": "HK AI Tour: CAIP Readiness Briefing",
+        "subtitle": "Empowering Partners for Client Engagements",
+        "date": "Apr 13, 2026",
+        "registered": 45,
+        "actual": 28,
+        "actualPercent": "62%",
+        "leads": 34,
+        "summary": "This focused briefing equipped partners with the essential knowledge and materials to confidently address client inquiries during the HK AI Tour, directly boosting their readiness and ability to generate sales opportunities.",
+        "highlights": [
+          "Equipped partners with tools to address client inquiries.",
+          "Generated an impressive 34 sales pipelines.",
+          "Strengthened partner expertise in Microsoft CAIP."
+        ],
+        "nextSteps": [
+          "High pipeline rate (121%) validates targeted enablement.",
+          "Continue pre-event readiness sessions for partner success."
+        ],
+        "photos": ["enablement-photos/event03-01.png"]
+      },
+      {
+        "id": "e04",
+        "title": "GitHub Copilot Training for Synnex 2T Partner",
+        "subtitle": "Delivering Tangible Business Value",
+        "date": "Apr 10, 2026",
+        "registered": 14,
+        "actual": 8,
+        "actualPercent": "57%",
+        "leads": 6,
+        "summary": "Targeted technical training for a key partner, Shanghai He Qing Info Technology, directly translated into enhanced developer productivity and tangible business outcomes, demonstrating the direct ROI of upskilling partners on Microsoft developer tools.",
+        "highlights": [
+          "Delivered targeted training for Shanghai He Qing Info Tech.",
+          "Generated 6 new sales pipelines and secured 4 direct signed contracts.",
+          "Proved tangible value of Copilot for partner revenue."
+        ],
+        "nextSteps": [
+          "4 of 8 attendees converted to contracts, proving high value.",
+          "Expand high-touch training model to other key partners.",
+          "Leverage success story for further partner outreach."
+        ],
+        "photos": ["enablement-photos/event04-01.jpeg"]
+      },
+      {
+        "id": "e05",
+        "title": "Fabric Analyst Train the Trainer (TTT) in a Day",
+        "subtitle": "Building a Skilled Partner Ecosystem",
+        "date": "Apr 2, 2026",
+        "registered": 34,
+        "actual": 29,
+        "actualPercent": "85%",
+        "leads": 12,
+        "summary": "This intensive Train-the-Trainer workshop built a core group of certified Fabric analysts within the partner community, enabling them to independently deliver training and drive adoption of Microsoft unified data analytics platform.",
+        "highlights": [
+          "Empowered partners to become certified Fabric trainers.",
+          "Hands-on labs deepened practical Fabric platform experience.",
+          "Generated 12 sales pipelines and built skilled partner trainers."
+        ],
+        "nextSteps": [
+          "85% attendance reflects strong partner training interest.",
+          "TTT model is critical for scaling reach; expand to other products."
+        ],
+        "photos": ["enablement-photos/event05-01.png", "enablement-photos/event05-02.jpeg", "enablement-photos/event05-03.png"]
+      },
+      {
+        "id": "e06",
+        "title": "Microsoft x Synnex M365 Level Up Event",
+        "subtitle": "Amplifying Reach to SMBs",
+        "date": "Mar 26, 2026",
+        "registered": 58,
+        "actual": 39,
+        "actualPercent": "67%",
+        "leads": 9,
+        "summary": "Hosted in a dynamic setting, this event with Synnex effectively showcased the latest M365 capabilities, including Copilot, to a targeted audience, fostering stronger partner-customer relationships and generating new sales leads.",
+        "highlights": [
+          "Co-hosted engaging event with Synnex focusing on M365 productivity and security.",
+          "Featured Copilot and Microsoft Security demos that resonated well with the audience.",
+          "Generated 9 qualified leads and strengthened partnership with Synnex."
+        ],
+        "nextSteps": [
+          "Partnering with distributors is an effective strategy to penetrate the SMB market.",
+          "Continue co-hosting events with Synnex and other key distributors.",
+          "Nurture qualified leads to accelerate sales conversion."
+        ],
+        "photos": ["enablement-photos/event06-01.png", "enablement-photos/event06-02.png", "enablement-photos/event06-03.png"]
+      },
+      {
+        "id": "e07",
+        "title": "China Mobile International AI & Agent Updates",
+        "subtitle": "Strategic Thought Leadership",
+        "date": "Mar 6, 2026",
+        "registered": 161,
+        "actual": 140,
+        "actualPercent": "87%",
+        "leads": 15,
+        "summary": "This strategic session with a major industry player, China Mobile International, provided critical AI competitive strategy insights, enabling partners to align their offerings with market demands and secure significant business wins.",
+        "highlights": [
+          "Successfully delivered a strategic update session to a large audience at CMI.",
+          "Provided AI and Agent insights, generating 15 qualified leads and 2 win cases.",
+          "Strengthened strategic relationship with a key industry player."
+        ],
+        "nextSteps": [
+          "High attendance and direct wins demonstrate value of thought leadership.",
+          "Establish regular strategic update sessions with key enterprise partners."
+        ],
+        "photos": ["enablement-photos/event07-01.png"]
+      },
+      {
+        "id": "e08",
+        "title": "AI Discovery Card Workshop HK",
+        "subtitle": "Building Sustainable AI Practices",
+        "date": "Mar 5, 2026",
+        "registered": 45,
+        "actual": 40,
+        "actualPercent": "89%",
+        "leads": 12,
+        "summary": "This workshop successfully conveyed the critical message that a solid data foundation is key to AI success, empowering partners to build and sell their own Train-the-Trainer service offers around Microsoft data platform.",
+        "highlights": [
+          "Conducted impactful workshop on data foundation for AI.",
+          "Generated 12 pipelines, 1 win, and inspired 2 new partner offers.",
+          "Communicated: with the right data, AI is a revenue engine."
+        ],
+        "nextSteps": [
+          "Partner service creation equals successful knowledge transfer.",
+          "Reuse the AI revenue engine message in future enablement.",
+          "Continue supporting partners in launching new offers."
+        ],
+        "photos": ["enablement-photos/event08-01.png", "enablement-photos/event08-02.jpeg", "enablement-photos/event08-03.jpeg"]
+      },
+      {
+        "id": "e09",
+        "title": "Lenovo Solution Day in Cyberport",
+        "subtitle": "Accelerating AI Adoption for Startups",
+        "date": "Jan 30, 2026",
+        "registered": 188,
+        "actual": 121,
+        "actualPercent": "64%",
+        "leads": 22,
+        "summary": "Partnering with Lenovo at Cyberport, this event effectively demonstrated the synergy between Lenovo AI-ready hardware and Microsoft cloud and AI solutions, creating significant pipeline for both partners and Microsoft.",
+        "highlights": [
+          "Partnered with Lenovo to host a successful Solution Day in Cyberport, focusing on AI-ready hardware and solutions for startups.",
+          "Attracted large audience and generated 22 qualified leads and 2 wins.",
+          "Highlighted synergy between Lenovo hardware and Microsoft AI/cloud."
+        ],
+        "nextSteps": [
+          "The strong partnership with Lenovo creates compelling value propositions for the startup ecosystem.",
+          "Continue to target the startup community with integrated hardware-plus-software solutions."
+        ],
+        "photos": ["enablement-photos/event09-01.png"]
+      },
+      {
+        "id": "e10",
+        "title": "Azure Enablement Bootcamp for Partners",
+        "subtitle": "Investing in a World-Class Partner Ecosystem",
+        "date": "Jan 21, 2026",
+        "registered": 289,
+        "actual": 201,
+        "actualPercent": "70%",
+        "leads": 7,
+        "summary": "This large-scale bootcamp provided deep technical enablement on Azure infrastructure and hybrid cloud solutions, significantly upskilling the partner base and preparing them for complex customer engagements.",
+        "highlights": [
+          "Hosted intensive training for 200+ partner professionals.",
+          "Covered critical hybrid cloud topics to upskill partners.",
+          "Long-term value outweighs short-term pipeline generation."
+        ],
+        "nextSteps": [
+          "Long-term strategic value outweighs short-term metrics.",
+          "Continue investing in foundational technical enablement.",
+          "Build a robust partner ecosystem for future growth."
+        ],
+        "photos": ["enablement-photos/event10-01.jpeg", "enablement-photos/event10-02.png"]
+      },
+      {
+        "id": "e11",
+        "title": "智能 Microsoft Copilot 创新大会",
+        "subtitle": "Driving Significant Sales Momentum",
+        "date": "Dec 18, 2025",
+        "registered": 78,
+        "actual": 56,
+        "actualPercent": "72%",
+        "leads": 29,
+        "summary": "This flagship conference was instrumental in launching the Agentic AI narrative in the market, empowering partners to seize the first-mover advantage in the AI agent space and convert insights into substantial business growth.",
+        "highlights": [
+          "Hosted a successful Copilot conference, attracting strong market interest.",
+          "Generated 29 sales pipelines and 5 win cases.",
+          "Featured prominent speakers and AI Agent strategy insights."
+        ],
+        "nextSteps": [
+          "Strong sales results confirm market appetite for Copilot.",
+          "Leverage success to create a series of Copilot-focused events."
+        ],
+        "photos": ["enablement-photos/event11-01.png", "enablement-photos/event11-02.jpeg", "enablement-photos/event11-03.jpeg"]
+      },
+      {
+        "id": "e12",
+        "title": "Partner AI Frontier Academy — Ignite Recap",
+        "subtitle": "Equipping Top Partners for Substantial Growth",
+        "date": "Dec 17, 2025",
+        "registered": 221,
+        "actual": 196,
+        "actualPercent": "89%",
+        "leads": 39,
+        "summary": "As the largest and most successful event in this series, the AI Frontier Academy provided partners with a comprehensive update on cloud-native technologies like AKS, directly fueling a substantial pipeline and numerous closed deals.",
+        "highlights": [
+          "Flagship event attracting nearly 200 partners for AI training.",
+          "39 sales pipelines and 12 deals closed directly from the event.",
+          "Covered advanced AKS and cloud-native topics, boosting expertise."
+        ],
+        "nextSteps": [
+          "Exceptional win rate (12 wins from 196 attendees) proves value.",
+          "Make AI Frontier Academy an annual flagship event.",
+          "Continue upskilling top partners for sustainable growth."
+        ],
+        "photos": ["enablement-photos/event12-01.png", "enablement-photos/event12-02.png"]
+      },
+      {
+        "id": "e13",
+        "title": "联强携手出海合作伙伴推动 Azure 增长新机遇",
+        "subtitle": "Unlocking Growth in Overseas Markets",
+        "date": "Dec 16, 2025",
+        "registered": 48,
+        "actual": 39,
+        "actualPercent": "81%",
+        "leads": 19,
+        "summary": "This event with Synnex focused on empowering partners for overseas expansion, providing them with the tools and knowledge to leverage Azure and capture new growth opportunities in international markets.",
+        "highlights": [
+          "Partnered with Synnex to host a focused event on leveraging Azure for overseas business growth.",
+          "Generated 19 sales pipelines and 5 win cases, demonstrating strong demand for Azure solutions in cross-border business.",
+          "Strengthened strategic partnership with Synnex in international expansion."
+        ],
+        "nextSteps": [
+          "Strong results validate demand for Azure solutions in the overseas business segment.",
+          "Deepen collaboration with Synnex to create more targeted programs for partners looking to expand internationally."
+        ],
+        "photos": ["enablement-photos/event13-01.png", "enablement-photos/event13-02.jpeg", "enablement-photos/event13-03.jpeg"]
+      },
+      {
+        "id": "e14",
+        "title": "SME AI Transformation Workshop",
+        "subtitle": "Empowering SMEs for Digital Economy",
+        "date": "Dec 12, 2025",
+        "registered": 128,
+        "actual": 75,
+        "actualPercent": "59%",
+        "leads": 18,
+        "summary": "This workshop specifically addressed the AI transformation needs of SMEs, positioning Microsoft and its partners as the go-to experts for driving human-AI collaboration and outsmarting the future for small and medium-sized businesses.",
+        "highlights": [
+          "Hosted targeted workshop for SMEs focusing on Human-AI collaboration and leveraging Microsoft solutions for digital transformation.",
+          "Generated 18 sales pipelines and 5 win cases, effectively tapping into the SME market.",
+          "Provided insights on Azure AI trends, AI+Cloud synergy, and Dynamics 365."
+        ],
+        "nextSteps": [
+          "The SME market represents a significant growth opportunity for Microsoft solutions.",
+          "Develop a series of workshops specifically tailored to SME needs to build a sustainable pipeline."
+        ],
+        "photos": ["enablement-photos/event14-01.png", "enablement-photos/event14-02.png", "enablement-photos/event14-03.jpeg"]
+      },
+      {
+        "id": "e15",
+        "title": "走进 AI 最前线：探索微软孵化生态 (香港)",
+        "subtitle": "Into the Frontline of AI",
+        "date": "Dec 11, 2025",
+        "registered": 48,
+        "actual": 41,
+        "actualPercent": "85%",
+        "leads": null,
+        "summary": "Connecting visionary startups with Microsoft AI ecosystem to accelerate innovation and build the next generation of intelligent solutions.",
+        "highlights": [
+          "Provided a deep dive into Microsoft AI and incubation landscape for local startups.",
+          "Featured a demo tour of cutting-edge technologies and insightful sessions on Agentic AI and Azure trends.",
+          "Successfully brought together startups, Microsoft experts, and industry leaders to exchange ideas."
+        ],
+        "nextSteps": [
+          "Strengthened the connection between Microsoft resources and the Hong Kong startup ecosystem.",
+          "The high attendance rate (85%) indicates strong interest in such collaborative events."
+        ],
+        "photos": ["enablement-photos/event15-01.png", "enablement-photos/event15-02.jpeg", "enablement-photos/event15-03.jpeg"]
+      },
+      {
+        "id": "e16",
+        "title": "Synnex 内部销售培训",
+        "subtitle": "Empowering Sales Teams with AI Expertise",
+        "date": "Dec 2, 2025",
+        "registered": 38,
+        "actual": 32,
+        "actualPercent": "84%",
+        "leads": 13,
+        "summary": "Empowering our valued partner Synnex with deep AI expertise to transform their sales approach and drive measurable business success.",
+        "highlights": [
+          "Conducted a targeted virtual training on Microsoft latest AI solutions.",
+          "Covered end-to-end agentic AI lifecycle, enhancing new business identification.",
+          "Generated 13 qualified sales pipelines and closed 5 deals."
+        ],
+        "nextSteps": [
+          "Direct impact (13 pipelines, 5 wins) proves effectiveness of upskilling partners.",
+          "Plan regular, targeted training sessions for key partners to maintain competitive edge."
+        ],
+        "photos": ["enablement-photos/event16-01.png"]
+      },
+      {
+        "id": "e17",
+        "title": "Analytics with Microsoft Fabric — Project Ready",
+        "subtitle": "Building Partner Capabilities for Advanced Analytics",
+        "date": "Nov 12–13, 2025",
+        "registered": 58,
+        "actual": 37,
+        "actualPercent": "64%",
+        "leads": 14,
+        "summary": "Building partner capabilities in Microsoft Fabric to unlock the full potential of data and deliver impactful analytics solutions to the market.",
+        "highlights": [
+          "Provided hands-on Fabric training and certification readiness.",
+          "Intensive workshop ensured participants were Project Ready.",
+          "Generated 14 qualified leads and 5 new analytics-focused wins."
+        ],
+        "nextSteps": [
+          "Successfully equipped partners to tackle real-world Fabric data challenges.",
+          "14 leads and 5 wins validate strong market demand for Fabric expertise.",
+          "Continue nurturing leads and supporting partner project delivery."
+        ],
+        "photos": ["enablement-photos/event17-01.jpeg", "enablement-photos/event17-02.png"]
+      }
+    ]
+  },
   "stats": {
     "pmx": {
       "totalProjects": 81,
@@ -29,7 +487,7 @@
           "certifications": "Certifications",
           "pmx": "PMX Detail",
           "solutionBuild": "Solution Build",
-          "activities": "Activities",
+          "activities": "Partner Enablement",
           "next": "Next Steps"
         },
         "footer": "© 2026 Microsoft Work Summary • Built for quarterly and annual review"
@@ -39,10 +497,10 @@
         "impact": "Impact",
         "buttonPmx": "View PMX detail",
         "buttonSolutionBuild": "View Solution Build",
-        "buttonActivities": "View activities"
+        "buttonActivities": "View Partner enablement event"
       },
       "overview": {
-        "eyebrow": "FY Summary",
+        "eyebrow": "FY26 Summary",
         "title": "Build → Win → Scale Mission",
         "description": "What I have built is not a series of short-term wins, but a sustainable partner growth engine for AI and Data. This engine integrates strategic focus, conversion mechanisms, solution standardization, and ecosystem expansion into a cohesive system, validated by measurable pipeline, consumption, and revenue outcomes. Ultimately, my core contribution lies in enabling partners to succeed and, through their success, driving scalable and sustained growth while amplifying Microsoft's value across the ecosystem.",
         "metricsTitle": "Key metrics",
@@ -83,7 +541,7 @@
       "pmx": {
         "eyebrow": "Program Matrix",
         "title": "PMX project detail",
-        "intro": "The embedded workbook below keeps the PMX source detail in one place for direct verification.",
+        "intro": "I deliberately shifted my focus from “task execution” to “building systems that continuously amplify outcomes.” This transformation also led me to redefine my role within the partner ecosystem: not merely as a technical supporter, but as a catalyst who enables partners to succeed and, through their success, amplifies Microsoft’s impact. This aligns closely with Microsoft’s core value that success is measured not only by what we achieve individually, but by how effectively we empower others to achieve more. Meanwhile, as a technically focused Partner Solution Architect, I became increasingly convinced that sustainable growth must be grounded in deep technical capabilities and scalable solution design.",
         "metricsTitle": "Workbook snapshot",
         "metrics": [
           { "value": "81", "label": "Projects total" },
@@ -91,22 +549,7 @@
           { "value": "19", "label": "In progress" },
           { "value": "2", "label": "Not started" }
         ],
-        "projects": [
-          {
-            "tag": "Coverage",
-            "name": "Workbook-wide PMX view",
-            "description": "The export spans 81 projects and keeps the status model clean enough to track delivery health directly from the data.",
-            "status": "0 inconsistencies",
-            "impact": "162 deliverables / 175 tasks"
-          },
-          {
-            "tag": "Signal",
-            "name": "Structured delivery signals",
-            "description": "Project data is normalized into counts, status buckets, and representative highlights that can be reused in reviews.",
-            "status": "Ready for reporting",
-            "impact": "Built from attachment data"
-          }
-        ],
+        "projects": [],
         "detailTitle": "Embedded PMX workbook",
         "detailDescription": "The iframe below loads the PMX workbook directly from the site root.",
         "detailNote": "Source file: pmx-workbook.html (synced from your PMX export)."
@@ -114,6 +557,7 @@
       "solutionBuild": {
         "eyebrow": "Solution Build",
         "title": "Solution Build summary",
+        "viewAllLabel": "View all 16 offer activations →",
         "intro": "I shifted focus from project execution to capability industrialization. I led the development of 13 standardized AI and Data solution plays, each with clearly defined architectures, deployment models, and value propositions, enabling partners to replicate and deliver consistently. To date, 5 solution offers have been activated.",
         "metricsTitle": "Key numbers",
         "metrics": [
@@ -172,6 +616,7 @@
           { "value": "138", "label": "Customer engagements" },
           { "value": "USD 2.1M", "label": "Pipeline" }
         ],
+        "viewAllLabel": "View all 16 enablement events \u2192",
         "items": [
           {
             "name": "Targeted engagement execution",
@@ -189,6 +634,65 @@
             "role": "Impact: scalable and sustained growth"
           }
         ]
+      },
+      "enablement": {
+        "eyebrow": "Partner Enablement",
+        "pageTitle": "Partner enablement events",
+        "title": "16 enablement events I led in FY26",
+        "intro": "A complete review of the partner enablement events I designed, hosted, or delivered between November 2025 and May 2026 \u2014 each one anchored in a concrete solution architecture, technical pathway, or industry scenario, and measured by pipeline and wins.",
+        "metricsTitle": "Aggregate impact",
+        "metrics": [
+          { "value": "16", "label": "Events delivered" },
+          { "value": "1,693", "label": "Total registered" },
+          { "value": "1,200", "label": "Actual participants" },
+          { "value": "267", "label": "Qualified leads" }
+        ],
+        "labels": {
+          "registered": "Registered",
+          "actual": "Actual",
+          "leads": "Qualified leads",
+          "summary": "Executive summary",
+          "highlights": "Key achievements",
+          "nextSteps": "Conclusion & next steps",
+          "gallery": "Event highlights",
+          "backToHome": "\u2190 Back to dashboard",
+          "na": "N/A"
+        }
+      },
+      "solutionBuildDetail": {
+        "eyebrow": "Solution Build",
+        "pageTitle": "Solution Build detail",
+        "title": "All offer activations and validations",
+        "intro": "The complete project ledger from my Solution Build review: every offer I drove from technical co-creation through activation, plus deep dives on the five flagship offers (ASK IT, DB Insight, GitHub Copilot Workshop, Azure Migration Service, KnowledgeWiz).",
+        "metricsTitle": "Portfolio summary",
+        "metrics": [
+          { "value": "16", "label": "Total offers" },
+          { "value": "9", "label": "Offer Activated (OA)" },
+          { "value": "7", "label": "Offer Validation (OV)" },
+          { "value": "USD 2.1M+", "label": "Pipeline / ACR generated" }
+        ],
+        "projectsTitle": "Offer Validation & Activation \u2014 full ledger",
+        "deepDivesTitle": "Activation deep dives",
+        "labels": {
+          "date": "Date",
+          "partner": "Partner",
+          "type": "Type",
+          "name": "Offer",
+          "status": "Status",
+          "achievement": "Achievements",
+          "marketplace": "Marketplace",
+          "oa": "Activated",
+          "ov": "Validation",
+          "solutionArea": "Solution area",
+          "geography": "Geography",
+          "activationMotion": "Activation motion",
+          "activationTiming": "Timing",
+          "revenueOutlook": "Revenue outlook",
+          "summary": "Offer summary",
+          "roadmap": "Roadmap to Revenue",
+          "team": "The team",
+          "backToHome": "\u2190 Back to dashboard"
+        }
       },
       "next": {
         "eyebrow": "Roadmap",
@@ -217,7 +721,7 @@
           "certifications": "认证",
           "pmx": "PMX 详情",
           "solutionBuild": "Solution Build",
-          "activities": "组织活动",
+          "activities": "伙伴赋能",
           "next": "下一阶段"
         },
         "footer": "© 2026 Microsoft 工作总结 • 适用于季度与年度回顾"
@@ -227,10 +731,10 @@
         "impact": "影响",
         "buttonPmx": "查看 PMX 详情",
         "buttonSolutionBuild": "查看 Solution Build",
-        "buttonActivities": "查看活动"
+        "buttonActivities": "查看伙伴赋能活动"
       },
       "overview": {
-        "eyebrow": "FY 总结",
+        "eyebrow": "FY26 总结",
         "title": "Build → Win → Scale 使命",
         "description": "我所构建的不是一系列短期胜利，而是 AI 和数据领域的可持续伙伴成长引擎。这个引擎集成了战略聚焦、转化机制、方案标准化和生态拓展，形成了一个有机整体，并由可衡量的 pipeline、消耗和营收成果验证。最终，我的核心贡献在于使伙伴成功，通过他们的成功驱动可扩展和可持续的增长，同时放大 Microsoft 在整个生态中的价值。",
         "metricsTitle": "关键指标",
@@ -271,7 +775,7 @@
       "pmx": {
         "eyebrow": "Program Matrix",
         "title": "PMX 项目详情",
-        "intro": "下方嵌入了 PMX 工作簿原始明细，便于直接核对。",
+        "intro": "我有意地将关注点从“任务执行”转向“构建能持续放大成果的系统”。这一转变也促使我在伙伴生态中重新定位自己的角色：不仅是一名技术支持者，更是赋能伙伴成功的催化剂，并通过他们的成功放大微软的影响力。这与微软“我们的成功不仅体现在个人成就，更体现在我们如何高效地帮助他人成就更多”的核心价值观高度一致。同时，作为一名以技术为本的伙伴解决方案架构师，我愈发坚信：可持续的增长必须建立在深厚的技术能力与可扩展的解决方案设计之上。",
         "metricsTitle": "工作簿概览",
         "metrics": [
           { "value": "81", "label": "项目总数" },
@@ -279,22 +783,7 @@
           { "value": "19", "label": "进行中" },
           { "value": "2", "label": "未开始" }
         ],
-        "projects": [
-          {
-            "tag": "覆盖范围",
-            "name": "工作簿级 PMX 视图",
-            "description": "导出里包含 81 个项目，状态模型足够干净，可以直接作为交付健康度的依据。",
-            "status": "0 条不一致",
-            "impact": "162 个 deliverables / 175 个 tasks"
-          },
-          {
-            "tag": "信号",
-            "name": "结构化交付信号",
-            "description": "项目数据已经被整理为总量、状态桶和代表性高亮，便于复盘和汇报复用。",
-            "status": "可直接汇报",
-            "impact": "来自附件数据"
-          }
-        ],
+        "projects": [],
         "detailTitle": "嵌入式 PMX 工作簿",
         "detailDescription": "下方 iframe 会直接加载站点根目录中的 PMX 工作簿文件。",
         "detailNote": "源文件：pmx-workbook.html（由 PMX 导出同步）。"
@@ -302,6 +791,7 @@
       "solutionBuild": {
         "eyebrow": "Solution Build",
         "title": "Solution Build 总结",
+        "viewAllLabel": "查看全部 16 个 Offer 激活 →",
         "intro": "我把工作重心从项目执行转向能力工业化。我主导构建了 13 个标准化 AI 与数据解决方案 play，每个都具备清晰的架构、部署模型和价值主张，帮助伙伴可复制、可持续交付。目前已有 5 个 solution offer 完成 activation。",
         "metricsTitle": "关键数字",
         "metrics": [
@@ -360,6 +850,7 @@
           { "value": "138", "label": "customer engagements" },
           { "value": "USD 2.1M", "label": "pipeline" }
         ],
+        "viewAllLabel": "查看全部 16 场赋能活动 \u2192",
         "items": [
           {
             "name": "目标化赋能执行",
@@ -377,6 +868,65 @@
             "role": "影响：可持续、可扩展增长"
           }
         ]
+      },
+      "enablement": {
+        "eyebrow": "伙伴赋能",
+        "pageTitle": "伙伴赋能活动",
+        "title": "FY26 我主导交付的 16 场赋能活动",
+        "intro": "2025 年 11 月到 2026 年 5 月期间，我设计、主办或交付的伙伴赋能活动完整回顾 — 每一场都围绕具体的方案架构、技术路径或行业场景展开，并以 pipeline 与 win 衡量成果。",
+        "metricsTitle": "汇总成果",
+        "metrics": [
+          { "value": "16", "label": "交付的活动数" },
+          { "value": "1,693", "label": "总报名人数" },
+          { "value": "1,200", "label": "实际参与人数" },
+          { "value": "267", "label": "qualified leads" }
+        ],
+        "labels": {
+          "registered": "报名人数",
+          "actual": "实际参与",
+          "leads": "qualified leads",
+          "summary": "执行摘要",
+          "highlights": "关键成果",
+          "nextSteps": "结论与下一步",
+          "gallery": "现场集锦",
+          "backToHome": "\u2190 返回主面板",
+          "na": "N/A"
+        }
+      },
+      "solutionBuildDetail": {
+        "eyebrow": "Solution Build",
+        "pageTitle": "Solution Build 详情",
+        "title": "所有 Offer Activation 与 Validation 项目全量",
+        "intro": "来自 Solution Build review 的完整项目账本：从技术共创到上线激活的每一个 offer，加上 5 个旗舰 offer（ASK IT、DB Insight、GitHub Copilot Workshop、Azure Migration Service、KnowledgeWiz）的深度拆解。",
+        "metricsTitle": "组合总览",
+        "metrics": [
+          { "value": "16", "label": "Offer 总数" },
+          { "value": "9", "label": "Offer Activated (OA)" },
+          { "value": "7", "label": "Offer Validation (OV)" },
+          { "value": "USD 2.1M+", "label": "Pipeline / ACR" }
+        ],
+        "projectsTitle": "Offer Validation & Activation \u2014 全量清单",
+        "deepDivesTitle": "Activation 深度拆解",
+        "labels": {
+          "date": "日期",
+          "partner": "伙伴",
+          "type": "类型",
+          "name": "Offer",
+          "status": "状态",
+          "achievement": "成果",
+          "marketplace": "Marketplace",
+          "oa": "已激活",
+          "ov": "验证中",
+          "solutionArea": "方案领域",
+          "geography": "地区",
+          "activationMotion": "激活路径",
+          "activationTiming": "时间",
+          "revenueOutlook": "营收预期",
+          "summary": "Offer 概述",
+          "roadmap": "Roadmap to Revenue",
+          "team": "团队",
+          "backToHome": "\u2190 返回主面板"
+        }
       },
       "next": {
         "eyebrow": "Roadmap",
@@ -405,7 +955,7 @@
           "certifications": "認證",
           "pmx": "PMX 詳情",
           "solutionBuild": "Solution Build",
-          "activities": "組織活動",
+          "activities": "夥伴賦能",
           "next": "下一階段"
         },
         "footer": "© 2026 Microsoft 工作總結 • 適用於季度與年度回顧"
@@ -415,10 +965,10 @@
         "impact": "影響",
         "buttonPmx": "查看 PMX 詳情",
         "buttonSolutionBuild": "查看 Solution Build",
-        "buttonActivities": "查看活動"
+        "buttonActivities": "查看夥伴賦能活動"
       },
       "overview": {
-        "eyebrow": "FY 總結",
+        "eyebrow": "FY26 總結",
         "title": "Build → Win → Scale 使命",
         "description": "我所構建的不是一系列短期勝利，而是 AI 和數據領域的可持續夥伴成長引擎。這個引擎集成了戰略聚焦、轉化機制、方案標準化和生態拓展，形成了一個有機整體，並由可衡量的 pipeline、消耗和營收成果驗證。最終，我的核心貢獻在於使夥伴成功，通過他們的成功驅動可擴展和可持續的增長，同時放大 Microsoft 在整個生態中的價值。",
         "metricsTitle": "關鍵指標",
@@ -459,7 +1009,7 @@
       "pmx": {
         "eyebrow": "Program Matrix",
         "title": "PMX 專案詳情",
-        "intro": "下方嵌入了 PMX 工作簿原始明細，便於直接核對。",
+        "intro": "我有意地將關注點從「任務執行」轉向「建構能持續放大成果的系統」。這一轉變也促使我在夥伴生態中重新定位自己的角色：不僅是一名技術支持者，更是賦能夥伴成功的催化劑，並透過他們的成功放大微軟的影響力。這與微軟「我們的成功不僅體現在個人成就，更體現在我們如何高效地幫助他人成就更多」的核心價值觀高度一致。同時，作為一名以技術為本的夥伴解決方案架構師，我愈發堅信：可持續的成長必須建立在深厚的技術能力與可擴展的解決方案設計之上。",
         "metricsTitle": "工作簿概覽",
         "metrics": [
           { "value": "81", "label": "專案總數" },
@@ -467,22 +1017,7 @@
           { "value": "19", "label": "進行中" },
           { "value": "2", "label": "未開始" }
         ],
-        "projects": [
-          {
-            "tag": "覆蓋範圍",
-            "name": "工作簿級 PMX 視圖",
-            "description": "匯出內容包含 81 個專案，狀態模型足夠乾淨，可以直接作為交付健康度依據。",
-            "status": "0 條不一致",
-            "impact": "162 個 deliverables / 175 個 tasks"
-          },
-          {
-            "tag": "信號",
-            "name": "結構化交付信號",
-            "description": "專案資料已整理為總量、狀態桶與代表性高亮，便於回顧與彙報複用。",
-            "status": "可直接彙報",
-            "impact": "來自附件資料"
-          }
-        ],
+        "projects": [],
         "detailTitle": "嵌入式 PMX 工作簿",
         "detailDescription": "下方 iframe 會直接載入站點根目錄中的 PMX 工作簿檔案。",
         "detailNote": "來源檔案：pmx-workbook.html（由 PMX 匯出同步）。"
@@ -490,6 +1025,7 @@
       "solutionBuild": {
         "eyebrow": "Solution Build",
         "title": "Solution Build 總結",
+        "viewAllLabel": "查看全部 16 個 Offer 激活 →",
         "intro": "我把工作重心從專案執行轉向能力工業化。我主導建立了 13 個標準化 AI 與數據解決方案 play，每個都具備清晰的架構、部署模型與價值主張，讓夥伴可複製且穩定交付。目前已有 5 個 solution offer 完成 activation。",
         "metricsTitle": "關鍵數字",
         "metrics": [
@@ -548,6 +1084,7 @@
           { "value": "138", "label": "customer engagements" },
           { "value": "USD 2.1M", "label": "pipeline" }
         ],
+        "viewAllLabel": "查看全部 16 場賦能活動 \u2192",
         "items": [
           {
             "name": "目標化賦能執行",
@@ -565,6 +1102,65 @@
             "role": "影響：可持續、可擴展增長"
           }
         ]
+      },
+      "enablement": {
+        "eyebrow": "夥伴賦能",
+        "pageTitle": "夥伴賦能活動",
+        "title": "FY26 我主導交付的 16 場賦能活動",
+        "intro": "2025 年 11 月到 2026 年 5 月期間，我設計、主辦或交付的夥伴賦能活動完整回顧 — 每一場都圍繞具體的方案架構、技術路徑或行業場景展開，並以 pipeline 與 win 衡量成果。",
+        "metricsTitle": "彙總成果",
+        "metrics": [
+          { "value": "16", "label": "交付的活動數" },
+          { "value": "1,693", "label": "總報名人數" },
+          { "value": "1,200", "label": "實際參與人數" },
+          { "value": "267", "label": "qualified leads" }
+        ],
+        "labels": {
+          "registered": "報名人數",
+          "actual": "實際參與",
+          "leads": "qualified leads",
+          "summary": "執行摘要",
+          "highlights": "關鍵成果",
+          "nextSteps": "結論與下一步",
+          "gallery": "現場集錦",
+          "backToHome": "\u2190 返回主儀表板",
+          "na": "N/A"
+        }
+      },
+      "solutionBuildDetail": {
+        "eyebrow": "Solution Build",
+        "pageTitle": "Solution Build 詳情",
+        "title": "所有 Offer Activation 與 Validation 項目全量",
+        "intro": "來自 Solution Build review 的完整項目帳本：從技術共創到上線激活的每一個 offer，加上 5 個旗艦 offer（ASK IT、DB Insight、GitHub Copilot Workshop、Azure Migration Service、KnowledgeWiz）的深度拆解。",
+        "metricsTitle": "組合總覽",
+        "metrics": [
+          { "value": "16", "label": "Offer 總數" },
+          { "value": "9", "label": "Offer Activated (OA)" },
+          { "value": "7", "label": "Offer Validation (OV)" },
+          { "value": "USD 2.1M+", "label": "Pipeline / ACR" }
+        ],
+        "projectsTitle": "Offer Validation & Activation \u2014 全量清單",
+        "deepDivesTitle": "Activation 深度拆解",
+        "labels": {
+          "date": "日期",
+          "partner": "夥伴",
+          "type": "類型",
+          "name": "Offer",
+          "status": "狀態",
+          "achievement": "成果",
+          "marketplace": "Marketplace",
+          "oa": "已激活",
+          "ov": "驗證中",
+          "solutionArea": "方案領域",
+          "geography": "地區",
+          "activationMotion": "激活路徑",
+          "activationTiming": "時間",
+          "revenueOutlook": "營收預期",
+          "summary": "Offer 概述",
+          "roadmap": "Roadmap to Revenue",
+          "team": "團隊",
+          "backToHome": "\u2190 返回主儀表板"
+        }
       },
       "next": {
         "eyebrow": "Roadmap",

@@ -23,7 +23,6 @@
         </span>
         <span class="brand-text">
           <span class="brand-label" id="brand-label">Microsoft Work Summary</span>
-          <span class="brand-title" id="site-title">工作总结看板</span>
         </span>
       </a>
       <div class="header-controls">
@@ -42,8 +41,8 @@
       <a href="profile.html#profile" id="nav-profile">Profile</a>
       <a href="profile.html#certifications" id="nav-certifications">Certifications</a>
       <a href="#pmx" id="nav-pmx">PMX Detail</a>
-      <a href="#solution-build" id="nav-solution-build">Solution Build</a>
-      <a href="#activities" id="nav-activities">Activities</a>
+      <a href="solution-build.html" id="nav-solution-build">Solution Build</a>
+      <a href="#activities" id="nav-activities">Partner Enablement</a>
       <a href="#next" id="nav-next">Next Steps</a>
     </nav>
   </header>
@@ -56,7 +55,7 @@
         <p id="overview-description">This page is English-first, with Simplified and Traditional Chinese toggles. It consolidates PMX execution, partner enablement, and community activity into a single review surface.</p>
         <div class="hero-cta">
           <button type="button" class="btn-primary" id="hero-btn-pmx" data-scroll="#pmx">View PMX detail</button>
-          <button type="button" class="btn-secondary" id="hero-btn-solution-build" data-scroll="#solution-build">View Solution Build</button>
+          <button type="button" class="btn-secondary" id="hero-btn-solution-build" onclick="location.href='solution-build.html'">View Solution Build</button>
           <button type="button" class="btn-secondary" id="hero-btn-activities" data-scroll="#activities">View activities</button>
         </div>
       </div>
@@ -76,7 +75,7 @@
         <p id="pmx-intro" class="section-intro">The embedded workbook below keeps the attached PMX export inside the dashboard, so the source detail stays one click away from the summary.</p>
       </div>
       <h3 id="pmx-metrics-title" class="section-subtitle">Workbook snapshot</h3>
-      <ul id="pmx-metrics-list" class="cards four-col metric-strip"></ul>
+      <ul id="pmx-metrics-list" class="metric-strip"></ul>
       <div id="pmx-cards" class="cards three-col cards-spacer"></div>
       <article class="card workbook-card cards-spacer">
         <div class="workbook-head">
@@ -100,9 +99,10 @@
         <p id="solution-build-intro" class="section-intro">The workbook splits into 52 partner-innovation projects and 29 service-group projects, which gives us a clean lens on the solution-build side of the portfolio.</p>
       </div>
       <h3 id="solution-build-metrics-title" class="section-subtitle">Key numbers</h3>
-      <ul id="solution-build-metrics-list" class="cards four-col metric-strip"></ul>
+      <ul id="solution-build-metrics-list" class="metric-strip"></ul>
       <div id="solution-build-cards" class="cards three-col cards-spacer"></div>
       <p id="solution-build-note" class="detail-note"></p>
+      <p class="cards-spacer view-all-row"><a class="back-link" id="solution-build-view-all" href="solution-build.html">View all 16 offer activations →</a></p>
     </section>
 
     <section id="activities" class="section reveal">
@@ -112,8 +112,9 @@
         <p id="activities-intro" class="section-intro">I extracted 34 event-like projects from the workbook, including workshops, bootcamps, solution days, and technical briefings.</p>
       </div>
       <h3 id="activities-metrics-title" class="section-subtitle">Activity summary</h3>
-      <ul id="activities-metrics-list" class="cards four-col metric-strip"></ul>
+      <ul id="activities-metrics-list" class="metric-strip"></ul>
       <div id="activities-timeline" class="timeline cards-spacer"></div>
+      <p class="cards-spacer view-all-row"><a class="back-link" id="activities-view-all" href="enablement.html">View all 16 enablement events →</a></p>
     </section>
 
     <section id="next" class="section reveal">

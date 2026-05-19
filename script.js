@@ -106,6 +106,134 @@ function renderCertifications(items, labels) {
     .join('');
 }
 
+function renderEnablementEvents(events, labels) {
+  const container = document.getElementById('enablement-events');
+  if (!container || !Array.isArray(events)) {
+    return;
+  }
+  const na = labels?.na || 'N/A';
+  container.innerHTML = events
+    .map((event, idx) => {
+      const photos = Array.isArray(event.photos) ? event.photos : [];
+      const photoHtml = photos.length
+        ? `<div class="event-photos">${photos
+            .map(
+              (src) =>
+                `<a class="event-photo" href="${src}" target="_blank" rel="noreferrer"><img src="${src}" alt="${(event.title || '').replace(/"/g, '&quot;')}" loading="lazy"></a>`
+            )
+            .join('')}</div>`
+        : '';
+      const actualValue = event.actual != null
+        ? `${event.actual}${event.actualPercent ? ` <small>(${event.actualPercent})</small>` : ''}`
+        : na;
+      const leadsValue = event.leads != null ? event.leads : na;
+      const highlights = Array.isArray(event.highlights) && event.highlights.length
+        ? `<div class="event-block"><p class="event-block-title">${labels?.highlights || 'Key achievements'}</p><ul>${event.highlights.map((h) => `<li>${h}</li>`).join('')}</ul></div>`
+        : '';
+      const nextSteps = Array.isArray(event.nextSteps) && event.nextSteps.length
+        ? `<div class="event-block"><p class="event-block-title">${labels?.nextSteps || 'Conclusion & next steps'}</p><ul>${event.nextSteps.map((n) => `<li>${n}</li>`).join('')}</ul></div>`
+        : '';
+      return `
+        <article class="event-card card" id="${event.id || ''}">
+          <header class="event-head">
+            <p class="event-index">${String(idx + 1).padStart(2, '0')} · ${event.date || ''}</p>
+            <h3>${event.title || ''}</h3>
+            ${event.subtitle ? `<p class="event-subtitle">${event.subtitle}</p>` : ''}
+          </header>
+          ${photoHtml}
+          <ul class="event-metrics metric-strip">
+            <li class="metric-card"><span>${event.registered != null ? event.registered : na}</span><p>${labels?.registered || 'Registered'}</p></li>
+            <li class="metric-card"><span>${actualValue}</span><p>${labels?.actual || 'Actual'}</p></li>
+            <li class="metric-card"><span>${leadsValue}</span><p>${labels?.leads || 'Qualified leads'}</p></li>
+          </ul>
+          ${event.summary ? `<div class="event-block"><p class="event-block-title">${labels?.summary || 'Executive summary'}</p><p>${event.summary}</p></div>` : ''}
+          ${highlights}
+          ${nextSteps}
+        </article>`;
+    })
+    .join('');
+}
+
+function renderSolutionBuildProjects(projects, labels) {
+  const container = document.getElementById('sbd-projects');
+  if (!container || !Array.isArray(projects)) {
+    return;
+  }
+  const rows = projects
+    .map((p, idx) => {
+      const status = (p.status || '').toUpperCase();
+      const badgeLabel = status === 'OA' ? (labels?.oa || 'Activated') : (labels?.ov || 'Validation');
+      const badgeClass = status === 'OA' ? 'status-oa' : 'status-ov';
+      const marketplace = p.marketplace
+        ? `<p class="offer-marketplace"><span class="offer-marketplace-tag">Marketplace</span> ${p.marketplace}</p>`
+        : '';
+      return `
+        <article class="offer-row">
+          <div class="offer-row-head">
+            <span class="offer-index">${String(idx + 1).padStart(2, '0')}</span>
+            <span class="offer-date">${p.date || ''}</span>
+            <span class="offer-partner">${p.partner || ''}</span>
+            <span class="offer-type">${p.type || ''}</span>
+            <span class="offer-status-badge ${badgeClass}">${status} · ${badgeLabel}</span>
+          </div>
+          <h4 class="offer-name">${p.name || ''}</h4>
+          ${p.achievement ? `<p class="offer-achievement">${p.achievement}</p>` : ''}
+          ${marketplace}
+        </article>`;
+    })
+    .join('');
+  container.innerHTML = rows;
+}
+
+function renderSolutionBuildDeepDives(items, labels) {
+  const container = document.getElementById('sbd-deep-dives');
+  if (!container || !Array.isArray(items)) {
+    return;
+  }
+  container.innerHTML = items
+    .map((d, idx) => {
+      const meta = [
+        d.partner ? { k: labels?.partner || 'Partner', v: d.partner } : null,
+        d.solutionArea ? { k: labels?.solutionArea || 'Solution area', v: d.solutionArea } : null,
+        d.geography ? { k: labels?.geography || 'Geography', v: d.geography } : null,
+        d.activationMotion ? { k: labels?.activationMotion || 'Activation motion', v: d.activationMotion } : null,
+        d.activationTiming ? { k: labels?.activationTiming || 'Timing', v: d.activationTiming } : null,
+      ].filter(Boolean);
+      const metaHtml = meta.length
+        ? `<dl class="offer-meta">${meta.map((m) => `<div><dt>${m.k}</dt><dd>${m.v}</dd></div>`).join('')}</dl>`
+        : '';
+      const revenue = d.revenueOutlook
+        ? `<div class="event-block"><p class="event-block-title">${labels?.revenueOutlook || 'Revenue outlook'}</p><p>${d.revenueOutlook}</p></div>`
+        : '';
+      const summary = d.summary
+        ? `<div class="event-block"><p class="event-block-title">${labels?.summary || 'Offer summary'}</p><p>${d.summary}</p></div>`
+        : '';
+      const phases = Array.isArray(d.phases) && d.phases.length
+        ? `<div class="event-block"><p class="event-block-title">${labels?.roadmap || 'Roadmap to Revenue'}</p><div class="offer-phases">${d.phases
+            .map((ph) => `<div class="offer-phase"><h5>${ph.title || ''}</h5><p>${ph.body || ''}</p></div>`)
+            .join('')}</div></div>`
+        : '';
+      const team = Array.isArray(d.team) && d.team.length
+        ? `<div class="event-block"><p class="event-block-title">${labels?.team || 'The team'}</p><ul class="offer-team">${d.team
+            .map((t) => `<li><strong>${t.name || ''}</strong>${t.role ? ` <span>· ${t.role}</span>` : ''}</li>`)
+            .join('')}</ul></div>`
+        : '';
+      return `
+        <article class="event-card card" id="${d.id || ''}">
+          <header class="event-head">
+            <p class="event-index">${String(idx + 1).padStart(2, '0')}</p>
+            <h3>${d.title || ''}</h3>
+          </header>
+          ${metaHtml}
+          ${summary}
+          ${revenue}
+          ${phases}
+          ${team}
+        </article>`;
+    })
+    .join('');
+}
+
 function renderList(listId, values) {
   const list = document.getElementById(listId);
   if (!list || !Array.isArray(values)) {
@@ -142,6 +270,31 @@ function initSmoothScroll() {
       target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+}
+
+function initBackToTop() {
+  if (document.getElementById('back-to-top')) {
+    return;
+  }
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.id = 'back-to-top';
+  btn.className = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 14 12 8 18 14"/></svg>';
+  document.body.appendChild(btn);
+  const toggle = () => {
+    if (window.scrollY > 320) {
+      btn.classList.add('is-visible');
+    } else {
+      btn.classList.remove('is-visible');
+    }
+  };
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  window.addEventListener('scroll', toggle, { passive: true });
+  toggle();
 }
 
 function initMobileMenu() {
@@ -271,6 +424,52 @@ function applyLocale(data, locale) {
   renderMetricList('activities-metrics-list', localized.activities?.metrics);
   renderActivities(localized.activities?.items);
 
+  const viewAllLink = document.getElementById('activities-view-all');
+  if (viewAllLink && localized.activities?.viewAllLabel) {
+    viewAllLink.textContent = localized.activities.viewAllLabel;
+  }
+
+  setText('enablement-eyebrow', localized.enablement?.eyebrow);
+  setText('enablement-title', localized.enablement?.title);
+  setText('enablement-intro', localized.enablement?.intro);
+  setText('enablement-metrics-title', localized.enablement?.metricsTitle);
+  renderMetricList('enablement-metrics-list', localized.enablement?.metrics);
+  renderEnablementEvents(data.enablement?.events, localized.enablement?.labels);
+  const backLink = document.getElementById('enablement-back');
+  if (backLink && localized.enablement?.labels?.backToHome) {
+    backLink.textContent = localized.enablement.labels.backToHome;
+  }
+  const pageTitle = document.getElementById('page-title');
+  if (pageTitle && localized.enablement?.pageTitle && document.getElementById('enablement-events')) {
+    pageTitle.textContent = localized.enablement.pageTitle;
+  }
+
+  // Solution Build detail page (solution-build.html)
+  const sbd = localized.solutionBuildDetail;
+  if (sbd && document.getElementById('solution-build-detail')) {
+    setText('sbd-eyebrow', sbd.eyebrow);
+    setText('sbd-title', sbd.title);
+    setText('sbd-intro', sbd.intro);
+    setText('sbd-metrics-title', sbd.metricsTitle);
+    setText('sbd-projects-title', sbd.projectsTitle);
+    setText('sbd-deep-dives-title', sbd.deepDivesTitle);
+    renderMetricList('sbd-metrics-list', sbd.metrics);
+    renderSolutionBuildProjects(data.solutionBuildDetail?.projects, sbd.labels);
+    renderSolutionBuildDeepDives(data.solutionBuildDetail?.deepDives, sbd.labels);
+    const sbdBack = document.getElementById('sbd-back');
+    if (sbdBack && sbd.labels?.backToHome) {
+      sbdBack.textContent = sbd.labels.backToHome;
+    }
+    if (pageTitle && sbd.pageTitle) {
+      pageTitle.textContent = sbd.pageTitle;
+    }
+  }
+
+  const sbViewAll = document.getElementById('solution-build-view-all');
+  if (sbViewAll && localized.solutionBuild?.viewAllLabel) {
+    sbViewAll.textContent = localized.solutionBuild.viewAllLabel;
+  }
+
   setText('next-eyebrow', localized.next?.eyebrow);
   setText('next-title', localized.next?.title);
   setText('next-project-title', localized.next?.projectTitle);
@@ -316,4 +515,5 @@ async function loadContent() {
 initRevealAnimation();
 initSmoothScroll();
 initMobileMenu();
+initBackToTop();
 loadContent();

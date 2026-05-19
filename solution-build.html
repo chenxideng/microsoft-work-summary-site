@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Solution Build detail</title>
+  <meta name="description" content="Complete project ledger and activation deep dives from Charles Deng's FY26 Solution Build review." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="main-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html#overview">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-label" id="brand-label">Microsoft Work Summary</span>
+        </span>
+      </a>
+      <div class="header-controls">
+        <div class="language-switcher" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn is-active" data-locale="en">EN</button>
+          <button type="button" class="lang-btn" data-locale="zh-Hans">简</button>
+          <button type="button" class="lang-btn" data-locale="zh-Hant">繁</button>
+        </div>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <a href="index.html#overview" id="nav-overview">Overview</a>
+      <a href="profile.html#profile" id="nav-profile">Profile</a>
+      <a href="profile.html#certifications" id="nav-certifications">Certifications</a>
+      <a href="index.html#pmx" id="nav-pmx">PMX Detail</a>
+      <a href="solution-build.html" id="nav-solution-build" class="is-current">Solution Build</a>
+      <a href="enablement.html" id="nav-activities">Partner Enablement</a>
+      <a href="index.html#next" id="nav-next">Next Steps</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="solution-build-detail" class="section reveal">
+      <div class="section-head">
+        <p id="sbd-eyebrow" class="eyebrow">Solution Build</p>
+        <h2 id="sbd-title">Solution Build detail</h2>
+        <p id="sbd-intro" class="section-intro"></p>
+        <p><a class="back-link" href="index.html#solution-build" id="sbd-back">&larr; Back to dashboard</a></p>
+      </div>
+      <h3 id="sbd-metrics-title" class="section-subtitle">Portfolio summary</h3>
+      <ul id="sbd-metrics-list" class="metric-strip"></ul>
+
+      <h3 id="sbd-projects-title" class="section-subtitle subsection-title">Offer Validation & Activation &mdash; full ledger</h3>
+      <div id="sbd-projects" class="offer-table-wrap cards-spacer"></div>
+
+      <h3 id="sbd-deep-dives-title" class="section-subtitle subsection-title">Activation deep dives</h3>
+      <div id="sbd-deep-dives" class="event-list cards-spacer"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footer-text">© 2026 Microsoft Work Summary</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -15,6 +15,8 @@ $passwordPlain = [Runtime.InteropServices.Marshal]::PtrToStringAuto($passwordBst
 $files = @(
   "index.html",
   "profile.html",
+  "enablement.html",
+  "solution-build.html",
   "styles.css",
   "script.js",
   "content.json",
@@ -34,6 +36,12 @@ if (-not $existingFiles) {
 try {
   $remoteTarget = "{0}@{1}:{2}/" -f $User, $VmAddress, $RemotePath
   & $pscp -batch -pw $passwordPlain @existingFiles $remoteTarget
+  if (Test-Path "enablement-photos") {
+    & $pscp -batch -pw $passwordPlain -r "enablement-photos" $remoteTarget
+  }
+  if (Test-Path "solution-build-photos") {
+    & $pscp -batch -pw $passwordPlain -r "solution-build-photos" $remoteTarget
+  }
   & $plink -ssh -batch -l $User -pw $passwordPlain $VmAddress "cd $RemotePath && npm install --omit=dev && echo '$passwordPlain' | sudo -S systemctl restart microsoft-workspace.service && systemctl is-active microsoft-workspace.service"
 }
 finally {
