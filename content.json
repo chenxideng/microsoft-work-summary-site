@@ -5,22 +5,150 @@
   },
   "solutionBuildDetail": {
     "projects": [
-      { "date": "1/5/26",  "partner": "Synnex",    "type": "Practice Offer", "name": "Infra and Database Migration to Microsoft Azure",                    "status": "OA", "achievement": "Offer Activation",                                                                                              "marketplace": null },
-      { "date": "2/14/26", "partner": "Synnex",    "type": "Service Offer",  "name": "Azure Migration Service: 3-week implementation",                     "status": "OA", "achievement": "Offer Activation by 3 win cases · GIFI Asian Limited $120K/yr · HKMU OBSA $135K/yr · AstroX Labs $960K/yr · Est. $1.5M ACR/yr", "marketplace": "Azure Migration Offer — Microsoft Marketplace" },
-      { "date": "2/14/26", "partner": "Synnex",    "type": "Service Offer",  "name": "Azure Cloud Security: 1-week security assessment",                   "status": "OA", "achievement": "Offer Activation by 3 win cases · E Fund Mgmt 3K · Tetras AI HK 3K · Bing Tech Global 3K · Est. 60K",                       "marketplace": "Azure Cloud Security One Week Security Assessment — Microsoft Marketplace" },
-      { "date": "2/29/26", "partner": "Insight",   "type": "IP Offer",       "name": "ASK IT Platform",                                                    "status": "OA", "achievement": "Offer Activation by 3 win cases · Chervon, ICA, ETS total 140K · 1 awaiting est 30K · Est. $300K ACR/yr",                       "marketplace": null },
-      { "date": "3/10/26", "partner": "Eastech",   "type": "IP Offer",       "name": "KnowledgeWiz (Internal RAG bot)",                                    "status": "OA", "achievement": "Offer Activation by 3 signed customers · HSH 40K · Building King 40K · VG 40K · Est. $360K ACR/yr",                              "marketplace": null },
-      { "date": "3/26/26", "partner": "Superhub",  "type": "IP Offer",       "name": "DB Insight Platform",                                                "status": "OA", "achievement": "Offer Activation by 3 win cases · Hayco 76K · YFY Jupiter 58K · Artiso Education 44K · Est. $250K ACR/yr",                      "marketplace": null },
-      { "date": "4/3/26",  "partner": "Synnex",    "type": "Service Offer",  "name": "GitHub Copilot 1-Day Hands-On Workshop",                             "status": "OA", "achievement": "Offer Activation by 4 win cases · 上海凯世通 35 · 西域智慧供应链 65 · 上海它石智航 100 · 上海英恒 10 seats · 64.26K USD/yr",                         "marketplace": "GitHub Copilot 1 Day Hands-On Workshop — Microsoft Marketplace" },
-      { "date": "4/30/26", "partner": "Xenus",     "type": "Practice Offer", "name": "Infra and Database Migration to Microsoft Azure",                    "status": "OA", "achievement": "Offer Activation",                                                                                                              "marketplace": null },
-      { "date": "5/5/26",  "partner": "Eastech",   "type": "Practice Offer", "name": "AI Platform on Microsoft Azure",                                     "status": "OA", "achievement": "Offer Activation",                                                                                                              "marketplace": null },
-      { "date": "2/23/26", "partner": "Superhub",  "type": "Service Offer",  "name": "Cloud Migration Assessment (POV)",                                   "status": "OV", "achievement": "9 signed customers",                                                                                                            "marketplace": null },
-      { "date": "3/16/26", "partner": "CMI",       "type": "IP Offer",       "name": "AI Hub Platform",                                                    "status": "OV", "achievement": "In validation",                                                                                                                 "marketplace": null },
-      { "date": "4/1/26",  "partner": "Xenus",     "type": "IP Offer",       "name": "AdminMate EDU — Kindergarten Staff Operations AI Platform (HK)",     "status": "OV", "achievement": "In validation",                                                                                                                 "marketplace": null },
-      { "date": "4/1/26",  "partner": "Xenus",     "type": "IP Offer",       "name": "CollabMate NGO — AI-powered Collaboration & Operations for NGOs",    "status": "OV", "achievement": "In validation",                                                                                                                 "marketplace": null },
-      { "date": "4/8/26",  "partner": "Superhub",  "type": "Service Offer",  "name": "Azure Landing Zone Design and Implementation",                       "status": "OV", "achievement": "1 signed customer",                                                                                                             "marketplace": null },
-      { "date": "4/10/26", "partner": "Eastech",   "type": "IP Offer",       "name": "AI Email Workbench Agent (RPA)",                                     "status": "OV", "achievement": "1 signed (HSH) · 2 PoC (SGS, World-link)",                                                                                      "marketplace": null },
-      { "date": "4/10/26", "partner": "Eastech",   "type": "IP Offer",       "name": "Finance Reconciliation Agent",                                       "status": "OV", "achievement": "2 PoC (HKSTP, GE)",                                                                                                              "marketplace": null }
+      {
+        "date": "1/5/26",
+        "partner": "Synnex",
+        "type": "Practice Offer",
+        "name": "Infra and Database Migration to Microsoft Azure",
+        "status": "OA",
+        "achievement": "Offer Activation",
+        "marketplace": null
+      },
+      {
+        "date": "2/14/26",
+        "partner": "Synnex",
+        "type": "Service Offer",
+        "name": "Azure Migration Service: 3-week implementation",
+        "status": "OA",
+        "achievement": "Offer Activation by 3 win cases · GIFI Asian Limited $120K/yr · HKMU OBSA $135K/yr · AstroX Labs $960K/yr · Est. $1.5M ACR/yr",
+        "marketplace": "Azure Migration Offer — Microsoft Marketplace"
+      },
+      {
+        "date": "2/14/26",
+        "partner": "Synnex",
+        "type": "Service Offer",
+        "name": "Azure Cloud Security: 1-week security assessment",
+        "status": "OA",
+        "achievement": "Offer Activation by 3 win cases · E Fund Mgmt 3K · Tetras AI HK 3K · Bing Tech Global 3K · Est. 60K",
+        "marketplace": "Azure Cloud Security One Week Security Assessment — Microsoft Marketplace"
+      },
+      {
+        "date": "2/29/26",
+        "partner": "Insight",
+        "type": "IP Offer",
+        "name": "ASK IT Platform",
+        "status": "OA",
+        "achievement": "Offer Activation by 3 win cases · Chervon, ICA, ETS total 140K · 1 awaiting est 30K · Est. $300K ACR/yr",
+        "marketplace": null
+      },
+      {
+        "date": "3/10/26",
+        "partner": "Eastech",
+        "type": "IP Offer",
+        "name": "KnowledgeWiz (Internal RAG bot)",
+        "status": "OA",
+        "achievement": "Offer Activation by 3 signed customers · HSH 40K · Building King 40K · VG 40K · Est. $360K ACR/yr",
+        "marketplace": null
+      },
+      {
+        "date": "3/26/26",
+        "partner": "Superhub",
+        "type": "IP Offer",
+        "name": "DB Insight Platform",
+        "status": "OA",
+        "achievement": "Offer Activation by 3 win cases · Hayco 76K · YFY Jupiter 58K · Artiso Education 44K · Est. $250K ACR/yr",
+        "marketplace": null
+      },
+      {
+        "date": "4/3/26",
+        "partner": "Synnex",
+        "type": "Service Offer",
+        "name": "GitHub Copilot 1-Day Hands-On Workshop",
+        "status": "OA",
+        "achievement": "Offer Activation by 4 win cases · 上海凯世通 35 · 西域智慧供应链 65 · 上海它石智航 100 · 上海英恒 10 seats · 64.26K USD/yr",
+        "marketplace": "GitHub Copilot 1 Day Hands-On Workshop — Microsoft Marketplace"
+      },
+      {
+        "date": "4/30/26",
+        "partner": "Xenus",
+        "type": "Practice Offer",
+        "name": "Infra and Database Migration to Microsoft Azure",
+        "status": "OA",
+        "achievement": "Offer Activation",
+        "marketplace": null
+      },
+      {
+        "date": "5/5/26",
+        "partner": "Eastech",
+        "type": "Practice Offer",
+        "name": "AI Platform on Microsoft Azure",
+        "status": "OA",
+        "achievement": "Offer Activation",
+        "marketplace": null
+      },
+      {
+        "date": "2/23/26",
+        "partner": "Superhub",
+        "type": "Service Offer",
+        "name": "Cloud Migration Assessment (POV)",
+        "status": "OV",
+        "achievement": "9 signed customers",
+        "marketplace": null
+      },
+      {
+        "date": "3/16/26",
+        "partner": "CMI",
+        "type": "IP Offer",
+        "name": "AI Hub Platform",
+        "status": "OV",
+        "achievement": "In validation",
+        "marketplace": null
+      },
+      {
+        "date": "4/1/26",
+        "partner": "Xenus",
+        "type": "IP Offer",
+        "name": "AdminMate EDU — Kindergarten Staff Operations AI Platform (HK)",
+        "status": "OV",
+        "achievement": "In validation",
+        "marketplace": null
+      },
+      {
+        "date": "4/1/26",
+        "partner": "Xenus",
+        "type": "IP Offer",
+        "name": "CollabMate NGO — AI-powered Collaboration & Operations for NGOs",
+        "status": "OV",
+        "achievement": "In validation",
+        "marketplace": null
+      },
+      {
+        "date": "4/8/26",
+        "partner": "Superhub",
+        "type": "Service Offer",
+        "name": "Azure Landing Zone Design and Implementation",
+        "status": "OV",
+        "achievement": "1 signed customer",
+        "marketplace": null
+      },
+      {
+        "date": "4/10/26",
+        "partner": "Eastech",
+        "type": "IP Offer",
+        "name": "AI Email Workbench Agent (RPA)",
+        "status": "OV",
+        "achievement": "1 signed (HSH) · 2 PoC (SGS, World-link)",
+        "marketplace": null
+      },
+      {
+        "date": "4/10/26",
+        "partner": "Eastech",
+        "type": "IP Offer",
+        "name": "Finance Reconciliation Agent",
+        "status": "OV",
+        "achievement": "2 PoC (HKSTP, GE)",
+        "marketplace": null
+      }
     ],
     "deepDives": [
       {
@@ -34,12 +162,33 @@
         "revenueOutlook": "Est. $300K per year ongoing ACR. MCI-eligible, 3:1 pro/post-sales ratio met. 4 total pipelines, 3 signed (Chervon, ICA, ETS total 140K), 1 awaiting (est 30K ACR).",
         "summary": "ASK IT is a modular, enterprise-grade IT Support Copilot platform designed to modernize and scale enterprise IT service operations using Microsoft Cloud & AI. Employees interact with IT systems through natural language while preserving enterprise security, governance, and compliance. Built as a platform — not a point tool — it unifies intelligent Q&A, enterprise knowledge search, secure execution of IT workflows, and native embedding within Microsoft Teams, all within the Microsoft trust boundary.",
         "phases": [
-          { "title": "Pioneer Innovation", "body": "Focused on shaping the right product direction, not selling AI features. Led technical workshops and architecture deep dives to align Insight roadmap with CAIP strategy. Established ASK IT as an enterprise IT platform with clear security, governance, and enterprise-readiness boundaries, positioning Microsoft Teams as the primary user entry point." },
-          { "title": "Commit to Build",    "body": "Qualified scalable IT support scenarios suitable for automation. Conducted architecture reviews aligned with enterprise security and governance, designed modular repeatable components, and ensured integration patterns respect identity, permissions, and compliance — transforming ASK IT from concept into a production-ready enterprise solution." },
-          { "title": "Build to Consume",   "body": "Turned the solution into a repeatable, consumption-driven offer. Enabled consistent multi-customer delivery, embedded ASK IT into Microsoft Teams to reduce adoption friction, ensured extensibility via standardized integrations, and positioned the offer for Marketplace and Joint GTM execution at scale." }
+          {
+            "title": "Pioneer Innovation",
+            "body": "Focused on shaping the right product direction, not selling AI features. Led technical workshops and architecture deep dives to align Insight roadmap with CAIP strategy. Established ASK IT as an enterprise IT platform with clear security, governance, and enterprise-readiness boundaries, positioning Microsoft Teams as the primary user entry point."
+          },
+          {
+            "title": "Commit to Build",
+            "body": "Qualified scalable IT support scenarios suitable for automation. Conducted architecture reviews aligned with enterprise security and governance, designed modular repeatable components, and ensured integration patterns respect identity, permissions, and compliance — transforming ASK IT from concept into a production-ready enterprise solution."
+          },
+          {
+            "title": "Build to Consume",
+            "body": "Turned the solution into a repeatable, consumption-driven offer. Enabled consistent multi-customer delivery, embedded ASK IT into Microsoft Teams to reduce adoption friction, ensured extensibility via standardized integrations, and positioned the offer for Marketplace and Joint GTM execution at scale."
+          }
         ],
-        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Mira Zou", "role": "PDM" } ],
-        "photos": ["solution-build-photos/slide03-01.png", "solution-build-photos/slide03-02.png"]
+        "team": [
+          {
+            "name": "Charles Deng",
+            "role": "PSA"
+          },
+          {
+            "name": "Mira Zou",
+            "role": "PDM"
+          }
+        ],
+        "photos": [
+          "solution-build-photos/slide03-01.png",
+          "solution-build-photos/slide03-02.png"
+        ]
       },
       {
         "id": "db-insight",
@@ -52,12 +201,33 @@
         "revenueOutlook": "Est. $250K annual ongoing ACR. MCI-eligible, 3:1 pro/post-sales ratio met. 3 signed deals (Hayco 76K, YFY Jupiter 58K, Artiso Education 44K, total 178K annual).",
         "summary": "DB Insight is a modular, enterprise-grade AI analytics and decision platform that bridges structured enterprise data with generative AI and autonomous agents. A DB Semantic AI layer transforms raw enterprise data into governed, semantically enriched, AI-consumable knowledge. Unlike traditional BI dashboards or isolated RAG chatbots, DB Insight converts business questions directly into trusted insights and live dashboards with full control over cost, security, governance, and usage.",
         "phases": [
-          { "title": "Pioneer Innovation", "body": "Shaped Superhub's technical and product direction (not SKUs). Led technical workshops and architecture deep dives to align their roadmap with CAIP strategy. Positioned Copilot, Azure OpenAI, and CAIP as the foundation for decision intelligence; helped identify Build-to-Consume scenarios with clear business ownership; ran hands-on enablement to raise architect intensity." },
-          { "title": "Commit to Build",    "body": "Drove disciplined execution: qualified real scenarios, filtered non-scalable use cases, ran architecture reviews aligned to Microsoft well-architected and AI governance frameworks. Structured the build plan including PoC scope, partner skilling, and Marketplace/GTM readiness checkpoints. Used PoC as validation gates, not demos." },
-          { "title": "Build to Consume",   "body": "Guided Superhub through MVP build support, offer validation, and commercial readiness. Supported Marketplace IP-offer positioning and service commercialization aligned to Microsoft GTM motions. Enabled consistent multi-customer delivery, removed adoption blockers early, and measured success through new customer wins, expansion signals, and usage growth." }
+          {
+            "title": "Pioneer Innovation",
+            "body": "Shaped Superhub's technical and product direction (not SKUs). Led technical workshops and architecture deep dives to align their roadmap with CAIP strategy. Positioned Copilot, Azure OpenAI, and CAIP as the foundation for decision intelligence; helped identify Build-to-Consume scenarios with clear business ownership; ran hands-on enablement to raise architect intensity."
+          },
+          {
+            "title": "Commit to Build",
+            "body": "Drove disciplined execution: qualified real scenarios, filtered non-scalable use cases, ran architecture reviews aligned to Microsoft well-architected and AI governance frameworks. Structured the build plan including PoC scope, partner skilling, and Marketplace/GTM readiness checkpoints. Used PoC as validation gates, not demos."
+          },
+          {
+            "title": "Build to Consume",
+            "body": "Guided Superhub through MVP build support, offer validation, and commercial readiness. Supported Marketplace IP-offer positioning and service commercialization aligned to Microsoft GTM motions. Enabled consistent multi-customer delivery, removed adoption blockers early, and measured success through new customer wins, expansion signals, and usage growth."
+          }
         ],
-        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Dolly Yu", "role": "PDM" } ],
-        "photos": ["solution-build-photos/slide04-01.jpeg", "solution-build-photos/slide04-02.png"]
+        "team": [
+          {
+            "name": "Charles Deng",
+            "role": "PSA"
+          },
+          {
+            "name": "Dolly Yu",
+            "role": "PDM"
+          }
+        ],
+        "photos": [
+          "solution-build-photos/slide04-01.jpeg",
+          "solution-build-photos/slide04-02.png"
+        ]
       },
       {
         "id": "github-copilot",
@@ -70,12 +240,33 @@
         "revenueOutlook": "Est. $100K USD per year ongoing ACR. MCI-eligible, 3:1 pro/post-sales ratio met. 4 signed deals (上海凯世通 35× GitHub Enterprise + 35× Copilot Business, 西域智慧供应链 65 seats, 上海它石智航 100 seats, 上海英恒 10 seats).",
         "summary": "An executive-ready, outcome-focused enablement offer that moves teams from awareness to practical adoption in a single day. Led by PSAs, the workshop combines concise positioning with immersive hands-on labs so developers and technical leaders can apply Copilot in real coding scenarios — accelerating code writing, refactoring, and debugging while addressing responsible usage, governance, and integration with GitHub and CI/CD pipelines.",
         "phases": [
-          { "title": "Pioneer Innovation", "body": "Took primary ownership of early-stage enablement and strategic alignment. Led structured workshops, hands-on technical training, and solution-vision sessions to build partner capability and confidence beyond product knowledge — focusing on real customer pain points, industry scenarios, and repeatable solution patterns." },
-          { "title": "Commit to Build",    "body": "Hands-on co-building and risk-reduction with partner engineering, delivery, and pre-sales. Provided architectural guidance, reference designs, and design reviews; supported PoV and lighthouse pilots to validate performance, security, scalability, and operational readiness. Refined service scope, pricing, and delivery models to make the offer repeatable, scalable, and supportable." },
-          { "title": "Build to Consume",   "body": "Shifted to GTM activation and revenue acceleration. Supported joint campaigns, customer workshops, sales-play development, and pipeline shaping; aligned messaging to customer outcomes and connected technical value to business impact — turning the co-built solution into a scalable revenue engine." }
+          {
+            "title": "Pioneer Innovation",
+            "body": "Took primary ownership of early-stage enablement and strategic alignment. Led structured workshops, hands-on technical training, and solution-vision sessions to build partner capability and confidence beyond product knowledge — focusing on real customer pain points, industry scenarios, and repeatable solution patterns."
+          },
+          {
+            "title": "Commit to Build",
+            "body": "Hands-on co-building and risk-reduction with partner engineering, delivery, and pre-sales. Provided architectural guidance, reference designs, and design reviews; supported PoV and lighthouse pilots to validate performance, security, scalability, and operational readiness. Refined service scope, pricing, and delivery models to make the offer repeatable, scalable, and supportable."
+          },
+          {
+            "title": "Build to Consume",
+            "body": "Shifted to GTM activation and revenue acceleration. Supported joint campaigns, customer workshops, sales-play development, and pipeline shaping; aligned messaging to customer outcomes and connected technical value to business impact — turning the co-built solution into a scalable revenue engine."
+          }
         ],
-        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Dolly Yu", "role": "PDM" } ],
-        "photos": ["solution-build-photos/slide05-01.jpeg", "solution-build-photos/slide05-02.png"]
+        "team": [
+          {
+            "name": "Charles Deng",
+            "role": "PSA"
+          },
+          {
+            "name": "Dolly Yu",
+            "role": "PDM"
+          }
+        ],
+        "photos": [
+          "solution-build-photos/slide05-01.jpeg",
+          "solution-build-photos/slide05-02.png"
+        ]
       },
       {
         "id": "azure-migration",
@@ -88,12 +279,33 @@
         "revenueOutlook": "GIFI Asian Limited $120K · Hong Kong Metropolitan University OBSA $135K · AstroX Labs Limited $960K · Est. $1.5M per year ongoing ACR.",
         "summary": "An executive-ready, outcome-driven offer that helps partners and customers rapidly transition from assessment to production-ready Azure deployment. Combines structured guidance with hands-on delivery to ensure a secure, compliant, scalable Azure foundation — validated landing zones, prioritized workload migrations, governance, cost management, and operational readiness aligned with the Microsoft Cloud Adoption Framework.",
         "phases": [
-          { "title": "Pioneer Innovation", "body": "Led structured discovery and readiness assessments to evaluate environments, identify migration candidates, and define a prioritized roadmap aligned with business objectives. Focused on real customer constraints — compliance, data residency, operational dependencies — and shaped clear value propositions, quick-win workloads, and migration approaches that are technically feasible and commercially viable." },
-          { "title": "Commit to Build",    "body": "Drove hands-on co-building and execution to accelerate delivery and reduce risk. Provided deep architectural guidance, landing-zone implementation support, and migration best practices: identity, networking, security, governance, monitoring. Supported workload migration execution, validation, and optimization for performance, resilience, and compliance — making the offer repeatable, scalable, and supportable." },
-          { "title": "Build to Consume",   "body": "Shifted to solution activation and revenue acceleration. Supported partners through joint customer engagements, solution workshops, and sales enablement so teams could position and scale the offer. Connected migration value to cost optimization, agility, and AI readiness; built pipeline, reference scenarios, and customer success stories to drive sustained Azure consumption." }
+          {
+            "title": "Pioneer Innovation",
+            "body": "Led structured discovery and readiness assessments to evaluate environments, identify migration candidates, and define a prioritized roadmap aligned with business objectives. Focused on real customer constraints — compliance, data residency, operational dependencies — and shaped clear value propositions, quick-win workloads, and migration approaches that are technically feasible and commercially viable."
+          },
+          {
+            "title": "Commit to Build",
+            "body": "Drove hands-on co-building and execution to accelerate delivery and reduce risk. Provided deep architectural guidance, landing-zone implementation support, and migration best practices: identity, networking, security, governance, monitoring. Supported workload migration execution, validation, and optimization for performance, resilience, and compliance — making the offer repeatable, scalable, and supportable."
+          },
+          {
+            "title": "Build to Consume",
+            "body": "Shifted to solution activation and revenue acceleration. Supported partners through joint customer engagements, solution workshops, and sales enablement so teams could position and scale the offer. Connected migration value to cost optimization, agility, and AI readiness; built pipeline, reference scenarios, and customer success stories to drive sustained Azure consumption."
+          }
         ],
-        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Dolly Yu", "role": "PDM" } ],
-        "photos": ["solution-build-photos/slide06-01.jpeg", "solution-build-photos/slide06-02.png"]
+        "team": [
+          {
+            "name": "Charles Deng",
+            "role": "PSA"
+          },
+          {
+            "name": "Dolly Yu",
+            "role": "PDM"
+          }
+        ],
+        "photos": [
+          "solution-build-photos/slide06-01.jpeg",
+          "solution-build-photos/slide06-02.png"
+        ]
       },
       {
         "id": "knowledgewiz",
@@ -106,12 +318,32 @@
         "revenueOutlook": "3 signed customers · HSH 40K USD/yr · Building King 40K USD/yr · VG 40K USD/yr · Est. $360K USD per year ongoing ACR.",
         "summary": "An enterprise-ready, outcome-driven solution that transforms internal knowledge into a secure, actionable, always-available AI assistant. Built on Azure OpenAI, Azure AI Search, and enterprise-grade governance architecture — combining advanced retrieval, policy-aware access control, and agent-based execution to deliver accurate, citation-backed responses and actionable outcomes while ensuring data security, compliance, and measurable impact.",
         "phases": [
-          { "title": "Pioneer Innovation", "body": "Led structured discovery and knowledge-readiness assessments with Eastech to evaluate existing repositories, identify high-value use cases, and define a prioritized roadmap. Focused on document ecosystems (SOPs, policies, manuals, compliance) and assessed retrieval gaps, accuracy, and trust — shaping value propositions that turn internal knowledge into a secure, permission-aware AI assistant." },
-          { "title": "Commit to Build",    "body": "Drove hands-on co-building of a production-ready RAG system: hybrid search, policy-aware security trimming, grounded answer generation with citation validation, evaluation frameworks, observability pipelines, and guardrails. Designed the agent layer for actionable workflows integrated with enterprise systems (ticketing, automation) — reducing delivery risk and ensuring response accuracy and trust." },
-          { "title": "Build to Consume",   "body": "Shifted to activation, adoption, and scaling. Positioned KnowledgeWiz as business-critical capability across HR support, IT ops, compliance advisory, and customer service. Connected technical capabilities to productivity, reduced operational risk, and faster decision-making; supported continuous optimization via feedback loops, usage analytics, and model tuning." }
+          {
+            "title": "Pioneer Innovation",
+            "body": "Led structured discovery and knowledge-readiness assessments with Eastech to evaluate existing repositories, identify high-value use cases, and define a prioritized roadmap. Focused on document ecosystems (SOPs, policies, manuals, compliance) and assessed retrieval gaps, accuracy, and trust — shaping value propositions that turn internal knowledge into a secure, permission-aware AI assistant."
+          },
+          {
+            "title": "Commit to Build",
+            "body": "Drove hands-on co-building of a production-ready RAG system: hybrid search, policy-aware security trimming, grounded answer generation with citation validation, evaluation frameworks, observability pipelines, and guardrails. Designed the agent layer for actionable workflows integrated with enterprise systems (ticketing, automation) — reducing delivery risk and ensuring response accuracy and trust."
+          },
+          {
+            "title": "Build to Consume",
+            "body": "Shifted to activation, adoption, and scaling. Positioned KnowledgeWiz as business-critical capability across HR support, IT ops, compliance advisory, and customer service. Connected technical capabilities to productivity, reduced operational risk, and faster decision-making; supported continuous optimization via feedback loops, usage analytics, and model tuning."
+          }
         ],
-        "team": [ { "name": "Charles Deng", "role": "PSA" }, { "name": "Jonathan Lin", "role": "PDM" } ],
-        "photos": ["solution-build-photos/slide07-01.jpeg"]
+        "team": [
+          {
+            "name": "Charles Deng",
+            "role": "PSA"
+          },
+          {
+            "name": "Jonathan Lin",
+            "role": "PDM"
+          }
+        ],
+        "photos": [
+          "solution-build-photos/slide07-01.jpeg"
+        ]
       }
     ]
   },
@@ -136,7 +368,11 @@
           "Aligned Microsoft innovation with HSBC market leadership effectively.",
           "Establishes a strong foundation for future co-hosted initiatives with key partners."
         ],
-        "photos": ["enablement-photos/event02-01.png", "enablement-photos/event02-02.jpeg", "enablement-photos/event02-03.jpeg"]
+        "photos": [
+          "enablement-photos/event02-01.jpeg",
+          "enablement-photos/event02-02.jpeg",
+          "enablement-photos/event02-03.png"
+        ]
       },
       {
         "id": "e03",
@@ -157,7 +393,9 @@
           "High pipeline rate (121%) validates targeted enablement.",
           "Continue pre-event readiness sessions for partner success."
         ],
-        "photos": ["enablement-photos/event03-01.png"]
+        "photos": [
+          "enablement-photos/event03-01.png"
+        ]
       },
       {
         "id": "e04",
@@ -179,7 +417,9 @@
           "Expand high-touch training model to other key partners.",
           "Leverage success story for further partner outreach."
         ],
-        "photos": ["enablement-photos/event04-01.jpeg"]
+        "photos": [
+          "enablement-photos/event04-01.jpeg"
+        ]
       },
       {
         "id": "e05",
@@ -200,7 +440,11 @@
           "85% attendance reflects strong partner training interest.",
           "TTT model is critical for scaling reach; expand to other products."
         ],
-        "photos": ["enablement-photos/event05-01.png", "enablement-photos/event05-02.jpeg", "enablement-photos/event05-03.png"]
+        "photos": [
+          "enablement-photos/event05-01.png",
+          "enablement-photos/event05-02.jpeg",
+          "enablement-photos/event05-03.png"
+        ]
       },
       {
         "id": "e06",
@@ -222,7 +466,11 @@
           "Continue co-hosting events with Synnex and other key distributors.",
           "Nurture qualified leads to accelerate sales conversion."
         ],
-        "photos": ["enablement-photos/event06-01.png", "enablement-photos/event06-02.png", "enablement-photos/event06-03.png"]
+        "photos": [
+          "enablement-photos/event06-01.png",
+          "enablement-photos/event06-02.png",
+          "enablement-photos/event06-03.png"
+        ]
       },
       {
         "id": "e07",
@@ -243,7 +491,9 @@
           "High attendance and direct wins demonstrate value of thought leadership.",
           "Establish regular strategic update sessions with key enterprise partners."
         ],
-        "photos": ["enablement-photos/event07-01.png"]
+        "photos": [
+          "enablement-photos/event07-01.png"
+        ]
       },
       {
         "id": "e08",
@@ -265,7 +515,11 @@
           "Reuse the AI revenue engine message in future enablement.",
           "Continue supporting partners in launching new offers."
         ],
-        "photos": ["enablement-photos/event08-01.png", "enablement-photos/event08-02.jpeg", "enablement-photos/event08-03.jpeg"]
+        "photos": [
+          "enablement-photos/event08-01.jpeg",
+          "enablement-photos/event08-02.jpeg",
+          "enablement-photos/event08-03.png"
+        ]
       },
       {
         "id": "e09",
@@ -286,7 +540,9 @@
           "The strong partnership with Lenovo creates compelling value propositions for the startup ecosystem.",
           "Continue to target the startup community with integrated hardware-plus-software solutions."
         ],
-        "photos": ["enablement-photos/event09-01.png"]
+        "photos": [
+          "enablement-photos/event09-01.png"
+        ]
       },
       {
         "id": "e10",
@@ -308,7 +564,10 @@
           "Continue investing in foundational technical enablement.",
           "Build a robust partner ecosystem for future growth."
         ],
-        "photos": ["enablement-photos/event10-01.jpeg", "enablement-photos/event10-02.png"]
+        "photos": [
+          "enablement-photos/event10-01.png",
+          "enablement-photos/event10-02.jpeg"
+        ]
       },
       {
         "id": "e11",
@@ -329,7 +588,11 @@
           "Strong sales results confirm market appetite for Copilot.",
           "Leverage success to create a series of Copilot-focused events."
         ],
-        "photos": ["enablement-photos/event11-01.png", "enablement-photos/event11-02.jpeg", "enablement-photos/event11-03.jpeg"]
+        "photos": [
+          "enablement-photos/event11-01.jpeg",
+          "enablement-photos/event11-02.jpeg",
+          "enablement-photos/event11-03.png"
+        ]
       },
       {
         "id": "e12",
@@ -351,7 +614,10 @@
           "Make AI Frontier Academy an annual flagship event.",
           "Continue upskilling top partners for sustainable growth."
         ],
-        "photos": ["enablement-photos/event12-01.png", "enablement-photos/event12-02.png"]
+        "photos": [
+          "enablement-photos/event12-01.png",
+          "enablement-photos/event12-02.png"
+        ]
       },
       {
         "id": "e13",
@@ -372,7 +638,11 @@
           "Strong results validate demand for Azure solutions in the overseas business segment.",
           "Deepen collaboration with Synnex to create more targeted programs for partners looking to expand internationally."
         ],
-        "photos": ["enablement-photos/event13-01.png", "enablement-photos/event13-02.jpeg", "enablement-photos/event13-03.jpeg"]
+        "photos": [
+          "enablement-photos/event13-01.jpeg",
+          "enablement-photos/event13-02.jpeg",
+          "enablement-photos/event13-03.png"
+        ]
       },
       {
         "id": "e14",
@@ -393,7 +663,11 @@
           "The SME market represents a significant growth opportunity for Microsoft solutions.",
           "Develop a series of workshops specifically tailored to SME needs to build a sustainable pipeline."
         ],
-        "photos": ["enablement-photos/event14-01.png", "enablement-photos/event14-02.png", "enablement-photos/event14-03.jpeg"]
+        "photos": [
+          "enablement-photos/event14-01.jpeg",
+          "enablement-photos/event14-02.png",
+          "enablement-photos/event14-03.png"
+        ]
       },
       {
         "id": "e15",
@@ -414,7 +688,11 @@
           "Strengthened the connection between Microsoft resources and the Hong Kong startup ecosystem.",
           "The high attendance rate (85%) indicates strong interest in such collaborative events."
         ],
-        "photos": ["enablement-photos/event15-01.png", "enablement-photos/event15-02.jpeg", "enablement-photos/event15-03.jpeg"]
+        "photos": [
+          "enablement-photos/event15-01.jpeg",
+          "enablement-photos/event15-02.jpeg",
+          "enablement-photos/event15-03.png"
+        ]
       },
       {
         "id": "e16",
@@ -435,7 +713,9 @@
           "Direct impact (13 pipelines, 5 wins) proves effectiveness of upskilling partners.",
           "Plan regular, targeted training sessions for key partners to maintain competitive edge."
         ],
-        "photos": ["enablement-photos/event16-01.png"]
+        "photos": [
+          "enablement-photos/event16-01.png"
+        ]
       },
       {
         "id": "e17",
@@ -457,7 +737,10 @@
           "14 leads and 5 wins validate strong market demand for Fabric expertise.",
           "Continue nurturing leads and supporting partner project delivery."
         ],
-        "photos": ["enablement-photos/event17-01.jpeg", "enablement-photos/event17-02.png"]
+        "photos": [
+          "enablement-photos/event17-01.png",
+          "enablement-photos/event17-02.jpeg"
+        ]
       }
     ]
   },
@@ -505,10 +788,22 @@
         "description": "What I have built is not a series of short-term wins, but a sustainable partner growth engine for AI and Data. This engine integrates strategic focus, conversion mechanisms, solution standardization, and ecosystem expansion into a cohesive system, validated by measurable pipeline, consumption, and revenue outcomes. Ultimately, my core contribution lies in enabling partners to succeed and, through their success, driving scalable and sustained growth while amplifying Microsoft's value across the ecosystem.",
         "metricsTitle": "Key metrics",
         "metrics": [
-          { "value": "81", "label": "PMX projects in the workbook" },
-          { "value": "60", "label": "Projects completed" },
-          { "value": "34", "label": "Event-like partner enablement projects" },
-          { "value": ">= $1.51M", "label": "Visible annualized pipeline" }
+          {
+            "value": "81",
+            "label": "PMX projects in the workbook"
+          },
+          {
+            "value": "60",
+            "label": "Projects completed"
+          },
+          {
+            "value": "34",
+            "label": "Event-like partner enablement projects"
+          },
+          {
+            "value": ">= $1.51M",
+            "label": "Visible annualized pipeline"
+          }
         ]
       },
       "profile": {
@@ -524,23 +819,117 @@
         "title": "Certifications",
         "intro": "15 active credentials across Microsoft, Google Cloud, AWS, and Tencent Cloud — verified from LinkedIn.",
         "items": [
-          { "name": "Microsoft Certified: Agentic AI Business Solutions Architect", "issuer": "Microsoft", "issued": "Mar 2026", "expires": "Mar 2027", "credentialId": "4AB341D0776EB86A" },
-          { "name": "Microsoft Certified: Azure AI Engineer Associate", "issuer": "Microsoft", "issued": "Feb 2026", "expires": "Feb 2027", "credentialId": "A137B4791CC2C660" },
-          { "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals", "issuer": "Microsoft", "issued": "Jan 2026", "expires": "Jan 2028", "credentialId": "496863FC6152938F" },
-          { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "issued": "Jan 2026", "expires": "Jan 2028", "credentialId": "36F48E73CA4608BD" },
-          { "name": "Microsoft Certified: Azure Solutions Architect Expert", "issuer": "Microsoft", "issued": "Jul 2023", "expires": "Jul 2027", "credentialId": "2354D84F2F0D099E" },
-          { "name": "Microsoft Certified: Azure Administrator Associate", "issuer": "Microsoft", "issued": "Jul 2023", "expires": "Jul 2027", "credentialId": "38A90C92C0CB38B" },
-          { "name": "Professional Cloud Security Engineer", "issuer": "Google Cloud", "issued": "Apr 2024", "expires": "Apr 2026", "credentialId": "c92d03ff39c7445795cc65d09964a1d5" },
-          { "name": "Professional Machine Learning Engineer", "issuer": "Google Cloud", "issued": "Mar 2024", "expires": "Mar 2026", "credentialId": "98600548" },
-          { "name": "Google Cloud Certified Professional Data Engineer", "issuer": "Google Cloud", "issued": "Jun 2023", "expires": "Jun 2025", "credentialId": "75816651" },
-          { "name": "Google Cloud Certified Professional Cloud Architect", "issuer": "Google Cloud", "issued": "Mar 2022", "expires": "Mar 2024", "credentialId": "48219764" },
-          { "name": "AWS Certified DevOps Engineer – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "Sep 2023", "expires": "Sep 2026", "credentialId": "BN9GBL310BF4QJ94" },
-          { "name": "AWS Certified Solutions Architect – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "May 2023", "expires": "May 2026", "credentialId": "41GJMWRCWEE1QZKT" },
-          { "name": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services (AWS)", "issued": "Dec 2022", "expires": "Dec 2025", "credentialId": "WLQWHF71QMB1QV39" },
-          { "name": "Tencent Cloud Solutions Architect Professional", "issuer": "Tencent Cloud", "issued": "Sep 2023", "expires": "Sep 2025", "credentialId": null },
-          { "name": "Tencent Cloud Solutions Architect Associate", "issuer": "Tencent Cloud", "issued": "Nov 2022", "expires": "Nov 2024", "credentialId": "CAA-08804" }
+          {
+            "name": "Microsoft Certified: Agentic AI Business Solutions Architect",
+            "issuer": "Microsoft",
+            "issued": "Mar 2026",
+            "expires": "Mar 2027",
+            "credentialId": "4AB341D0776EB86A"
+          },
+          {
+            "name": "Microsoft Certified: Azure AI Engineer Associate",
+            "issuer": "Microsoft",
+            "issued": "Feb 2026",
+            "expires": "Feb 2027",
+            "credentialId": "A137B4791CC2C660"
+          },
+          {
+            "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+            "issuer": "Microsoft",
+            "issued": "Jan 2026",
+            "expires": "Jan 2028",
+            "credentialId": "496863FC6152938F"
+          },
+          {
+            "name": "Microsoft Certified: Azure AI Fundamentals",
+            "issuer": "Microsoft",
+            "issued": "Jan 2026",
+            "expires": "Jan 2028",
+            "credentialId": "36F48E73CA4608BD"
+          },
+          {
+            "name": "Microsoft Certified: Azure Solutions Architect Expert",
+            "issuer": "Microsoft",
+            "issued": "Jul 2023",
+            "expires": "Jul 2027",
+            "credentialId": "2354D84F2F0D099E"
+          },
+          {
+            "name": "Microsoft Certified: Azure Administrator Associate",
+            "issuer": "Microsoft",
+            "issued": "Jul 2023",
+            "expires": "Jul 2027",
+            "credentialId": "38A90C92C0CB38B"
+          },
+          {
+            "name": "Professional Cloud Security Engineer",
+            "issuer": "Google Cloud",
+            "issued": "Apr 2024",
+            "expires": "Apr 2026",
+            "credentialId": "c92d03ff39c7445795cc65d09964a1d5"
+          },
+          {
+            "name": "Professional Machine Learning Engineer",
+            "issuer": "Google Cloud",
+            "issued": "Mar 2024",
+            "expires": "Mar 2026",
+            "credentialId": "98600548"
+          },
+          {
+            "name": "Google Cloud Certified Professional Data Engineer",
+            "issuer": "Google Cloud",
+            "issued": "Jun 2023",
+            "expires": "Jun 2025",
+            "credentialId": "75816651"
+          },
+          {
+            "name": "Google Cloud Certified Professional Cloud Architect",
+            "issuer": "Google Cloud",
+            "issued": "Mar 2022",
+            "expires": "Mar 2024",
+            "credentialId": "48219764"
+          },
+          {
+            "name": "AWS Certified DevOps Engineer – Professional",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "Sep 2023",
+            "expires": "Sep 2026",
+            "credentialId": "BN9GBL310BF4QJ94"
+          },
+          {
+            "name": "AWS Certified Solutions Architect – Professional",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "May 2023",
+            "expires": "May 2026",
+            "credentialId": "41GJMWRCWEE1QZKT"
+          },
+          {
+            "name": "AWS Certified Solutions Architect – Associate",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "Dec 2022",
+            "expires": "Dec 2025",
+            "credentialId": "WLQWHF71QMB1QV39"
+          },
+          {
+            "name": "Tencent Cloud Solutions Architect Professional",
+            "issuer": "Tencent Cloud",
+            "issued": "Sep 2023",
+            "expires": "Sep 2025",
+            "credentialId": null
+          },
+          {
+            "name": "Tencent Cloud Solutions Architect Associate",
+            "issuer": "Tencent Cloud",
+            "issued": "Nov 2022",
+            "expires": "Nov 2024",
+            "credentialId": "CAA-08804"
+          }
         ],
-        "labels": { "issued": "Issued", "expires": "Expires", "credentialId": "Credential ID" },
+        "labels": {
+          "issued": "Issued",
+          "expires": "Expires",
+          "credentialId": "Credential ID"
+        },
         "note": "Sourced from LinkedIn · linkedin.com/in/charles-d-7417186b"
       },
       "pmx": {
@@ -549,10 +938,22 @@
         "intro": "I deliberately shifted my focus from “task execution” to “building systems that continuously amplify outcomes.” This transformation also led me to redefine my role within the partner ecosystem: not merely as a technical supporter, but as a catalyst who enables partners to succeed and, through their success, amplifies Microsoft’s impact. This aligns closely with Microsoft’s core value that success is measured not only by what we achieve individually, but by how effectively we empower others to achieve more. Meanwhile, as a technically focused Partner Solution Architect, I became increasingly convinced that sustainable growth must be grounded in deep technical capabilities and scalable solution design.",
         "metricsTitle": "Workbook snapshot",
         "metrics": [
-          { "value": "81", "label": "Projects total" },
-          { "value": "60", "label": "Completed" },
-          { "value": "19", "label": "In progress" },
-          { "value": "2", "label": "Not started" }
+          {
+            "value": "81",
+            "label": "Projects total"
+          },
+          {
+            "value": "60",
+            "label": "Completed"
+          },
+          {
+            "value": "19",
+            "label": "In progress"
+          },
+          {
+            "value": "2",
+            "label": "Not started"
+          }
         ],
         "projects": [],
         "detailTitle": "Embedded PMX workbook",
@@ -566,10 +967,22 @@
         "intro": "I shifted focus from project execution to capability industrialization. I led the development of 13 standardized AI and Data solution plays, each with clearly defined architectures, deployment models, and value propositions, enabling partners to replicate and deliver consistently. To date, 5 solution offers have been activated.",
         "metricsTitle": "Key numbers",
         "metrics": [
-          { "value": "13", "label": "Standardized AI and Data solution plays" },
-          { "value": "5", "label": "Activated solution offers" },
-          { "value": "285", "label": "Qualified opportunities" },
-          { "value": "USD 2.1M", "label": "Pipeline generated" }
+          {
+            "value": "13",
+            "label": "Standardized AI and Data solution plays"
+          },
+          {
+            "value": "5",
+            "label": "Activated solution offers"
+          },
+          {
+            "value": "285",
+            "label": "Qualified opportunities"
+          },
+          {
+            "value": "USD 2.1M",
+            "label": "Pipeline generated"
+          }
         ],
         "projects": [
           {
@@ -616,12 +1029,24 @@
         "intro": "I delivered 16 targeted engagements. These activities anchored in concrete solution architectures, technical pathways, and industry scenarios, ensuring that partners could not only understand the technology but also identify actionable business opportunities.",
         "metricsTitle": "Activity summary",
         "metrics": [
-          { "value": "16", "label": "Targeted engagements" },
-          { "value": "285", "label": "Qualified opportunities" },
-          { "value": "138", "label": "Customer engagements" },
-          { "value": "USD 2.1M", "label": "Pipeline" }
+          {
+            "value": "16",
+            "label": "Targeted engagements"
+          },
+          {
+            "value": "285",
+            "label": "Qualified opportunities"
+          },
+          {
+            "value": "138",
+            "label": "Customer engagements"
+          },
+          {
+            "value": "USD 2.1M",
+            "label": "Pipeline"
+          }
         ],
-        "viewAllLabel": "View all 16 enablement events \u2192",
+        "viewAllLabel": "View all 16 enablement events →",
         "items": [
           {
             "name": "Targeted engagement execution",
@@ -644,13 +1069,25 @@
         "eyebrow": "Partner Enablement",
         "pageTitle": "Partner enablement events",
         "title": "16 enablement events I led in FY26",
-        "intro": "A complete review of the partner enablement events I designed, hosted, or delivered between November 2025 and May 2026 \u2014 each one anchored in a concrete solution architecture, technical pathway, or industry scenario, and measured by pipeline and wins.",
+        "intro": "A complete review of the partner enablement events I designed, hosted, or delivered between November 2025 and May 2026 — each one anchored in a concrete solution architecture, technical pathway, or industry scenario, and measured by pipeline and wins.",
         "metricsTitle": "Aggregate impact",
         "metrics": [
-          { "value": "16", "label": "Events delivered" },
-          { "value": "1,693", "label": "Total registered" },
-          { "value": "1,200", "label": "Actual participants" },
-          { "value": "267", "label": "Qualified leads" }
+          {
+            "value": "16",
+            "label": "Events delivered"
+          },
+          {
+            "value": "1,693",
+            "label": "Total registered"
+          },
+          {
+            "value": "1,200",
+            "label": "Actual participants"
+          },
+          {
+            "value": "267",
+            "label": "Qualified leads"
+          }
         ],
         "labels": {
           "registered": "Registered",
@@ -660,7 +1097,7 @@
           "highlights": "Key achievements",
           "nextSteps": "Conclusion & next steps",
           "gallery": "Event highlights",
-          "backToHome": "\u2190 Back to dashboard",
+          "backToHome": "← Back to dashboard",
           "na": "N/A"
         }
       },
@@ -671,12 +1108,24 @@
         "intro": "The complete project ledger from my Solution Build review: every offer I drove from technical co-creation through activation, plus deep dives on the five flagship offers (ASK IT, DB Insight, GitHub Copilot Workshop, Azure Migration Service, KnowledgeWiz).",
         "metricsTitle": "Portfolio summary",
         "metrics": [
-          { "value": "16", "label": "Total offers" },
-          { "value": "9", "label": "Offer Activated (OA)" },
-          { "value": "7", "label": "Offer Validation (OV)" },
-          { "value": "USD 2.1M+", "label": "Pipeline / ACR generated" }
+          {
+            "value": "16",
+            "label": "Total offers"
+          },
+          {
+            "value": "9",
+            "label": "Offer Activated (OA)"
+          },
+          {
+            "value": "7",
+            "label": "Offer Validation (OV)"
+          },
+          {
+            "value": "USD 2.1M+",
+            "label": "Pipeline / ACR generated"
+          }
         ],
-        "projectsTitle": "Offer Validation & Activation \u2014 full ledger",
+        "projectsTitle": "Offer Validation & Activation — full ledger",
         "deepDivesTitle": "Activation deep dives",
         "labels": {
           "date": "Date",
@@ -696,7 +1145,7 @@
           "summary": "Offer summary",
           "roadmap": "Roadmap to Revenue",
           "team": "The team",
-          "backToHome": "\u2190 Back to dashboard"
+          "backToHome": "← Back to dashboard"
         }
       },
       "next": {
@@ -744,10 +1193,22 @@
         "description": "我所构建的不是一系列短期胜利，而是 AI 和数据领域的可持续伙伴成长引擎。这个引擎集成了战略聚焦、转化机制、方案标准化和生态拓展，形成了一个有机整体，并由可衡量的 pipeline、消耗和营收成果验证。最终，我的核心贡献在于使伙伴成功，通过他们的成功驱动可扩展和可持续的增长，同时放大 Microsoft 在整个生态中的价值。",
         "metricsTitle": "关键指标",
         "metrics": [
-          { "value": "81", "label": "PMX 项目总数" },
-          { "value": "60", "label": "已完成项目" },
-          { "value": "34", "label": "活动型伙伴赋能项目" },
-          { "value": ">= $1.51M", "label": "可见年度化 pipeline" }
+          {
+            "value": "81",
+            "label": "PMX 项目总数"
+          },
+          {
+            "value": "60",
+            "label": "已完成项目"
+          },
+          {
+            "value": "34",
+            "label": "活动型伙伴赋能项目"
+          },
+          {
+            "value": ">= $1.51M",
+            "label": "可见年度化 pipeline"
+          }
         ]
       },
       "profile": {
@@ -763,23 +1224,117 @@
         "title": "认证",
         "intro": "覆盖 Microsoft、Google Cloud、AWS、腾讯云的 15 项有效认证 — 数据来源 LinkedIn。",
         "items": [
-          { "name": "Microsoft Certified: Agentic AI Business Solutions Architect", "issuer": "Microsoft", "issued": "2026 年 3 月", "expires": "2027 年 3 月", "credentialId": "4AB341D0776EB86A" },
-          { "name": "Microsoft Certified: Azure AI Engineer Associate", "issuer": "Microsoft", "issued": "2026 年 2 月", "expires": "2027 年 2 月", "credentialId": "A137B4791CC2C660" },
-          { "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "496863FC6152938F" },
-          { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "36F48E73CA4608BD" },
-          { "name": "Microsoft Certified: Azure Solutions Architect Expert", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "2354D84F2F0D099E" },
-          { "name": "Microsoft Certified: Azure Administrator Associate", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "38A90C92C0CB38B" },
-          { "name": "Professional Cloud Security Engineer", "issuer": "Google Cloud", "issued": "2024 年 4 月", "expires": "2026 年 4 月", "credentialId": "c92d03ff39c7445795cc65d09964a1d5" },
-          { "name": "Professional Machine Learning Engineer", "issuer": "Google Cloud", "issued": "2024 年 3 月", "expires": "2026 年 3 月", "credentialId": "98600548" },
-          { "name": "Google Cloud Certified Professional Data Engineer", "issuer": "Google Cloud", "issued": "2023 年 6 月", "expires": "2025 年 6 月", "credentialId": "75816651" },
-          { "name": "Google Cloud Certified Professional Cloud Architect", "issuer": "Google Cloud", "issued": "2022 年 3 月", "expires": "2024 年 3 月", "credentialId": "48219764" },
-          { "name": "AWS Certified DevOps Engineer – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "2023 年 9 月", "expires": "2026 年 9 月", "credentialId": "BN9GBL310BF4QJ94" },
-          { "name": "AWS Certified Solutions Architect – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "2023 年 5 月", "expires": "2026 年 5 月", "credentialId": "41GJMWRCWEE1QZKT" },
-          { "name": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services (AWS)", "issued": "2022 年 12 月", "expires": "2025 年 12 月", "credentialId": "WLQWHF71QMB1QV39" },
-          { "name": "Tencent Cloud Solutions Architect Professional", "issuer": "腾讯云", "issued": "2023 年 9 月", "expires": "2025 年 9 月", "credentialId": null },
-          { "name": "Tencent Cloud Solutions Architect Associate", "issuer": "腾讯云", "issued": "2022 年 11 月", "expires": "2024 年 11 月", "credentialId": "CAA-08804" }
+          {
+            "name": "Microsoft Certified: Agentic AI Business Solutions Architect",
+            "issuer": "Microsoft",
+            "issued": "2026 年 3 月",
+            "expires": "2027 年 3 月",
+            "credentialId": "4AB341D0776EB86A"
+          },
+          {
+            "name": "Microsoft Certified: Azure AI Engineer Associate",
+            "issuer": "Microsoft",
+            "issued": "2026 年 2 月",
+            "expires": "2027 年 2 月",
+            "credentialId": "A137B4791CC2C660"
+          },
+          {
+            "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+            "issuer": "Microsoft",
+            "issued": "2026 年 1 月",
+            "expires": "2028 年 1 月",
+            "credentialId": "496863FC6152938F"
+          },
+          {
+            "name": "Microsoft Certified: Azure AI Fundamentals",
+            "issuer": "Microsoft",
+            "issued": "2026 年 1 月",
+            "expires": "2028 年 1 月",
+            "credentialId": "36F48E73CA4608BD"
+          },
+          {
+            "name": "Microsoft Certified: Azure Solutions Architect Expert",
+            "issuer": "Microsoft",
+            "issued": "2023 年 7 月",
+            "expires": "2027 年 7 月",
+            "credentialId": "2354D84F2F0D099E"
+          },
+          {
+            "name": "Microsoft Certified: Azure Administrator Associate",
+            "issuer": "Microsoft",
+            "issued": "2023 年 7 月",
+            "expires": "2027 年 7 月",
+            "credentialId": "38A90C92C0CB38B"
+          },
+          {
+            "name": "Professional Cloud Security Engineer",
+            "issuer": "Google Cloud",
+            "issued": "2024 年 4 月",
+            "expires": "2026 年 4 月",
+            "credentialId": "c92d03ff39c7445795cc65d09964a1d5"
+          },
+          {
+            "name": "Professional Machine Learning Engineer",
+            "issuer": "Google Cloud",
+            "issued": "2024 年 3 月",
+            "expires": "2026 年 3 月",
+            "credentialId": "98600548"
+          },
+          {
+            "name": "Google Cloud Certified Professional Data Engineer",
+            "issuer": "Google Cloud",
+            "issued": "2023 年 6 月",
+            "expires": "2025 年 6 月",
+            "credentialId": "75816651"
+          },
+          {
+            "name": "Google Cloud Certified Professional Cloud Architect",
+            "issuer": "Google Cloud",
+            "issued": "2022 年 3 月",
+            "expires": "2024 年 3 月",
+            "credentialId": "48219764"
+          },
+          {
+            "name": "AWS Certified DevOps Engineer – Professional",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "2023 年 9 月",
+            "expires": "2026 年 9 月",
+            "credentialId": "BN9GBL310BF4QJ94"
+          },
+          {
+            "name": "AWS Certified Solutions Architect – Professional",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "2023 年 5 月",
+            "expires": "2026 年 5 月",
+            "credentialId": "41GJMWRCWEE1QZKT"
+          },
+          {
+            "name": "AWS Certified Solutions Architect – Associate",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "2022 年 12 月",
+            "expires": "2025 年 12 月",
+            "credentialId": "WLQWHF71QMB1QV39"
+          },
+          {
+            "name": "Tencent Cloud Solutions Architect Professional",
+            "issuer": "腾讯云",
+            "issued": "2023 年 9 月",
+            "expires": "2025 年 9 月",
+            "credentialId": null
+          },
+          {
+            "name": "Tencent Cloud Solutions Architect Associate",
+            "issuer": "腾讯云",
+            "issued": "2022 年 11 月",
+            "expires": "2024 年 11 月",
+            "credentialId": "CAA-08804"
+          }
         ],
-        "labels": { "issued": "颁发", "expires": "到期", "credentialId": "凭证编号" },
+        "labels": {
+          "issued": "颁发",
+          "expires": "到期",
+          "credentialId": "凭证编号"
+        },
         "note": "数据来源：LinkedIn · linkedin.com/in/charles-d-7417186b"
       },
       "pmx": {
@@ -788,10 +1343,22 @@
         "intro": "我有意地将关注点从“任务执行”转向“构建能持续放大成果的系统”。这一转变也促使我在伙伴生态中重新定位自己的角色：不仅是一名技术支持者，更是赋能伙伴成功的催化剂，并通过他们的成功放大微软的影响力。这与微软“我们的成功不仅体现在个人成就，更体现在我们如何高效地帮助他人成就更多”的核心价值观高度一致。同时，作为一名以技术为本的伙伴解决方案架构师，我愈发坚信：可持续的增长必须建立在深厚的技术能力与可扩展的解决方案设计之上。",
         "metricsTitle": "工作簿概览",
         "metrics": [
-          { "value": "81", "label": "项目总数" },
-          { "value": "60", "label": "已完成" },
-          { "value": "19", "label": "进行中" },
-          { "value": "2", "label": "未开始" }
+          {
+            "value": "81",
+            "label": "项目总数"
+          },
+          {
+            "value": "60",
+            "label": "已完成"
+          },
+          {
+            "value": "19",
+            "label": "进行中"
+          },
+          {
+            "value": "2",
+            "label": "未开始"
+          }
         ],
         "projects": [],
         "detailTitle": "嵌入式 PMX 工作簿",
@@ -805,10 +1372,22 @@
         "intro": "我把工作重心从项目执行转向能力工业化。我主导构建了 13 个标准化 AI 与数据解决方案 play，每个都具备清晰的架构、部署模型和价值主张，帮助伙伴可复制、可持续交付。目前已有 5 个 solution offer 完成 activation。",
         "metricsTitle": "关键数字",
         "metrics": [
-          { "value": "13", "label": "标准化 AI 与数据 solution plays" },
-          { "value": "5", "label": "已 activation 的 solution offers" },
-          { "value": "285", "label": "qualified opportunities" },
-          { "value": "USD 2.1M", "label": "pipeline" }
+          {
+            "value": "13",
+            "label": "标准化 AI 与数据 solution plays"
+          },
+          {
+            "value": "5",
+            "label": "已 activation 的 solution offers"
+          },
+          {
+            "value": "285",
+            "label": "qualified opportunities"
+          },
+          {
+            "value": "USD 2.1M",
+            "label": "pipeline"
+          }
         ],
         "projects": [
           {
@@ -855,12 +1434,24 @@
         "intro": "我共交付了 16 场有明确目标的赋能活动。这些活动围绕具体方案架构、技术路径和行业场景展开，确保伙伴不只是理解技术，更能识别可执行的业务机会。",
         "metricsTitle": "活动总结",
         "metrics": [
-          { "value": "16", "label": "目标活动数" },
-          { "value": "285", "label": "qualified opportunities" },
-          { "value": "138", "label": "customer engagements" },
-          { "value": "USD 2.1M", "label": "pipeline" }
+          {
+            "value": "16",
+            "label": "目标活动数"
+          },
+          {
+            "value": "285",
+            "label": "qualified opportunities"
+          },
+          {
+            "value": "138",
+            "label": "customer engagements"
+          },
+          {
+            "value": "USD 2.1M",
+            "label": "pipeline"
+          }
         ],
-        "viewAllLabel": "查看全部 16 场赋能活动 \u2192",
+        "viewAllLabel": "查看全部 16 场赋能活动 →",
         "items": [
           {
             "name": "目标化赋能执行",
@@ -886,10 +1477,22 @@
         "intro": "2025 年 11 月到 2026 年 5 月期间，我设计、主办或交付的伙伴赋能活动完整回顾 — 每一场都围绕具体的方案架构、技术路径或行业场景展开，并以 pipeline 与 win 衡量成果。",
         "metricsTitle": "汇总成果",
         "metrics": [
-          { "value": "16", "label": "交付的活动数" },
-          { "value": "1,693", "label": "总报名人数" },
-          { "value": "1,200", "label": "实际参与人数" },
-          { "value": "267", "label": "qualified leads" }
+          {
+            "value": "16",
+            "label": "交付的活动数"
+          },
+          {
+            "value": "1,693",
+            "label": "总报名人数"
+          },
+          {
+            "value": "1,200",
+            "label": "实际参与人数"
+          },
+          {
+            "value": "267",
+            "label": "qualified leads"
+          }
         ],
         "labels": {
           "registered": "报名人数",
@@ -899,7 +1502,7 @@
           "highlights": "关键成果",
           "nextSteps": "结论与下一步",
           "gallery": "现场集锦",
-          "backToHome": "\u2190 返回主面板",
+          "backToHome": "← 返回主面板",
           "na": "N/A"
         }
       },
@@ -910,12 +1513,24 @@
         "intro": "来自 Solution Build review 的完整项目账本：从技术共创到上线激活的每一个 offer，加上 5 个旗舰 offer（ASK IT、DB Insight、GitHub Copilot Workshop、Azure Migration Service、KnowledgeWiz）的深度拆解。",
         "metricsTitle": "组合总览",
         "metrics": [
-          { "value": "16", "label": "Offer 总数" },
-          { "value": "9", "label": "Offer Activated (OA)" },
-          { "value": "7", "label": "Offer Validation (OV)" },
-          { "value": "USD 2.1M+", "label": "Pipeline / ACR" }
+          {
+            "value": "16",
+            "label": "Offer 总数"
+          },
+          {
+            "value": "9",
+            "label": "Offer Activated (OA)"
+          },
+          {
+            "value": "7",
+            "label": "Offer Validation (OV)"
+          },
+          {
+            "value": "USD 2.1M+",
+            "label": "Pipeline / ACR"
+          }
         ],
-        "projectsTitle": "Offer Validation & Activation \u2014 全量清单",
+        "projectsTitle": "Offer Validation & Activation — 全量清单",
         "deepDivesTitle": "Activation 深度拆解",
         "labels": {
           "date": "日期",
@@ -935,7 +1550,7 @@
           "summary": "Offer 概述",
           "roadmap": "Roadmap to Revenue",
           "team": "团队",
-          "backToHome": "\u2190 返回主面板"
+          "backToHome": "← 返回主面板"
         }
       },
       "next": {
@@ -983,10 +1598,22 @@
         "description": "我所構建的不是一系列短期勝利，而是 AI 和數據領域的可持續夥伴成長引擎。這個引擎集成了戰略聚焦、轉化機制、方案標準化和生態拓展，形成了一個有機整體，並由可衡量的 pipeline、消耗和營收成果驗證。最終，我的核心貢獻在於使夥伴成功，通過他們的成功驅動可擴展和可持續的增長，同時放大 Microsoft 在整個生態中的價值。",
         "metricsTitle": "關鍵指標",
         "metrics": [
-          { "value": "81", "label": "PMX 專案總數" },
-          { "value": "60", "label": "已完成專案" },
-          { "value": "34", "label": "活動型夥伴賦能專案" },
-          { "value": ">= $1.51M", "label": "可見年度化 pipeline" }
+          {
+            "value": "81",
+            "label": "PMX 專案總數"
+          },
+          {
+            "value": "60",
+            "label": "已完成專案"
+          },
+          {
+            "value": "34",
+            "label": "活動型夥伴賦能專案"
+          },
+          {
+            "value": ">= $1.51M",
+            "label": "可見年度化 pipeline"
+          }
         ]
       },
       "profile": {
@@ -1002,23 +1629,117 @@
         "title": "認證",
         "intro": "涵蓋 Microsoft、Google Cloud、AWS、騰訊雲的 15 項有效認證 — 資料來源 LinkedIn。",
         "items": [
-          { "name": "Microsoft Certified: Agentic AI Business Solutions Architect", "issuer": "Microsoft", "issued": "2026 年 3 月", "expires": "2027 年 3 月", "credentialId": "4AB341D0776EB86A" },
-          { "name": "Microsoft Certified: Azure AI Engineer Associate", "issuer": "Microsoft", "issued": "2026 年 2 月", "expires": "2027 年 2 月", "credentialId": "A137B4791CC2C660" },
-          { "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "496863FC6152938F" },
-          { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "issued": "2026 年 1 月", "expires": "2028 年 1 月", "credentialId": "36F48E73CA4608BD" },
-          { "name": "Microsoft Certified: Azure Solutions Architect Expert", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "2354D84F2F0D099E" },
-          { "name": "Microsoft Certified: Azure Administrator Associate", "issuer": "Microsoft", "issued": "2023 年 7 月", "expires": "2027 年 7 月", "credentialId": "38A90C92C0CB38B" },
-          { "name": "Professional Cloud Security Engineer", "issuer": "Google Cloud", "issued": "2024 年 4 月", "expires": "2026 年 4 月", "credentialId": "c92d03ff39c7445795cc65d09964a1d5" },
-          { "name": "Professional Machine Learning Engineer", "issuer": "Google Cloud", "issued": "2024 年 3 月", "expires": "2026 年 3 月", "credentialId": "98600548" },
-          { "name": "Google Cloud Certified Professional Data Engineer", "issuer": "Google Cloud", "issued": "2023 年 6 月", "expires": "2025 年 6 月", "credentialId": "75816651" },
-          { "name": "Google Cloud Certified Professional Cloud Architect", "issuer": "Google Cloud", "issued": "2022 年 3 月", "expires": "2024 年 3 月", "credentialId": "48219764" },
-          { "name": "AWS Certified DevOps Engineer – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "2023 年 9 月", "expires": "2026 年 9 月", "credentialId": "BN9GBL310BF4QJ94" },
-          { "name": "AWS Certified Solutions Architect – Professional", "issuer": "Amazon Web Services (AWS)", "issued": "2023 年 5 月", "expires": "2026 年 5 月", "credentialId": "41GJMWRCWEE1QZKT" },
-          { "name": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services (AWS)", "issued": "2022 年 12 月", "expires": "2025 年 12 月", "credentialId": "WLQWHF71QMB1QV39" },
-          { "name": "Tencent Cloud Solutions Architect Professional", "issuer": "騰訊雲", "issued": "2023 年 9 月", "expires": "2025 年 9 月", "credentialId": null },
-          { "name": "Tencent Cloud Solutions Architect Associate", "issuer": "騰訊雲", "issued": "2022 年 11 月", "expires": "2024 年 11 月", "credentialId": "CAA-08804" }
+          {
+            "name": "Microsoft Certified: Agentic AI Business Solutions Architect",
+            "issuer": "Microsoft",
+            "issued": "2026 年 3 月",
+            "expires": "2027 年 3 月",
+            "credentialId": "4AB341D0776EB86A"
+          },
+          {
+            "name": "Microsoft Certified: Azure AI Engineer Associate",
+            "issuer": "Microsoft",
+            "issued": "2026 年 2 月",
+            "expires": "2027 年 2 月",
+            "credentialId": "A137B4791CC2C660"
+          },
+          {
+            "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+            "issuer": "Microsoft",
+            "issued": "2026 年 1 月",
+            "expires": "2028 年 1 月",
+            "credentialId": "496863FC6152938F"
+          },
+          {
+            "name": "Microsoft Certified: Azure AI Fundamentals",
+            "issuer": "Microsoft",
+            "issued": "2026 年 1 月",
+            "expires": "2028 年 1 月",
+            "credentialId": "36F48E73CA4608BD"
+          },
+          {
+            "name": "Microsoft Certified: Azure Solutions Architect Expert",
+            "issuer": "Microsoft",
+            "issued": "2023 年 7 月",
+            "expires": "2027 年 7 月",
+            "credentialId": "2354D84F2F0D099E"
+          },
+          {
+            "name": "Microsoft Certified: Azure Administrator Associate",
+            "issuer": "Microsoft",
+            "issued": "2023 年 7 月",
+            "expires": "2027 年 7 月",
+            "credentialId": "38A90C92C0CB38B"
+          },
+          {
+            "name": "Professional Cloud Security Engineer",
+            "issuer": "Google Cloud",
+            "issued": "2024 年 4 月",
+            "expires": "2026 年 4 月",
+            "credentialId": "c92d03ff39c7445795cc65d09964a1d5"
+          },
+          {
+            "name": "Professional Machine Learning Engineer",
+            "issuer": "Google Cloud",
+            "issued": "2024 年 3 月",
+            "expires": "2026 年 3 月",
+            "credentialId": "98600548"
+          },
+          {
+            "name": "Google Cloud Certified Professional Data Engineer",
+            "issuer": "Google Cloud",
+            "issued": "2023 年 6 月",
+            "expires": "2025 年 6 月",
+            "credentialId": "75816651"
+          },
+          {
+            "name": "Google Cloud Certified Professional Cloud Architect",
+            "issuer": "Google Cloud",
+            "issued": "2022 年 3 月",
+            "expires": "2024 年 3 月",
+            "credentialId": "48219764"
+          },
+          {
+            "name": "AWS Certified DevOps Engineer – Professional",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "2023 年 9 月",
+            "expires": "2026 年 9 月",
+            "credentialId": "BN9GBL310BF4QJ94"
+          },
+          {
+            "name": "AWS Certified Solutions Architect – Professional",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "2023 年 5 月",
+            "expires": "2026 年 5 月",
+            "credentialId": "41GJMWRCWEE1QZKT"
+          },
+          {
+            "name": "AWS Certified Solutions Architect – Associate",
+            "issuer": "Amazon Web Services (AWS)",
+            "issued": "2022 年 12 月",
+            "expires": "2025 年 12 月",
+            "credentialId": "WLQWHF71QMB1QV39"
+          },
+          {
+            "name": "Tencent Cloud Solutions Architect Professional",
+            "issuer": "騰訊雲",
+            "issued": "2023 年 9 月",
+            "expires": "2025 年 9 月",
+            "credentialId": null
+          },
+          {
+            "name": "Tencent Cloud Solutions Architect Associate",
+            "issuer": "騰訊雲",
+            "issued": "2022 年 11 月",
+            "expires": "2024 年 11 月",
+            "credentialId": "CAA-08804"
+          }
         ],
-        "labels": { "issued": "頒發", "expires": "到期", "credentialId": "憑證編號" },
+        "labels": {
+          "issued": "頒發",
+          "expires": "到期",
+          "credentialId": "憑證編號"
+        },
         "note": "資料來源：LinkedIn · linkedin.com/in/charles-d-7417186b"
       },
       "pmx": {
@@ -1027,10 +1748,22 @@
         "intro": "我有意地將關注點從「任務執行」轉向「建構能持續放大成果的系統」。這一轉變也促使我在夥伴生態中重新定位自己的角色：不僅是一名技術支持者，更是賦能夥伴成功的催化劑，並透過他們的成功放大微軟的影響力。這與微軟「我們的成功不僅體現在個人成就，更體現在我們如何高效地幫助他人成就更多」的核心價值觀高度一致。同時，作為一名以技術為本的夥伴解決方案架構師，我愈發堅信：可持續的成長必須建立在深厚的技術能力與可擴展的解決方案設計之上。",
         "metricsTitle": "工作簿概覽",
         "metrics": [
-          { "value": "81", "label": "專案總數" },
-          { "value": "60", "label": "已完成" },
-          { "value": "19", "label": "進行中" },
-          { "value": "2", "label": "未開始" }
+          {
+            "value": "81",
+            "label": "專案總數"
+          },
+          {
+            "value": "60",
+            "label": "已完成"
+          },
+          {
+            "value": "19",
+            "label": "進行中"
+          },
+          {
+            "value": "2",
+            "label": "未開始"
+          }
         ],
         "projects": [],
         "detailTitle": "嵌入式 PMX 工作簿",
@@ -1044,10 +1777,22 @@
         "intro": "我把工作重心從專案執行轉向能力工業化。我主導建立了 13 個標準化 AI 與數據解決方案 play，每個都具備清晰的架構、部署模型與價值主張，讓夥伴可複製且穩定交付。目前已有 5 個 solution offer 完成 activation。",
         "metricsTitle": "關鍵數字",
         "metrics": [
-          { "value": "13", "label": "標準化 AI 與數據 solution plays" },
-          { "value": "5", "label": "已 activation 的 solution offers" },
-          { "value": "285", "label": "qualified opportunities" },
-          { "value": "USD 2.1M", "label": "pipeline" }
+          {
+            "value": "13",
+            "label": "標準化 AI 與數據 solution plays"
+          },
+          {
+            "value": "5",
+            "label": "已 activation 的 solution offers"
+          },
+          {
+            "value": "285",
+            "label": "qualified opportunities"
+          },
+          {
+            "value": "USD 2.1M",
+            "label": "pipeline"
+          }
         ],
         "projects": [
           {
@@ -1094,12 +1839,24 @@
         "intro": "我共交付了 16 場有明確目標的賦能活動。這些活動圍繞具體方案架構、技術路徑與行業場景展開，確保夥伴不只是理解技術，更能識別可執行的業務機會。",
         "metricsTitle": "活動總結",
         "metrics": [
-          { "value": "16", "label": "目標活動數" },
-          { "value": "285", "label": "qualified opportunities" },
-          { "value": "138", "label": "customer engagements" },
-          { "value": "USD 2.1M", "label": "pipeline" }
+          {
+            "value": "16",
+            "label": "目標活動數"
+          },
+          {
+            "value": "285",
+            "label": "qualified opportunities"
+          },
+          {
+            "value": "138",
+            "label": "customer engagements"
+          },
+          {
+            "value": "USD 2.1M",
+            "label": "pipeline"
+          }
         ],
-        "viewAllLabel": "查看全部 16 場賦能活動 \u2192",
+        "viewAllLabel": "查看全部 16 場賦能活動 →",
         "items": [
           {
             "name": "目標化賦能執行",
@@ -1125,10 +1882,22 @@
         "intro": "2025 年 11 月到 2026 年 5 月期間，我設計、主辦或交付的夥伴賦能活動完整回顧 — 每一場都圍繞具體的方案架構、技術路徑或行業場景展開，並以 pipeline 與 win 衡量成果。",
         "metricsTitle": "彙總成果",
         "metrics": [
-          { "value": "16", "label": "交付的活動數" },
-          { "value": "1,693", "label": "總報名人數" },
-          { "value": "1,200", "label": "實際參與人數" },
-          { "value": "267", "label": "qualified leads" }
+          {
+            "value": "16",
+            "label": "交付的活動數"
+          },
+          {
+            "value": "1,693",
+            "label": "總報名人數"
+          },
+          {
+            "value": "1,200",
+            "label": "實際參與人數"
+          },
+          {
+            "value": "267",
+            "label": "qualified leads"
+          }
         ],
         "labels": {
           "registered": "報名人數",
@@ -1138,7 +1907,7 @@
           "highlights": "關鍵成果",
           "nextSteps": "結論與下一步",
           "gallery": "現場集錦",
-          "backToHome": "\u2190 返回主儀表板",
+          "backToHome": "← 返回主儀表板",
           "na": "N/A"
         }
       },
@@ -1149,12 +1918,24 @@
         "intro": "來自 Solution Build review 的完整項目帳本：從技術共創到上線激活的每一個 offer，加上 5 個旗艦 offer（ASK IT、DB Insight、GitHub Copilot Workshop、Azure Migration Service、KnowledgeWiz）的深度拆解。",
         "metricsTitle": "組合總覽",
         "metrics": [
-          { "value": "16", "label": "Offer 總數" },
-          { "value": "9", "label": "Offer Activated (OA)" },
-          { "value": "7", "label": "Offer Validation (OV)" },
-          { "value": "USD 2.1M+", "label": "Pipeline / ACR" }
+          {
+            "value": "16",
+            "label": "Offer 總數"
+          },
+          {
+            "value": "9",
+            "label": "Offer Activated (OA)"
+          },
+          {
+            "value": "7",
+            "label": "Offer Validation (OV)"
+          },
+          {
+            "value": "USD 2.1M+",
+            "label": "Pipeline / ACR"
+          }
         ],
-        "projectsTitle": "Offer Validation & Activation \u2014 全量清單",
+        "projectsTitle": "Offer Validation & Activation — 全量清單",
         "deepDivesTitle": "Activation 深度拆解",
         "labels": {
           "date": "日期",
@@ -1174,7 +1955,7 @@
           "summary": "Offer 概述",
           "roadmap": "Roadmap to Revenue",
           "team": "團隊",
-          "backToHome": "\u2190 返回主儀表板"
+          "backToHome": "← 返回主儀表板"
         }
       },
       "next": {

@@ -254,7 +254,7 @@ function initRevealAnimation() {
         }
       });
     },
-    { threshold: 0.16 }
+    { threshold: 0.01 }
   );
 
   revealElements.forEach((element, index) => {
