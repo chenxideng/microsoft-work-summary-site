@@ -36,9 +36,9 @@ function companyLogo(name) {
   if (!name) return '';
   const key = String(name).toLowerCase();
   let file = '';
-  if (key.includes('microsoft') || key.includes('微软') || key.includes('微軟')) file = 'logos/microsoft.svg';
-  else if (key.includes('tencent') || key.includes('腾讯') || key.includes('騰訊')) file = 'logos/tencent.svg';
-  else if (key.includes('ant') || key.includes('蚂蚁') || key.includes('螞蟻')) file = 'logos/ant-group.svg';
+  if (key.includes('microsoft') || key.includes('微软') || key.includes('微軟')) file = 'logos/microsoft.jpg';
+  else if (key.includes('tencent') || key.includes('腾讯') || key.includes('騰訊')) file = 'logos/tencent.jpg';
+  else if (key.includes('ant') || key.includes('蚂蚁') || key.includes('螞蟻')) file = 'logos/ant-group.jpg';
   if (!file) return '';
   return `<img class="experience-logo" src="${file}" alt="${String(name).replace(/"/g, '&quot;')}" loading="lazy" />`;
 }
@@ -47,8 +47,8 @@ function schoolLogo(name) {
   if (!name) return '';
   const key = String(name).toLowerCase();
   let file = '';
-  if (key.includes('chinese university') || key.includes('香港中文')) file = 'logos/cuhk.svg';
-  else if (key.includes('electronic science') || key.includes('uestc') || key.includes('电子科技') || key.includes('電子科技')) file = 'logos/uestc.svg';
+  if (key.includes('chinese university') || key.includes('香港中文')) file = 'logos/cuhk.jpg';
+  else if (key.includes('electronic science') || key.includes('uestc') || key.includes('电子科技') || key.includes('電子科技')) file = 'logos/uestc.jpg';
   if (!file) return '';
   return `<img class="experience-logo" src="${file}" alt="${String(name).replace(/"/g, '&quot;')}" loading="lazy" />`;
 }
@@ -143,12 +143,12 @@ function issuerLogo(issuer) {
   if (!issuer) return '';
   const key = String(issuer).toLowerCase();
   let file = '';
-  if (key.includes('microsoft') || key.includes('微软') || key.includes('微軟')) file = 'logos/microsoft.svg';
-  else if (key.includes('google')) file = 'logos/google-cloud.svg';
-  else if (key.includes('aws') || key.includes('amazon')) file = 'logos/aws.svg';
-  else if (key.includes('tencent cloud') || key.includes('腾讯云') || key.includes('騰訊雲')) file = 'logos/tencent-cloud.svg';
-  else if (key.includes('tencent') || key.includes('腾讯') || key.includes('騰訊')) file = 'logos/tencent.svg';
-  else if (key.includes('ant') || key.includes('蚂蚁') || key.includes('螞蟻')) file = 'logos/ant-group.svg';
+  if (key.includes('microsoft') || key.includes('微软') || key.includes('微軟')) file = 'logos/microsoft.jpg';
+  else if (key.includes('google')) file = 'logos/google-cloud.jpg';
+  else if (key.includes('aws') || key.includes('amazon')) file = 'logos/aws.jpg';
+  else if (key.includes('tencent cloud') || key.includes('腾讯云') || key.includes('騰訊雲')) file = 'logos/tencent-cloud.jpg';
+  else if (key.includes('tencent') || key.includes('腾讯') || key.includes('騰訊')) file = 'logos/tencent.jpg';
+  else if (key.includes('ant') || key.includes('蚂蚁') || key.includes('螞蟻')) file = 'logos/ant-group.jpg';
   if (!file) return '';
   return `<img class="cert-logo" src="${file}" alt="${String(issuer).replace(/"/g, '&quot;')}" loading="lazy" />`;
 }
