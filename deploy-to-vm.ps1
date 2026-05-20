@@ -42,6 +42,9 @@ try {
   if (Test-Path "solution-build-photos") {
     & $pscp -batch -pw $passwordPlain -r "solution-build-photos" $remoteTarget
   }
+  if (Test-Path "logos") {
+    & $pscp -batch -pw $passwordPlain -r "logos" $remoteTarget
+  }
   & $plink -ssh -batch -l $User -pw $passwordPlain $VmAddress "cd $RemotePath && npm install --omit=dev && echo '$passwordPlain' | sudo -S systemctl restart microsoft-workspace.service && systemctl is-active microsoft-workspace.service"
 }
 finally {

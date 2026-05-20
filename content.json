@@ -814,6 +814,21 @@
         "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
         "avatarPath": "profile-avatar.jpg"
       },
+      "experience": {
+        "heading": "Recent experience",
+        "items": [
+          { "role": "Senior Partner Solution Architect", "company": "Microsoft", "employmentType": "Full-time", "date": "Nov 2025 – Present", "location": "Hong Kong SAR · Hybrid" },
+          { "role": "Cloud Solutions Architect", "company": "Tencent", "employmentType": "Full-time", "date": "Aug 2022 – Nov 2025", "location": "Hong Kong SAR" },
+          { "role": "Integration Manager", "company": "Ant Group", "employmentType": "Full-time", "date": "Sep 2020 – Jul 2022", "location": "Hong Kong, Hong Kong SAR" }
+        ]
+      },
+      "education": {
+        "heading": "Education",
+        "items": [
+          { "school": "The Chinese University of Hong Kong", "degree": "Master’s degree", "field": "Computer Science", "date": "2013 – 2015" },
+          { "school": "University of Electronic Science and Technology of China", "degree": "Bachelor’s degree", "field": "Computer Science", "date": "Sep 2009 – Jul 2013" }
+        ]
+      },
       "certifications": {
         "eyebrow": "Professional Credentials",
         "title": "Certifications",
@@ -1219,6 +1234,21 @@
         "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
         "avatarPath": "profile-avatar.jpg"
       },
+      "experience": {
+        "heading": "近期工作经历",
+        "items": [
+          { "role": "高级伙伴解决方案架构师", "company": "微软", "employmentType": "全职", "date": "2025 年 11 月 – 至今", "location": "中国香港特别行政区 · 混合办公" },
+          { "role": "云解决方案架构师", "company": "腾讯", "employmentType": "全职", "date": "2022 年 8 月 – 2025 年 11 月", "location": "中国香港特别行政区" },
+          { "role": "集成经理", "company": "蚂蚁集团", "employmentType": "全职", "date": "2020 年 9 月 – 2022 年 7 月", "location": "中国香港，中国香港特别行政区" }
+        ]
+      },
+      "education": {
+        "heading": "教育背景",
+        "items": [
+          { "school": "香港中文大学", "degree": "硕士学位", "field": "计算机科学", "date": "2013 – 2015" },
+          { "school": "电子科技大学", "degree": "学士学位", "field": "计算机科学", "date": "2009 年 9 月 – 2013 年 7 月" }
+        ]
+      },
       "certifications": {
         "eyebrow": "专业资质",
         "title": "认证",
@@ -1623,6 +1653,21 @@
         "summary": "資深雲解決方案架構師，擁有 11 年以上全球企業雲生態轉型經驗。專注將自主 AI Agent 與多智能體協同編排整合，統一合規、安全與營運韌性。可交付高效能、低延遲的多雲架構，並透過 AI 自優化實現可量化的成本節省與規模化監管就緒。",
         "linkedinUrl": "https://www.linkedin.com/in/charles-d-7417186b/",
         "avatarPath": "profile-avatar.jpg"
+      },
+      "experience": {
+        "heading": "近期工作經歷",
+        "items": [
+          { "role": "高級夥伴解決方案架構師", "company": "微軟", "employmentType": "全職", "date": "2025 年 11 月 – 至今", "location": "中國香港特別行政區 · 混合辦公" },
+          { "role": "雲解決方案架構師", "company": "騰訊", "employmentType": "全職", "date": "2022 年 8 月 – 2025 年 11 月", "location": "中國香港特別行政區" },
+          { "role": "整合經理", "company": "螞蟻集團", "employmentType": "全職", "date": "2020 年 9 月 – 2022 年 7 月", "location": "中國香港，中國香港特別行政區" }
+        ]
+      },
+      "education": {
+        "heading": "教育背景",
+        "items": [
+          { "school": "香港中文大學", "degree": "碩士學位", "field": "計算機科學", "date": "2013 – 2015" },
+          { "school": "電子科技大學", "degree": "學士學位", "field": "計算機科學", "date": "2009 年 9 月 – 2013 年 7 月" }
+        ]
       },
       "certifications": {
         "eyebrow": "專業資質",

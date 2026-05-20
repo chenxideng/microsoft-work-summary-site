@@ -32,6 +32,74 @@ function renderMetricList(listId, metrics) {
     .join('');
 }
 
+function companyLogo(name) {
+  if (!name) return '';
+  const key = String(name).toLowerCase();
+  let file = '';
+  if (key.includes('microsoft') || key.includes('微软') || key.includes('微軟')) file = 'logos/microsoft.svg';
+  else if (key.includes('tencent') || key.includes('腾讯') || key.includes('騰訊')) file = 'logos/tencent.svg';
+  else if (key.includes('ant') || key.includes('蚂蚁') || key.includes('螞蟻')) file = 'logos/ant-group.svg';
+  if (!file) return '';
+  return `<img class="experience-logo" src="${file}" alt="${String(name).replace(/"/g, '&quot;')}" loading="lazy" />`;
+}
+
+function schoolLogo(name) {
+  if (!name) return '';
+  const key = String(name).toLowerCase();
+  let file = '';
+  if (key.includes('chinese university') || key.includes('香港中文')) file = 'logos/cuhk.svg';
+  else if (key.includes('electronic science') || key.includes('uestc') || key.includes('电子科技') || key.includes('電子科技')) file = 'logos/uestc.svg';
+  if (!file) return '';
+  return `<img class="experience-logo" src="${file}" alt="${String(name).replace(/"/g, '&quot;')}" loading="lazy" />`;
+}
+
+function renderExperience(items) {
+  const list = document.getElementById('experience-list');
+  if (!list || !Array.isArray(items)) {
+    return;
+  }
+
+  list.innerHTML = items
+    .map(
+      (item) => `
+        <li class="experience-item">
+          <div class="experience-row">
+            <div class="experience-head">
+              ${companyLogo(item.company)}
+              <p class="experience-role">${item.role || ''}</p>
+            </div>
+            <p class="experience-date">${item.date || ''}</p>
+          </div>
+          <p class="experience-company">${[item.company, item.employmentType].filter(Boolean).join(' · ')}</p>
+          <p class="experience-location">${item.location || ''}</p>
+        </li>`
+    )
+    .join('');
+}
+
+function renderEducation(items) {
+  const list = document.getElementById('education-list');
+  if (!list || !Array.isArray(items)) {
+    return;
+  }
+
+  list.innerHTML = items
+    .map(
+      (item) => `
+        <li class="experience-item">
+          <div class="experience-row">
+            <div class="experience-head">
+              ${schoolLogo(item.school)}
+              <p class="experience-role">${item.school || ''}</p>
+            </div>
+            <p class="experience-date">${item.date || ''}</p>
+          </div>
+          <p class="experience-company">${[item.degree, item.field].filter(Boolean).join(' · ')}</p>
+        </li>`
+    )
+    .join('');
+}
+
 function renderProjectCards(containerId, projects) {
   const cards = document.getElementById(containerId);
   if (!cards || !Array.isArray(projects)) {
@@ -71,6 +139,20 @@ function renderActivities(items) {
     .join('');
 }
 
+function issuerLogo(issuer) {
+  if (!issuer) return '';
+  const key = String(issuer).toLowerCase();
+  let file = '';
+  if (key.includes('microsoft') || key.includes('微软') || key.includes('微軟')) file = 'logos/microsoft.svg';
+  else if (key.includes('google')) file = 'logos/google-cloud.svg';
+  else if (key.includes('aws') || key.includes('amazon')) file = 'logos/aws.svg';
+  else if (key.includes('tencent cloud') || key.includes('腾讯云') || key.includes('騰訊雲')) file = 'logos/tencent-cloud.svg';
+  else if (key.includes('tencent') || key.includes('腾讯') || key.includes('騰訊')) file = 'logos/tencent.svg';
+  else if (key.includes('ant') || key.includes('蚂蚁') || key.includes('螞蟻')) file = 'logos/ant-group.svg';
+  if (!file) return '';
+  return `<img class="cert-logo" src="${file}" alt="${String(issuer).replace(/"/g, '&quot;')}" loading="lazy" />`;
+}
+
 function renderCertifications(items, labels) {
   const list = document.getElementById('certifications-list');
   if (!list) {
@@ -96,7 +178,10 @@ function renderCertifications(items, labels) {
       const link = item.url ? `<a class="cert-link" href="${item.url}" target="_blank" rel="noreferrer">View credential</a>` : '';
       return `
         <article class="card cert-card">
-          <p class="tag">${item.issuer || 'Certification'}</p>
+          <div class="cert-head">
+            ${issuerLogo(item.issuer)}
+            <p class="tag">${item.issuer || 'Certification'}</p>
+          </div>
           <h3>${item.name}</h3>
           ${dateLine ? `<p class="cert-dates">${dateLine}</p>` : ''}
           ${credLine}
@@ -361,6 +446,12 @@ function applyLocale(data, locale) {
   setText('profile-name', localized.profile?.name);
   setText('profile-title', localized.profile?.title);
   setText('profile-summary', localized.profile?.summary);
+
+  setText('experience-heading', localized.experience?.heading);
+  renderExperience(localized.experience?.items);
+
+  setText('education-heading', localized.education?.heading);
+  renderEducation(localized.education?.items);
 
   const profileLink = document.getElementById('profile-linkedin');
   if (profileLink && localized.profile?.linkedinUrl) {

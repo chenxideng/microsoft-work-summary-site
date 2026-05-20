@@ -649,6 +649,53 @@ h1, h2, h3, h4 {
   color: var(--muted);
 }
 
+.profile-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 6px;
+  flex-wrap: wrap;
+}
+
+.profile-company-logo {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.cert-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.cert-head .tag {
+  margin: 0;
+}
+
+.cert-logo {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
 .linkedin-link {
   display: inline-flex;
   align-items: center;
@@ -1073,7 +1120,9 @@ h1, h2, h3, h4 {
 .experience-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
 .experience-item { background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; transition: border-color 0.2s ease, background 0.2s ease; }
 .experience-item:hover { border-color: var(--line-strong); background: var(--bg-3); }
-.experience-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 0 0 6px; flex-wrap: wrap; }
+.experience-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 0 0 6px; flex-wrap: wrap; }
+.experience-head { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.experience-logo { width: 28px; height: 28px; flex-shrink: 0; border-radius: 6px; background: #ffffff; padding: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.25); }
 .experience-role { margin: 0; font-size: 1.02rem; font-weight: 600; color: var(--text); }
 .experience-date { margin: 0; font-size: 0.85rem; color: var(--muted); font-family: 'JetBrains Mono', monospace; letter-spacing: 0.01em; }
 .experience-company { margin: 0; font-size: 0.92rem; color: var(--text); }
