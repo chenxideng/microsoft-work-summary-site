@@ -1124,7 +1124,7 @@ h1, h2, h3, h4 {
 .experience-head { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .experience-logo { width: 28px; height: 28px; flex-shrink: 0; border-radius: 6px; background: #ffffff; padding: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.25); }
 .experience-role { margin: 0; font-size: 1.02rem; font-weight: 600; color: var(--text); }
-.experience-date { margin: 0; font-size: 0.85rem; color: var(--muted); font-family: 'JetBrains Mono', monospace; letter-spacing: 0.01em; }
+.experience-date { margin: 0; font-size: 0.8rem; color: var(--muted); font-family: 'JetBrains Mono', monospace; letter-spacing: -0.03em; white-space: nowrap; }
 .experience-company { margin: 0; font-size: 0.92rem; color: var(--text); }
 .experience-location { margin: 4px 0 0; font-size: 0.82rem; color: var(--muted-2); }
 @media (max-width: 640px) { .experience-row { flex-direction: column; gap: 4px; } .experience-date { font-size: 0.78rem; } }

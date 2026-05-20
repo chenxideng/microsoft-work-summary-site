@@ -70,7 +70,7 @@ function renderExperience(items) {
             </div>
             <p class="experience-date">${item.date || ''}</p>
           </div>
-          <p class="experience-company">${[item.company, item.employmentType].filter(Boolean).join(' · ')}</p>
+          <p class="experience-company">${item.company || ''}</p>
           <p class="experience-location">${item.location || ''}</p>
         </li>`
     )
