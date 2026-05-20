@@ -4,3 +4,5 @@ node_modules/
 *.log
 .deploy-credential.xml
 .auto-sync-state.json
+
+transcript.json
